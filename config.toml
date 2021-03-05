@@ -27,7 +27,10 @@ profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
-customCss = []
+customCss = [.gist-data{
+    height:250px; // Any height
+    overflow-y: visible;
+}]
 # example ["js/custom.js"]
 customJs = [] 
 mainSections = ["post"]
