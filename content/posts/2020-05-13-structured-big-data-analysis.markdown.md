@@ -175,7 +175,7 @@ The second objective of the course was to take Python from beginner through inte
 
 
 
-![](https://technicalagain.com/wp-content/uploads/2020/05/Peek-2020-05-13-10-38.gif)
+![](../../static/images/Peek-2020-05-13-10-38.gif)
 A walk through of the data analysis of the Bikeshare program.
 
 
