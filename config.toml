@@ -42,26 +42,23 @@ googleAnalytics = ""
 # The list of available icons can be found at http://fontawesome.io/icons.
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "mailto:kylepott@gmail.com.com"
     name = "fas fa-envelope"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/kylepott/"
     name = "fab fa-github"
     weight = 2
 
+
+
 [[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "fab fa-twitter"
+    url = "https://www.linkedin.com/in/kylepott/"
+    name = "fab fa-linkedin"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
-    name = "fab fa-linkedin"
+    url = "https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"
+    name = "fab fa-goodreads"
     weight = 4
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "fab fa-stack-overflow"
-    weight = 5
