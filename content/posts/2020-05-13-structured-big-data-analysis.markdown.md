@@ -205,7 +205,7 @@ The final technical objective of the course was how to use the UNIX/Linux Termin
 
 
 
-
+{{< github src="https://gist.github.com/kylepott/c21585fc50d9951766c7bcb290c39689" >}}
 
 
 
