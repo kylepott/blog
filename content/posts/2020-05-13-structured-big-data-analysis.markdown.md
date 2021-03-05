@@ -58,7 +58,7 @@ The first objective was to learn SQL.  This portion included a realistic capston
 
 
 
-{{< highlight sql >}} src="https://technicalagain.com/wp-content/uploads/2020/05/queries-1.txt" scrolling="yes" height="300px" width="50px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0">{{< /highlight sql >}} 
+{{< highlight sql >}} src="https://technicalagain.com/wp-content/uploads/2020/05/queries-1.txt" scrolling="yes" height="300px" width="50px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0">{{< /highlight >}} 
 
 
 
