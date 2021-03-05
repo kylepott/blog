@@ -189,12 +189,8 @@ A walk through of the data analysis of the Bikeshare program.
 
 
 
-I've also uploaded the code to [GitHub](https://github.com/kylepott/pdsnd_github) if you'd like to fork the project.
+I've also uploaded the code to [GitHub](https://gist.github.com/kylepott/c21585fc50d9951766c7bcb290c39689) if you'd like to fork the project.
 
-
-
-
-{{< gist kylepott c21585fc50d9951766c7bcb290c39689 "Bikeshare.py" >}}
 
 
 **Objective 3, Terminal + GitHub**
