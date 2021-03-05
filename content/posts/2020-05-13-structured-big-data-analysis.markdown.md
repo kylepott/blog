@@ -2,7 +2,7 @@
 author: kylepott
 date: 2020-05-13 16:52:52+00:00
 draft: false
-title: Structured Big Data  Analysis
+title: Structured Big Data Analysis
 type: post
 url: /2020/05/13/structured-big-data-analysis/
 categories:
