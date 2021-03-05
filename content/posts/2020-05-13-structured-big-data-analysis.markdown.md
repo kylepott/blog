@@ -58,7 +58,101 @@ The first objective was to learn SQL.  This portion included a realistic capston
 
 
 
-{{< highlight sql >}} src="https://technicalagain.com/wp-content/uploads/2020/05/queries-1.txt" scrolling="yes" height="300px" width="50px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0">{{< /highlight >}} 
+{{< highlight sql >}} 
+
+****************************
+*SLIDE 1                   *
+****************************
+  SELECT sub.title, 
+         sub.name, 
+         count(rental_id) 
+  FROM 
+         ( SELECT i.inventory_id, i.film_id, c.name, f.title, r.rental_id
+             FROM inventory i
+             JOIN film f
+               ON f.film_id = i.film_id
+             JOIN film_category fc
+               ON fc.film_id = f.film_id
+             JOIN category c
+               ON fc.category_id = c.category_id
+             JOIN rental r
+               ON r.inventory_id = i.inventory_id
+            WHERE c.name 
+               IN ('Animation', 'Children', 'Classics', 'Comedy', 'Family', 'Music')
+         ORDER BY 3, 4
+         ) sub
+
+  GROUP BY 2, 1
+
+
+****************************
+*SLIDE 2                   *
+****************************
+  SELECT f.title, 
+         c.name, 
+         f.rental_duration, 
+         NTILE(4) OVER (ORDER BY f.rental_duration) AS standard_quartile
+    FROM film f
+    JOIN film_category fc
+      ON f.film_id = fc.film_id
+    JOIN category c
+      ON fc.category_id = c.category_id
+   WHERE c.name 
+      IN ('Animation', 'Children', 'Classics', 'Comedy', 'Family', 'Music')
+  
+  ORDER BY 3;
+
+****************************
+*SLIDE 3                   *
+****************************
+  SELECT DATE_PART('month', r.rental_date) as Rental_month, 
+         DATE_PART('year',r.rental_date) as Rental_year, 
+         s.store_id, 
+         COUNT(r.*) as Count_rentals
+    FROM staff s
+    JOIN rental r
+      ON r.staff_id = s.staff_id
+
+  GROUP BY 1,2,3
+  ORDER BY 4 DESC;
+
+
+****************************
+*SLIDE 4                   *
+****************************
+  SELECT sub.pay_mon, 
+         sub.fullname, 
+         sub.counter as pay_countpermon, 
+         sub.amount
+  FROM
+         (SELECT 
+                 CONCAT(c.first_name, ' ', c.last_name) as fullname,
+                 DATE_TRUNC('month',p.payment_date) as pay_mon, 
+                 COUNT(p.rental_id) as counter, SUM(amount) as amount
+            FROM payment p
+            JOIN customer c
+              ON c.customer_id = p.customer_id
+           WHERE DATE_TRUNC('year', p.payment_date) >= '2007-01-01'
+      
+          GROUP BY 2, 1
+          ORDER BY 1, 2
+         ) sub
+  JOIN 
+         (SELECT 
+                 CONCAT(c.first_name, ' ', c.last_name) as fullname,
+                 SUM(amount) AS amount
+            FROM customer c
+            JOIN payment p 
+              ON c.customer_id = p.customer_id
+      
+         GROUP BY 1
+         ORDER BY 2 DESC
+         LIMIT 10
+         ) sub2
+      
+    ON sub.fullname = sub2.fullname
+
+{{< /highlight >}} 
 
 
 
