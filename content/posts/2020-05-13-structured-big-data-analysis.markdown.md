@@ -46,8 +46,7 @@ The first objective was to learn SQL.  This portion included a realistic capston
 
 
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ7gQcEhfcbnvHoz0bB-vXCI6h4W7_g1YH3EX9iUKBOVfoYousnOAO3NecAaRst4P5NtyVlKxtf12Ys/embed?start=true&loop=true&delayms=10000" height="439" width="1440" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
-
+{{< gslides src="https://docs.google.com/presentation/d/e/2PACX-1vQ7gQcEhfcbnvHoz0bB-vXCI6h4W7_g1YH3EX9iUKBOVfoYousnOAO3NecAaRst4P5NtyVlKxtf12Ys/embed?start=true&loop=true&delayms=10000" >}}
 
 
 
