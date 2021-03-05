@@ -176,18 +176,7 @@ The second objective of the course was to take Python from beginner through inte
 
 
 ![](/images/Peek-2020-05-13-10-38.gif)
-A walk through of the data analysis of the Bikeshare program.
-
-
-
-
-
-**Python Code**
-
-
-
-
-
+A walk through of the data analysis of the Bikeshare program.  The complete program written in Python is included at the bottom of this poost.
 
 
 I've also uploaded the code to [GitHub](https://gist.github.com/kylepott/c21585fc50d9951766c7bcb290c39689) if you'd like to fork the project.
@@ -204,9 +193,6 @@ I've also uploaded the code to [GitHub](https://gist.github.com/kylepott/c21585f
 
 The final technical objective of the course was how to use the UNIX/Linux Terminal and GitHub.  As a 14 year daily Ubuntu Linux user there wasn't much new or me in this portion, but still a good quick refresher.
 
-{{< gist kylepott c21585fc50d9951766c7bcb290c39689 >}}
-
-
 
 **Putting It All Together**
 
@@ -222,16 +208,20 @@ As courses like this go, I think the best learning comes in the form of the caps
 
 
 
-  * [Machine Learning to Transform Photos into 3D with Python](https://technicalagain.com/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/). _Using an AWS GPU instances to run PyTorch to create 3D images. CloudWatch implementation to control costs._  * [Build a Multiplayer Online Game in Python](https://technicalagain.com/2020/05/07/building-a-multiplayer-online-game-in-python/) _Online game that can be played by up to 10 players. Client and Server architecture written totally in Python._
+  * [Machine Learning to Transform Photos into 3D with Python](/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/). _Using an AWS GPU instances to run PyTorch to create 3D images. CloudWatch implementation to control costs._  * [Build a Multiplayer Online Game in Python](/2020/05/07/building-a-multiplayer-online-game-in-python/) _Online game that can be played by up to 10 players. Client and Server architecture written totally in Python._
 
 
 
-  * [According to Facebook, I will Have a Dad-Bod on June 28, 2021](https://technicalagain.com/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/) _A data science project that uses Python to predict future weight gain. Also, created an open source project [Dad-Bod on GitHub](https://github.com/kylepott/Dad-Bod)._  * [Part 2: My Future Self is Beating the Dad Bod](https://technicalagain.com/2020/04/16/part-2-my-future-self-is-beating-the-dad-bod/) _I created another open source tool to send myself a daily text message tracking my progress to goal._
+  * [According to Facebook, I will Have a Dad-Bod on June 28, 2021](/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/) _A data science project that uses Python to predict future weight gain. Also, created an open source project [Dad-Bod on GitHub](https://github.com/kylepott/Dad-Bod)._  * [Part 2: My Future Self is Beating the Dad Bod](https://technicalagain.com/2020/04/16/part-2-my-future-self-is-beating-the-dad-bod/) _I created another open source tool to send myself a daily text message tracking my progress to goal._
 
 
 
-  * [Using Data Science to Pick NCAA Tournament First Round Winners](https://technicalagain.com/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/). _Using correlation to find the variables that are most predictive of NCAA men’s basketball first round tournament wins._  * [Building a Model to Pick NCAA First Round Winners](https://technicalagain.com/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/). _Part two of my previous post that builds a data science model to predict NCAA tournament winners._
+  * [Using Data Science to Pick NCAA Tournament First Round Winners](/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/). _Using correlation to find the variables that are most predictive of NCAA men’s basketball first round tournament wins._  * [Building a Model to Pick NCAA First Round Winners](/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/). _Part two of my previous post that builds a data science model to predict NCAA tournament winners._
 
+
+**Python Code**
+
+{{< gist kylepott c21585fc50d9951766c7bcb290c39689 >}}
 
 
 
