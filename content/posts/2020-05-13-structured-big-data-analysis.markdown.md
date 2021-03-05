@@ -195,11 +195,7 @@ I've also uploaded the code to [GitHub](https://github.com/kylepott/pdsnd_github
 
 
 
-
-<iframe src="https://pastebin.com/embed_iframe/Djgkvmne" scrolling="yes" height="300px" width="50px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
-
-
-
+{{< gist c21585fc50d9951766c7bcb290c39689 "Bikeshare.py" > }}
 
 
 **Objective 3, Terminal + GitHub**
