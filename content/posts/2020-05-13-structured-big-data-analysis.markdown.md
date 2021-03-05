@@ -52,14 +52,9 @@ The first objective was to learn SQL.  This portion included a realistic capston
 
 
 
-**SQL Code For Each Slide **
 
 
-
-
-
-{{< highlight sql "linenos=table,linenostart=1" >}} 
-
+{{< highlight mysql "linenos=table,linenostart=1" >}} 
 ****************************
 *SLIDE 1                   *
 ****************************
