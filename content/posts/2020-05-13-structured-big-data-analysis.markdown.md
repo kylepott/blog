@@ -52,7 +52,7 @@ The first objective was to learn SQL.  This portion included a realistic capston
 
 
  
- 
+
 
 {{< highlight mysql >}} 
 ****************************
@@ -204,7 +204,7 @@ I've also uploaded the code to [GitHub](https://gist.github.com/kylepott/c21585f
 
 The final technical objective of the course was how to use the UNIX/Linux Terminal and GitHub.  As a 14 year daily Ubuntu Linux user there wasn't much new or me in this portion, but still a good quick refresher.
 
-{{< github src="https://gist.github.com/kylepott/c21585fc50d9951766c7bcb290c39689" >}}
+{{< gist kylepott c21585fc50d9951766c7bcb290c39689 >}}
 
 
 
