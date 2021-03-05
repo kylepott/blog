@@ -1,101 +1,67 @@
-baseURL = "https://jovial-yonath-8d9e17.netlify.app"
-languageCode = "en"
-DefaultContentLanguage = "en"
+baseURL = "http://example.com/"
+languageCode = "en-us"
 title = "Hi, I'm Kyle"
 theme = "minimal"
-summarylength = 5
-enableEmoji = true
-enableRobotsTXT = true
-
-# Enable Disqus
-#disqusShortname = ""
-
-# Google Analytics
-#googleAnalytics = "UA-123-45"
-
-# Syntax highlighting
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
+disqusShortname = "username" # delete this to disable disqus comments
+googleAnalytics = ""
 
 [params]
-title = "Hi, I'm Kyle"
-author = "Kyle Pott"
-#copyright = "2017-2021"
-description = "I enjoy software development focused on automation and data analysis. Some of the technologies I enjoy are Python, React.js, Linux, PHP, Bash Scripting, SQL, and AWS. My functional specialties are in Software Engineering, Privacy, Security, Audit, and Data."
-profilePicture = "images/profile.jpg"
-keywords = ""
-favicon = "favicons/"
-# example ["css/custom.css"]
-customCss = []
-# example ["js/custom.js"]
-customJs = [] 
-mainSections = ["post"]
-images = ["images/site-feature-image.png"]
-doNotLoadAnimations = false
-# Form Spree Contact Form
-#contactFormAction = "https://formspree.io/f/your-form-hash-here"
-# Google Site Verify
-#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-# indexDateFormat = "Mon, Jan 2, 2006"
-# listDateFormat = "Jan 2"
-# singleDateFormat = "Mon, Jan 2, 2006"
+    author = "Kyle Pott"
+    description = "Software Engineering"
+    githubUsername = "kylepott"
+    accent = "orange"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
-[params.simpleAnalytics]
-# enable = true
-# customurl = "https://analytics.example.com"
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
 
-## Math settings
-[params.math]
-enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-use = "katex"  # options: "katex", "mathjax". default is "katex".
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 2
 
-## Social links
-# use 'fab' when brand icons, use 'fas' when standard solid icons.
-[[params.socialIcons]]
-icon = "fab fa-linkedin"
-title = "Linkedin"
-url = "https://linkedin.com/kylepott"
+[[menu.main]]
+    url = "/posts/"
+    name = "Posts"
+    weight = 3
 
-[[params.socialIcons]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/kylepott/"
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 4
 
-[[params.socialIcons]]
-icon = "fab fa-goodreads"
-title = "goodreads"
-url = "https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
 
-[[params.socialIcons]]
-icon = "fas fa-envelope"
-title = "e-mail"
-url = "mailto:kylepott@gmail.com"
+[[menu.icon]]
+    url = "mailto:me@example.com"
+    name = "fas fa-envelope"
+    weight = 1
 
-## Menu items
+[[menu.icon]]
+    url = "https://github.com/username/"
+    name = "fab fa-github"
+    weight = 2
 
-[menu]
+[[menu.icon]]
+    url = "https://twitter.com/username/"
+    name = "fab fa-twitter"
+    weight = 3
 
-  [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/username/"
+    name = "fab fa-linkedin"
+    weight = 4
 
-  [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
-
-  [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
-
-
-## Taxonomies for Opengraph
-[taxonomies]
-  series = "series"
-
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/username/"
+    name = "fab fa-stack-overflow"
+    weight = 5
