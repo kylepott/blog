@@ -195,7 +195,7 @@ I've also uploaded the code to [GitHub](https://github.com/kylepott/pdsnd_github
 
 
 
-{{< gist c21585fc50d9951766c7bcb290c39689 "Bikeshare.py" > }}
+{{< gist "c21585fc50d9951766c7bcb290c39689" "Bikeshare.py" > }}
 
 
 **Objective 3, Terminal + GitHub**
