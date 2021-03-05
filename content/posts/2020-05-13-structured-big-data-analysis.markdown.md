@@ -51,9 +51,10 @@ The first objective was to learn SQL.  This portion included a realistic capston
 
 
 
+ 
+ 
 
-
-{{< highlight mysql "linenos=table,linenostart=1" >}} 
+{{< highlight mysql >}} 
 ****************************
 *SLIDE 1                   *
 ****************************
