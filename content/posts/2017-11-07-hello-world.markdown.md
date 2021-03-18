@@ -4,7 +4,7 @@ date: 2017-11-07 01:58:27+00:00
 draft: false
 title: We landed here, on the internet, safely in one piece!
 type: post
-url: /2017/11/07/hello-world/
+url: /hello-world/
 categories:
 - cPanel
 - FileZilla

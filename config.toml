@@ -1,13 +1,13 @@
 baseURL = "https://jovial-yonath-8d9e17.netlify.app/"
 languageCode = "en-us"
-title = "Hi, I'm Kyle"
+title = "Hello."
 theme = "minimal"
 # disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
     author = "Kyle Pott"
-    description = "Privacy and Security Engineering"
+    description = "Allow myself to introduce myself."
     githubUsername = "kylepott"
     accent = "#E84A27"
     showBorder = true
