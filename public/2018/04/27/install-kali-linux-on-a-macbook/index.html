@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Install Kali Linux on a MacBook</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Install Kali Linux on a MacBook</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Install Kali Linux on a MacBook</h2>
+        <h5>April 27, 2018</h5>
+        
+
+    </div>
+
+    <div align="start" class="content"><p>I installed Kali Linux on a dualbooted MacBook Pro last week. The frst thing I did was delete unnecessary files on the Mac to free up space and then shrunk the size of the partition using Apple&rsquo;s built-in Disk Utility. I then manually installed Kali on the remaining unused portion of the hard drive.</p>
+<p>This wasn&rsquo;t a particularly challenging project but it wasn&rsquo;t easy either. The only real issue I experienced was related to my bootable USB hard drive. I used a utility called Rufus to turn the <em>Kali.iso</em> file into a bootable install on an external hard drive.  I messed up a configuration setting on Rufus, though. Although I could boot Kali into &ldquo;live mode&rdquo; just fine, I could only get about half way into the installation until Kali could not detect my CD-ROM. You&rsquo;d think this wouldn&rsquo;t be a big deal, but a material part of the installation occurs when the contents of the USB drive are mounted and copied into a folder called /<em>cdrom</em> and the installer is &ldquo;faked&rdquo; into thinking the data is coming from a CD/DVD rather than a thumb drive.  I tried to mount and create the directory manually and move the contents in, but I was unable to get past this point.  So back to the drawing  board.  This time I used Apple&rsquo;s built in dd terminal utility to create the bootable USB and the install went much smoother.</p>
+<p>Once I got Kali installed, I noticed a few more odd things.  Example, the mouse did not work during the install, but worked fine after.  The /etc/apt/sources.list was blank.  When I added a new non-root user, I had to log out and log back in before I could see the user even though I was logged in as root.  Once the new user was created, he wasn&rsquo;t part of the sudoers file.  Not a big deal there, but one more step I had to follow up on.  Overall ease of installation and first use I would give a score of about 7/10.</p>
+<p>After playing with Kali for about three days now, I am really excited about all the penetration testing tools to learn, but I can&rsquo;t say the experience is much better or worse really than when I have used the GNOME desktop on other Linux distributions like Ubuntu or Fedora.</p>
+<p>My home network is really coming together now.  I now have access to Windows and Mac desktops, I have a nice Ubuntu server setup and my main machine is Kali running on a late 2011 MacBook.  We continue to abide by the <a href="https://technicalagain.com/what-are-we-doing-here/ground-rules/">ground rules</a> by doing the work ourselves and breathing new life into old things.  More fun ahead.</p>
+</div>
+
+    
+    
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

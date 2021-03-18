@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/java/</link>
+    <description>Recent content in java on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Feb 2019 17:42:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Got Root? Two More Exploits.</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/02/20/got-root-two-more-exploits/</link>
+      <pubDate>Wed, 20 Feb 2019 17:42:28 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/02/20/got-root-two-more-exploits/</guid>
+      <description>I&amp;rsquo;ve continued my experimentation with the Metasploitable (msf2) operating system as well as the Metasploit framework. I&amp;rsquo;m now up to five, I think, total successful exploits. I will write about two more of them here. The first, most basic, exploit I wrote about previously took advantage of a misconfigured rsh-server.
+My next two exploits followed the same pattern:
+ Conduct an nmap scan to see what services are exposed. 2. Find open ports and search Metasploit for a highly probable exploit or exploit + payload to open a reverse shell with root access  I was successful in exploiting the IRC server running on port 6667 and Java server running on port 5432.</description>
+    </item>
+    
+  </channel>
+</rss>

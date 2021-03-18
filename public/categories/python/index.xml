@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/python/</link>
+    <description>Recent content in python on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 May 2020 16:52:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Structured Big Data Analysis</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/structured/</link>
+      <pubDate>Wed, 13 May 2020 16:52:52 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/structured/</guid>
+      <description>I completed the Programming for Data Science with Python nanodegree at Udacity. The program was outstanding. It was formatted in a way that I really like to learn: a short video lesson, a short text recap/expansion of the content, and then a portion to practice what you learned. This course had three main technical objectives and two capstone projects.
+Focus 1: SQL, Beginner to Advanced
+The first objective was to learn SQL.</description>
+    </item>
+    
+    <item>
+      <title>Multiplayer Online Game in Python</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/05/07/multiplayer-online-game-in-python/</link>
+      <pubDate>Thu, 07 May 2020 01:11:33 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/05/07/multiplayer-online-game-in-python/</guid>
+      <description>Slide 5 or 6 Nimmit! can be played with an actual card deck
+My clone of Slide 5 written in Python
+I almost gave up and quit on this project. I&amp;rsquo;m so glad I stuck with it because the results were so worth it.
+After playing the Slide 5 card game I thought it would be a great game to clone into an online game that can be played with friends over Zoom during the pandemic lock in.</description>
+    </item>
+    
+    <item>
+      <title>Credential Stuffing with Cr3dOv3r</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/03/credential-stuffing-with-cr3dov3r/</link>
+      <pubDate>Mon, 03 Dec 2018 20:57:24 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/03/credential-stuffing-with-cr3dov3r/</guid>
+      <description>After the Dunkin Donuts credential stuffing breach I went on the lookout for a tool to search for and find leaked credentials. I came across Cr3dOv3r, a nice little Python script that let&amp;rsquo;s you search for an email address to see which sites leaked it and when. It also let&amp;rsquo;s you search to find out if a plaintext password was leaked. You can then enter the leaked password, or any password of your choosing, across a broad array of sites and the utility will automatically test to see if it is still valid.</description>
+    </item>
+    
+  </channel>
+</rss>

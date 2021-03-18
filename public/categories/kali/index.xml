@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kali on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/kali/</link>
+    <description>Recent content in Kali on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2018 21:13:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/kali/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Graphing Intel with Maltego</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/18/graphing-intel-with-maltego/</link>
+      <pubDate>Tue, 18 Dec 2018 21:13:40 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/18/graphing-intel-with-maltego/</guid>
+      <description>Maltego is a powerful intelligence gathering utility that allows simple and visual reconnaissance of a host, website, person, and a whole heck of a lot of other topics that can be extended with utilities available in the Transform Hub. I did some straightforward querying on my own infrastructure for technicalagain.com.
+There are other utilities available to pull down some of the same information as Maltego, but none that I have come across that are as powerful outside the terminal and none are nearly so visual.</description>
+    </item>
+    
+    <item>
+      <title>Avoid Detection with Nmap Stealth Scan and Tor</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/avoid-detection-with-nmap-stealth-scan-and-tor/</link>
+      <pubDate>Wed, 12 Dec 2018 02:06:28 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/avoid-detection-with-nmap-stealth-scan-and-tor/</guid>
+      <description>The nmap stealth scan -sS flag allows you to search for open ports by adjusting the TCP/IP three way handshake:
+The handshake ordinarily is SYN -&amp;gt; SYN ACK -&amp;gt; ACK
+The -sS flags change the handshake to SYN -&amp;gt; SYN ACK -&amp;gt; RST
+Defined: Synchronize, Acknowledge, Reset
+This makes it less likely, but certainty not impossible for an intrusion detection system to pickup the scan.
+The best approach that I can think of would be to use the -sS flag and between each port tested use Tor to change IPs from within a regionally anticipated region based on the purpose and location of the target.</description>
+    </item>
+    
+    <item>
+      <title>More Resource Discovery with ForzaBruta.py</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/04/more-resource-discovery-with-forzabruta-py/</link>
+      <pubDate>Tue, 04 Sep 2018 18:27:07 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/04/more-resource-discovery-with-forzabruta-py/</guid>
+      <description>Been a busy summer, but I spent some time continuing the work I previously wrote about the brute-forcer, ForzaBruta.py. This time working through the Lynda coursework to iterate on the brute-forcer to add convenience and analysis capabilities:
+ * Take screenshots * Capture the MD5 checksum to compare the file contents * Record number of words and characters in each file and the time to load * Filtering and coloring based on return code * Filter for only certain file extensions.</description>
+    </item>
+    
+    <item>
+      <title>Information Gathering with DMitry</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/19/information-gathering-with-dmitry/</link>
+      <pubDate>Sat, 19 May 2018 18:39:50 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/19/information-gathering-with-dmitry/</guid>
+      <description>DMitry is a nice little utility built into Kali. It&amp;rsquo;s a basic and easy to use utility, but not great. Usage is straight forward.
+dmitry technicalagain.com
+DMitry is worth the effort to simply punch in the command line but don&amp;rsquo;t expect great information back. First, just about everyone is using a whois proxy to conceal their personal information. Second, DMitry relies on search engines to try to find subdomains and email addresses.</description>
+    </item>
+    
+    <item>
+      <title>Install Kali Linux on a MacBook</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/27/install-kali-linux-on-a-macbook/</link>
+      <pubDate>Fri, 27 Apr 2018 02:01:23 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/27/install-kali-linux-on-a-macbook/</guid>
+      <description>I installed Kali Linux on a dualbooted MacBook Pro last week. The frst thing I did was delete unnecessary files on the Mac to free up space and then shrunk the size of the partition using Apple&amp;rsquo;s built-in Disk Utility. I then manually installed Kali on the remaining unused portion of the hard drive.
+This wasn&amp;rsquo;t a particularly challenging project but it wasn&amp;rsquo;t easy either. The only real issue I experienced was related to my bootable USB hard drive.</description>
+    </item>
+    
+  </channel>
+</rss>

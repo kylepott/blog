@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MySQL on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/mysql/</link>
+    <description>Recent content in MySQL on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Sep 2018 13:56:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ghost on AWS - success!</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</link>
+      <pubDate>Sun, 23 Sep 2018 13:56:20 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</guid>
+      <description>This is the third and final part of my first foray into AWS. You can read part 1 and part 2. AWS is great. Getting access is secure and easy and you can&amp;rsquo;t beat free. AWS is incredibly quick at spinning up new instances and once connected over SSH it is extremely fast - it rivals the feel of a local installation - almost no latency for me.
+After getting Ubuntu installed, I spent the last few evenings attempting to install Ghost per these instructions.</description>
+    </item>
+    
+    <item>
+      <title>We landed here, on the internet, safely in one piece!</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/07/hello-world/</link>
+      <pubDate>Tue, 07 Nov 2017 01:58:27 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/07/hello-world/</guid>
+      <description>Our first project is in the can! I call this project &amp;ldquo;Make a Website, Start Following Through on Your Development Plan.&amp;rdquo;
+The first step was to find a domain name using Instant Domain Search. I&amp;rsquo;ve been using this site for at least 5 years and it remains the fastest and simplest way to find a domain.
+I then bought the cheapest hosting plan on Bluehost after hearing an advertisement on The Bill Simmons podcast.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>armitage on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/armitage/</link>
+    <description>Recent content in armitage on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Feb 2019 20:26:38 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/armitage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Maintaining Presence and Installing Backdoors</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/maintaining-presence-and-installing-backdoors/</link>
+      <pubDate>Tue, 26 Feb 2019 20:26:38 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/maintaining-presence-and-installing-backdoors/</guid>
+      <description>By completing this exercise I learned that the best backdoor is one that you don&amp;rsquo;t need to install yourself! There are two backdoors that I opened up within the Metasploitable 2 operating system (msf2).
+The most powerful and easiest backdoor was to login using the root shell, create a new superuser, and then add this user into the SSH list so that I could make use of the existing SSH server configuration.</description>
+    </item>
+    
+  </channel>
+</rss>

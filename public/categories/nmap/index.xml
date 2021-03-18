@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nmap on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/nmap/</link>
+    <description>Recent content in nmap on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Dec 2018 02:06:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/nmap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Avoid Detection with Nmap Stealth Scan and Tor</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/avoid-detection-with-nmap-stealth-scan-and-tor/</link>
+      <pubDate>Wed, 12 Dec 2018 02:06:28 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/avoid-detection-with-nmap-stealth-scan-and-tor/</guid>
+      <description>The nmap stealth scan -sS flag allows you to search for open ports by adjusting the TCP/IP three way handshake:
+The handshake ordinarily is SYN -&amp;gt; SYN ACK -&amp;gt; ACK
+The -sS flags change the handshake to SYN -&amp;gt; SYN ACK -&amp;gt; RST
+Defined: Synchronize, Acknowledge, Reset
+This makes it less likely, but certainty not impossible for an intrusion detection system to pickup the scan.
+The best approach that I can think of would be to use the -sS flag and between each port tested use Tor to change IPs from within a regionally anticipated region based on the purpose and location of the target.</description>
+    </item>
+    
+  </channel>
+</rss>

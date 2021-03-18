@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Run Ubuntu Linux on a Chromebook</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Run Ubuntu Linux on a Chromebook</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Run Ubuntu Linux on a Chromebook</h2>
+        <h5>November 11, 2017</h5>
+        
+
+    </div>
+
+    <div align="start" class="content"><p><img src="https://technicalagain.com/wp-content/uploads/2017/11/a-1024x576.jpg" alt=""></p>
+<p>Project number 2 is in the can! I am now running Ubuntu Linux on my Acer Chromebook in a dual boot environment thanks to <a href="https://github.com/dnschneid/crouton">Crouton</a>.  Actually, it would be more accurate to say that I am running Ubuntu Linux concurrently and on top of the Chromium kernel. This <a href="https://www.amazon.com/gp/product/B00MMLV7VQ/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1">11 inch 64 bit Intel white workhorse</a> met my needs for casual browsing since I first bought it in April of 2015.  Great battery life, to boot. But, I expect that in taking on this year of development and the many technical projects I have in mind I need more horsepower.  So, in <a href="http://technicalagain.com/what-are-we-doing-here/ground-rules/">honoring Rule #2</a>, rather than buying a new laptop or spending any money, I wanted to breathe new life into hardware I already had. Call it the classical approach to technology.  Since Chromebooks are already written on top of the Linux kernel, it made getting going with Linux pleasantly simple.</p>
+<p>I followed <a href="https://www.howtogeek.com/162120/how-to-install-ubuntu-linux-on-your-chromebook-with-crouton/">these instructions</a> and was pleased that more than a year later and they still worked without issue.  I chose to install Ubuntu with the Xfce desktop enviornment because it is fast and light on system resources.  It&rsquo;s not much of a looker, but it is powerful.  Once I landed in the desktop I fired up the terminal did a quick</p>
+<p><code>sudo apt-get install filezilla</code></p>
+<p>I installed the powerful FileZilla FTP client&ndash;much better experience than using sFTP which kept failing in Chrome.  Back in cPanel I created a new FTP user and I finished uploading WordPress.  Back in Ubuntu, I also grabbed Firefox</p>
+<p><code>sudo apt-get install firefox</code></p>
+<p>for a better browser experience and then I logged out.  On logout, Ubuntu closes and you&rsquo;re brought right back to the session you left in Chrome.  I am loving having the simplicity of chrome right alongside the power of Ubuntu.  Now whenever I want to launch Linux I hit CRTL+ALT+T to launch the terimnal then:</p>
+<p><code>shell</code>
+<code>sudo startxfce4</code></p>
+<h3 id="learnings">Learnings</h3>
+<p>This was my first encounter with Crouton and it was a great experience.  Admittedly, I was unfamiliar with chroot.  From the GitHub, here&rsquo;s a nice concise explanation and a quick pro/con analysis.</p>
+<!-- raw HTML omitted -->
+<p>Thanks to <a href="https://github.com/dnschneid">David Schneider</a> and the other contributors for his generous and amazing work on Crouton.</p>
+<h3 id="stumbling-blocks">Stumbling Blocks</h3>
+<p>A few things where challenging on this project.  I didn&rsquo;t read the instructions carefully enough the first few times and I had a difficult getting my Chromebook in developer mode.  The Chrome interface for develop mode was pretty intimidating and the bios made some of the scariest beeping sounds I&rsquo;ve ever heard.  Besides that this project was pretty straight forward and clean.</p>
+<p>I did manage to build more horrible identity management habits by not using a password for my sudo account in Chrome, having a riduculously guessable password in Ubuntu, and then reusing my same user ID and pass for FTP, host,  WordPress, and the WordPress database.  Keeping things easy for the hackers.  Just kidding, we are going to address password management in a future project.</p>
+<p>Oh yeah, I also had to fight an acute, but strong desire to just buy a more powerful laptop.  <a href="http://technicalagain.com/what-are-we-doing-here/ground-rules/">Rule #2</a> grounded me.  I&rsquo;m glad I fought that urge and enjoyed the classical challenge of giving this laptop a new future.</p>
+</div>
+
+    
+    
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

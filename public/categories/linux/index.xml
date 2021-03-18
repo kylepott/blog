@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/linux/</link>
+    <description>Recent content in Linux on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Sep 2018 18:27:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>More Resource Discovery with ForzaBruta.py</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/04/more-resource-discovery-with-forzabruta-py/</link>
+      <pubDate>Tue, 04 Sep 2018 18:27:07 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/04/more-resource-discovery-with-forzabruta-py/</guid>
+      <description>Been a busy summer, but I spent some time continuing the work I previously wrote about the brute-forcer, ForzaBruta.py. This time working through the Lynda coursework to iterate on the brute-forcer to add convenience and analysis capabilities:
+ * Take screenshots * Capture the MD5 checksum to compare the file contents * Record number of words and characters in each file and the time to load * Filtering and coloring based on return code * Filter for only certain file extensions.</description>
+    </item>
+    
+    <item>
+      <title>Install Kali Linux on a MacBook</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/27/install-kali-linux-on-a-macbook/</link>
+      <pubDate>Fri, 27 Apr 2018 02:01:23 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/27/install-kali-linux-on-a-macbook/</guid>
+      <description>I installed Kali Linux on a dualbooted MacBook Pro last week. The frst thing I did was delete unnecessary files on the Mac to free up space and then shrunk the size of the partition using Apple&amp;rsquo;s built-in Disk Utility. I then manually installed Kali on the remaining unused portion of the hard drive.
+This wasn&amp;rsquo;t a particularly challenging project but it wasn&amp;rsquo;t easy either. The only real issue I experienced was related to my bootable USB hard drive.</description>
+    </item>
+    
+  </channel>
+</rss>

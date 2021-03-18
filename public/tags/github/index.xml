@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/github/</link>
+    <description>Recent content in github on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 May 2020 16:52:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Structured Big Data Analysis</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/structured/</link>
+      <pubDate>Wed, 13 May 2020 16:52:52 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/structured/</guid>
+      <description>I completed the Programming for Data Science with Python nanodegree at Udacity. The program was outstanding. It was formatted in a way that I really like to learn: a short video lesson, a short text recap/expansion of the content, and then a portion to practice what you learned. This course had three main technical objectives and two capstone projects.
+Focus 1: SQL, Beginner to Advanced
+The first objective was to learn SQL.</description>
+    </item>
+    
+    <item>
+      <title>According to Facebook, I Will Have a Dad-Bod on June 28, 2021</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/</link>
+      <pubDate>Tue, 14 Apr 2020 02:25:01 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/</guid>
+      <description>I stepped on the scale more than 1000 times in the past decade and then used Facebook&amp;rsquo;s predictive modeling framework, Prophet, to see what I will weigh in five years if I don&amp;rsquo;t make changes. At 5&amp;rsquo;9&amp;rdquo; I&amp;rsquo;ll officially have a Dad-Bod when I pass 200 lbs. on June 28, 2021.
+Note: I couldn&amp;rsquo;t help myself from using a click bait headline. The only thing Facebook has to do with this post is I used an amazing open source prediction library they created called Prophet.</description>
+    </item>
+    
+  </channel>
+</rss>

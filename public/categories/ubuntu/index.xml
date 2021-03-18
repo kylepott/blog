@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/ubuntu/</link>
+    <description>Recent content in Ubuntu on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Sep 2018 13:56:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ghost on AWS - success!</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</link>
+      <pubDate>Sun, 23 Sep 2018 13:56:20 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</guid>
+      <description>This is the third and final part of my first foray into AWS. You can read part 1 and part 2. AWS is great. Getting access is secure and easy and you can&amp;rsquo;t beat free. AWS is incredibly quick at spinning up new instances and once connected over SSH it is extremely fast - it rivals the feel of a local installation - almost no latency for me.
+After getting Ubuntu installed, I spent the last few evenings attempting to install Ghost per these instructions.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up A New Ubuntu Linux Server</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/setting-up-a-new-ubuntu-linux-server/</link>
+      <pubDate>Tue, 17 Apr 2018 01:40:37 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/setting-up-a-new-ubuntu-linux-server/</guid>
+      <description>I have plans to start a second open source project that will need a server so over the past few days I re-purposed an old Windows laptop into a server running Ubuntu Linux.
+The installation was a little tricky because after I downloaded the Ubuntu installation file, I discovered that the DVD burner on this old laptop was no longer working. Instead, I needed to create a bootable USB. Rufus is a great utility that made this very fast and easy.</description>
+    </item>
+    
+    <item>
+      <title>Dual Boot GalliumOS on a Chromebook</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/26/fully-installing-linux-on-a-chromebook/</link>
+      <pubDate>Sun, 26 Nov 2017 14:32:14 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/26/fully-installing-linux-on-a-chromebook/</guid>
+      <description>[ ](https://i.imgur.com/XP6LFjd.png) I had some success running Ubuntu on my Chromebook through Crouton, but I started running into issues. My hypothesis is that since aspects of the Linux kernel are shared between ChromeOS through chroot with Crouton, I couldn&amp;rsquo;t get a clean installation of Apache to run. I assume this was due to permissions. So I set out on yet another Linux adventure to do a true installation of Linux on the Chromebook.</description>
+    </item>
+    
+    <item>
+      <title>Run Ubuntu Linux on a Chromebook</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/11/run-ubuntu-linux-on-a-chromebook/</link>
+      <pubDate>Sat, 11 Nov 2017 01:03:05 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/11/run-ubuntu-linux-on-a-chromebook/</guid>
+      <description>Project number 2 is in the can! I am now running Ubuntu Linux on my Acer Chromebook in a dual boot environment thanks to Crouton. Actually, it would be more accurate to say that I am running Ubuntu Linux concurrently and on top of the Chromium kernel. This 11 inch 64 bit Intel white workhorse met my needs for casual browsing since I first bought it in April of 2015. Great battery life, to boot.</description>
+    </item>
+    
+  </channel>
+</rss>

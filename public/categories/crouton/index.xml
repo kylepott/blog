@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crouton on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/crouton/</link>
+    <description>Recent content in Crouton on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Nov 2017 01:03:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/crouton/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run Ubuntu Linux on a Chromebook</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/11/run-ubuntu-linux-on-a-chromebook/</link>
+      <pubDate>Sat, 11 Nov 2017 01:03:05 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/11/run-ubuntu-linux-on-a-chromebook/</guid>
+      <description>Project number 2 is in the can! I am now running Ubuntu Linux on my Acer Chromebook in a dual boot environment thanks to Crouton. Actually, it would be more accurate to say that I am running Ubuntu Linux concurrently and on top of the Chromium kernel. This 11 inch 64 bit Intel white workhorse met my needs for casual browsing since I first bought it in April of 2015. Great battery life, to boot.</description>
+    </item>
+    
+  </channel>
+</rss>

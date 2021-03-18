@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Moving a backup copy of WordPress over to AWS S3</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Moving a backup copy of WordPress over to AWS S3</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Moving a backup copy of WordPress over to AWS S3</h2>
+        <h5>September 28, 2018</h5>
+        
+
+    </div>
+
+    <div align="start" class="content"><p><img src="https://technicalagain.com/wp-content/uploads/2018/09/gnome-shell-screenshot-UCKWPZ.png" alt=""></p>
+<p>Today I set out to make a complete backup of my WordPress blog, archive of the images and all.  I set out to move the backup from my domain host directly into Amazon S3.  Eventually, I plan to set a policy within S3 to move the files over to Amazon Glacier for even cheaper storage.  We&rsquo;ll start with the AWS portion, then the WordPress portion.</p>
+<h2 id="aws"><strong>AWS</strong></h2>
+<p>I created a new user, <em>me</em>, and then I created a new group, with a new policy&ndash;essentially giving myself read, write, and credential creation permissions specifically for S3.</p>
+<p>I headed over to S3 and created a new bucket for WordPress backups. I turned on logging, and I turned on encryption for the bucket.  One thing I found strange (and I might have this wrong) was that I had to name my bucket something unique relative to all S3 buckets and not just those in my account.  So for example, for some reason I had to name my bucket WordPress-s3s3s3 because WordPress and WordPress-s3 were already taken, but not by me.</p>
+<p>I went back into Identity and Access Manager (IAM), created myself a new access ID and secret key and was ready to roll.</p>
+<h2 id="wordpress"><strong>WordPress</strong></h2>
+<p>In WordPress I installed the extension BackWPup.  I then chose my correct AWS region (after a failed attempt), entered my key ID and secret key, picked my S3 bucket, elected to use encryption, chose a storage type as &ldquo;rarely access,&rdquo; to help control costs, and scheduled the job to run.  BackWPup allowed me to create a compressed archive and move the file over in 20MB chunks to prevent the transfer from being blocked by the ISP for being too large.</p>
+<p>I changed the compression to TarGz after some research and found it offers the fastest compression ratio (though the remaining file is larger).  The compression alone has been running a long time - we have several thousand photos in the family blog and over 600 folders so I expect this could take over an hour just to compress.  We will see how it goes.  I also plan to monitor if I breach the free pricing tier at AWS.  The total _compressed _file size ended up over 34GB!!</p>
+<p>Within BackWPup I set WordPress cron to schedule the job to run every month at 3am.</p>
+<p>As I&rsquo;ve said in my previous posts on AWS, I am amazed by the technology.  Once getting the permissions up and running, it has worked exceptionally well.  The reliability and speed are impressive.</p>
+<p><img src="https://technicalagain.com/wp-content/uploads/2018/09/gnome-shell-screenshot-342HPZ.png" alt=""></p>
+<p><em>Update</em></p>
+<p>After compressing for about 30 minutes, I&rsquo;m happy to say the job completed successfully and my backup is sitting safe and sound in S3!</p>
+<p><img src="https://technicalagain.com/wp-content/uploads/2018/09/gnome-shell-screenshot-MBAOPZ.png" alt=""></p>
+</div>
+
+    
+    
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ghost on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/ghost/</link>
+    <description>Recent content in ghost on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Sep 2018 13:56:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/ghost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ghost on AWS - success!</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</link>
+      <pubDate>Sun, 23 Sep 2018 13:56:20 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</guid>
+      <description>This is the third and final part of my first foray into AWS. You can read part 1 and part 2. AWS is great. Getting access is secure and easy and you can&amp;rsquo;t beat free. AWS is incredibly quick at spinning up new instances and once connected over SSH it is extremely fast - it rivals the feel of a local installation - almost no latency for me.
+After getting Ubuntu installed, I spent the last few evenings attempting to install Ghost per these instructions.</description>
+    </item>
+    
+    <item>
+      <title>More AWS</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/20/more-aws/</link>
+      <pubDate>Thu, 20 Sep 2018 01:57:29 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/20/more-aws/</guid>
+      <description>Read Part 1 here. After waiting several hours, AWS was ready. I started with a vanilla instance of Ubuntu 16.04. I didn&amp;rsquo;t customize it at all&amp;ndash;mostly because Amazon limits your configuration choices within the free tier, which makes sense to me. It was amazing to see how much power you could really use. For example, if money was no object, you could choose an instance that would support 72 virtual machines with 512 GB of _memory.</description>
+    </item>
+    
+    <item>
+      <title>First Foray Into AWS</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/18/first-foray-into-aws/</link>
+      <pubDate>Tue, 18 Sep 2018 01:46:09 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/18/first-foray-into-aws/</guid>
+      <description>Tonight I started the journey into Amazon Web Services (AWS) for the first time. First, I signed up for a personal (free!) EC2 instance. My plan is to install the Ghost blogging platform, add a domain name and DNS. Ghost looks pretty cool. Minimal, fast, and will give me a chance to get more familiar with an open source JavaScript architecture I have not used much: Ember.js, Node.js, and Express.js.</description>
+    </item>
+    
+  </channel>
+</rss>

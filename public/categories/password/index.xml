@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Password on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/password/</link>
+    <description>Recent content in Password on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 May 2018 00:54:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/password/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Brute Force WordPress Passwords with WPScan and Tor</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/</link>
+      <pubDate>Fri, 18 May 2018 00:54:54 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/</guid>
+      <description>Visit [Center City Security](https://centercitysecurity.com?utm_source=TechnicalAgain.com&amp;amp;utm_medium=https://technicalagain.com/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/&amp;amp;utm_campaign=Technical Again Brute Force Wordpress Passwords with wpscan and tor&amp;amp;utm_content=header) for WordPress Penetration Testing and Security services.
+I took another crack, pun intended, at brute forcing my WordPress password using WPScan. Unlike when I tried it the other day, this time I used Tor and set up a SOCKs proxy to make use of a false IP address. My thinking was that my web host might black list my IP after a certain number of failed attempts, so by using Tor I could simply switch IP addresses once the blacklist went into effect.</description>
+    </item>
+    
+    <item>
+      <title>More Password Cracking - Windows Edition with Ophcrack</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/22/more-password-cracking-windows-edition-with-ophcrack/</link>
+      <pubDate>Sun, 22 Apr 2018 21:26:37 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/22/more-password-cracking-windows-edition-with-ophcrack/</guid>
+      <description>I continued the work I previously explained by attempting to crack a Windows administrator password. This time I created a new windows administrator, booted up using a Kali Linux USB and launched Ophcrack to go after the administrator account I set up.
+After lauching Ophcrack, I navigated to the Windows partition and then \WINDOWS\System32\Config to access the SAM database. I then downloaded a Rainbow Table called Vista Free and after about 10 minutes, the admittedly weak password I setup _hello123 was cracked.</description>
+    </item>
+    
+    <item>
+      <title>Password Cracking with John the Ripper</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/password-cracking-with-john-the-ripper/</link>
+      <pubDate>Tue, 17 Apr 2018 02:11:59 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/password-cracking-with-john-the-ripper/</guid>
+      <description>I did some preliminary experimenting with password cracking utility John the Ripper to test the security of my own root password. I started by installing John and dumping the /etc/passwd file.
+sudo apt-get install john
+unshadow /etc/passwd /etc/shadow &amp;gt; mypasswd.txt
+The mypasswd.txt file now holds a salted hash of my root password. I then passed this over to John to work its magic.
+john mypasswd.txt
+John is very powerful. I experimented with the most basic of cracking settings starting with single mode, then word lists and John would have moved to an incremental mode.</description>
+    </item>
+    
+    <item>
+      <title>The Password Ladder</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/11/the-password-ladder/</link>
+      <pubDate>Wed, 11 Apr 2018 01:16:12 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/11/the-password-ladder/</guid>
+      <description>Where are you on the Password Ladder and what can you do to move one rung higher?
+You&amp;rsquo;re standing next to the ladder, holding it if you are using one of the world&amp;rsquo;s most common passwords like 123456, password, qwerty, 123456789, or letmein. Amazingly, even in 2018, 8-10% of people still use these most basic of passwords. If your username is discovered, your password is immediately compromised by even the simplest of dictionary attacks.</description>
+    </item>
+    
+    <item>
+      <title>Rolling My Own Password Manager (Part 2)</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/05/rolling-my-own-password-manager-part-2/</link>
+      <pubDate>Thu, 05 Apr 2018 02:25:52 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/05/rolling-my-own-password-manager-part-2/</guid>
+      <description>Continuing the review of how I implemented my own password manager, this is part two. If you&amp;rsquo;d like to read part 1, you can do so here. For somewhat obvious reasons I am not going to share the product name or the specific details about my implementation broadly here. I would be glad to provide a bit more information: if you are so interested, leave a comment below and I can reply to your question directly.</description>
+    </item>
+    
+    <item>
+      <title>Rolling My Own Proper Password Manager (Part 1)</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/03/31/rolling-my-own-proper-password-manager/</link>
+      <pubDate>Sat, 31 Mar 2018 14:54:36 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/03/31/rolling-my-own-proper-password-manager/</guid>
+      <description>On previous posts here I shared my poor hygiene when it comes to password management (reusing the same password and not having passwords complex enough). I&amp;rsquo;m really happy to say I&amp;rsquo;ve made some major improvements. I&amp;rsquo;ve been meaning to roll my own password manager and I had a few requirements in mind.
+1.) I wanted to host the web application myself on my own server so I could access it from any device and share access with my spouse.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Brute Force WordPress Passwords with WPScan and Tor</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Brute Force WordPress Passwords with WPScan and Tor</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Brute Force WordPress Passwords with WPScan and Tor</h2>
+        <h5>May 18, 2018</h5>
+        
+
+    </div>
+
+    <div align="start" class="content"><p><img src="https://technicalagain.com/wp-content/uploads/2018/05/Screenshot-20180517195011-785x463.png" alt=""></p>
+<p>Visit [Center City Security](<a href="https://centercitysecurity.com?utm_source=TechnicalAgain.com&amp;utm_medium=https://technicalagain.com/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/&amp;utm_campaign=Technical">https://centercitysecurity.com?utm_source=TechnicalAgain.com&amp;utm_medium=https://technicalagain.com/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/&amp;utm_campaign=Technical</a> Again Brute Force Wordpress Passwords with wpscan and tor&amp;utm_content=header) for WordPress Penetration Testing and Security services.</p>
+<p>I took another crack, pun intended, at brute forcing my WordPress password using WPScan. Unlike when I tried <a href="https://technicalagain.com/2018/05/12/scan-wordpress-for-vulnerabilities-with-wpscan/">it the other day</a>, this time I used Tor and set up a SOCKs proxy to make use of a false IP address. My thinking was that my web host might black list my IP after a certain number of failed attempts, so by using Tor I could simply switch IP addresses once the blacklist went into effect.</p>
+<p>I am happy to say the proxy worked and the following command worked as expected:</p>
+<p><code>sudo wpscan --url technicalagain.com --wordlist darkc0de.txt --username [redacted] --proxy socks5://127.0.0.1:9050 -v </code></p>
+<p>The behavior of my web host did not match what I expected. Instead of blacklisting the IP, as soon as the 38th incorrect password was entered, the web host put up a 406 error and stopped allowing log in attempts for five minutes. Why does it allow 38 password attempts? Good question. So, to work around this I would have to enter 37 passwords, then wait five minutes, then enter the next 37 passwords, then wait five minutes, and slowly work through the entire dictionary list. At 37 passwords per five minutes it would take 121 days to exhaust the list of passwords on darkc0de.txt. Suffice it to say that this password policy control in place by the web host is a satisfactory deterrent for 99.99% of attackers that are not going to wait up to half a year just in hopes that my password is on the darkc0de list. It isn&rsquo;t.</p>
+<p>Visit [Center City Security](<a href="https://centercitysecurity.com?utm_source=TechnicalAgain.com&amp;utm_medium=https://technicalagain.com/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/&amp;utm_campaign=Technical">https://centercitysecurity.com?utm_source=TechnicalAgain.com&amp;utm_medium=https://technicalagain.com/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/&amp;utm_campaign=Technical</a> Again Brute Force Wordpress Passwords with wpscan and tor&amp;utm_content=footer) for WordPress Penetration Testing and Security services.</p>
+</div>
+
+    
+    
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

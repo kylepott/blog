@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bias on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/bias/</link>
+    <description>Recent content in bias on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Mar 2020 19:29:44 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/bias/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building a Model to Pick NCAA First Round Winners</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/</link>
+      <pubDate>Sun, 15 Mar 2020 19:29:44 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/</guid>
+      <description>Update: I&amp;rsquo;m bummed that the Big Ten and NCAA tournaments were canceled. Subsequently, my trip to Vegas was canceled and therefore, there&amp;rsquo;s really no point in my model - at least for 2020. That said, it&amp;rsquo;s still a great learning opportunity and I finished the work, which is included below. _ The work here can serve as a good starting point for the 2021 tournament_ _where I expect my Illini will be a three seed and at least co-champions of the Big Ten.</description>
+    </item>
+    
+  </channel>
+</rss>

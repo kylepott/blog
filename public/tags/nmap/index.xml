@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nmap on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/nmap/</link>
+    <description>Recent content in nmap on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 02:27:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/nmap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hack the Box - Cartographer &#43; Grammar</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/04/28/hack-the-box-cartographer/</link>
+      <pubDate>Sun, 28 Apr 2019 02:27:02 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/04/28/hack-the-box-cartographer/</guid>
+      <description>Hack the Box is a great free resource to play capture the flag by practicing penetration testing on a variety of different labs spanning just about every domain of offensive security. Over the past few months I completed two introductory exercises, HDC and Lernaen.
+This weekend I cleared Cartographer (update: and Grammar - more at the very bottom) and will detail my approach and learnings below. In doing these exercises, so much learning happens figuring out what doesn&amp;rsquo;t work.</description>
+    </item>
+    
+    <item>
+      <title>My First Metasploitable Vulnerability, Exploit, and Fix</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/02/19/my-first-metasploitable-vulnerability-and-exploit/</link>
+      <pubDate>Tue, 19 Feb 2019 01:01:44 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/02/19/my-first-metasploitable-vulnerability-and-exploit/</guid>
+      <description>In getting started with Metasploitable (msf2), I was looking for a simple first vulnerability and exploit to really try out and get some momentum in my learning.
+A really simple nmap command let me know that a lot of ports were open. There&amp;rsquo;s a great deal of practice I&amp;rsquo;ll be able to put to the test through msf2. I started by noticing the unix login port 513 is open.
+From there, I installed the rsh-client on Kali (sudo apt-get install rsh-client) to see if I could gain remote access using the command rlogin -l root ipaddress.</description>
+    </item>
+    
+  </channel>
+</rss>

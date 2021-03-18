@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Multiplayer Online Game in Python</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Multiplayer Online Game in Python</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Multiplayer Online Game in Python</h2>
+        <h5>May 7, 2020</h5>
+        
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/game"><kbd class="item-tag">game</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/python"><kbd class="item-tag">python</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p><img src="https://technicalagain.com/wp-content/uploads/2020/05/Screenshot-from-2020-05-06-16-55-30.png" alt="">
+Slide 5 or 6 Nimmit! can be played with an actual card deck</p>
+<p><img src="https://technicalagain.com/wp-content/uploads/2020/05/Peek-2020-05-06-20-09.gif" alt="">
+My clone of Slide 5 written in Python</p>
+<p>I almost gave up and quit on this project.  I&rsquo;m so glad I stuck with it because the results were so worth it.</p>
+<p>After playing the <strong>Slide 5</strong> card game I thought it would be a great game to clone into an online game that can be played with friends over Zoom during the pandemic lock in.</p>
+<p>The game is called Slide 5, it&rsquo;s a copy of the original game <a href="https://en.wikipedia.org/wiki/6_Nimmt!">6 Nimmit</a> created in 1994!  If you&rsquo;ve never played before it&rsquo;s really simple:  Everyone gets 10 cards and then you have to play the next lowest card.  Four rows build sequentially and if you lay the sixth card in a row or if you have a card lower than the last card in each row, you have to clear that row and take all the points.</p>
+<p><img src="https://technicalagain.com/wp-content/uploads/2020/05/Screenshot-from-2020-05-06-16-58-12.png" alt="">
+My clone of 6 Nimmit! known as Six Minute.</p>
+<p><strong>How I Learned</strong></p>
+<p>I am in the final stages of completing a Udacity course on <a href="https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104">Python for Data Science</a>.  The course has been great.  After completing the two main assignments for the course, I was looking for an opportunity to apply my new skills to a personal project.  I watched this two hour seminar from freeCodeCamp <a href="https://www.freecodecamp.org/news/python-online-multiplayer-game-development-tutorial/">Python Online Multiplayer Game Development Tutorial</a> and decided 6 Nimmit! was the perfect game to code.</p>
+<p>I felt especially motivated to apply my skills after reading a number of posts on reddit  about people caught in <a href="https://www.google.com/search?q=reddit+tutorial+hell&amp;oq=reddit+tutorial+hell&amp;aqs=chrome..69i57j35i39j69i60.7909j0j4&amp;sourceid=chrome&amp;ie=UTF-8">Tutorial Hell</a> and wondering if I, myself, was trapped in Tutorial Hell without knowing it.</p>
+<p><strong>What I Learned</strong></p>
+<p>The whole project is <a href="https://github.com/kylepott/six-min">available on GitHub</a>.  Like all my code on GitHub, it could stand a good refactoring so try not to judge me too harshly on the repetitive code or the somewhat cryptic aspects that could use a good commenting.  Here is what I learned, in brief:</p>
+<ul>
+<li>How to build a server   * How to connect clients to the server  * How to store and retrieve objects on the server (Python Pickle package)  * In depth understanding of the Pandas and Python data structures: dataframes, dictionaries, lists, tuples, series, and strings  * In depth understanding of how to search and sort data structures  * How to manage queuing the clients (everyone must be playing in the same round)  * Game programming concepts: actions, penalties, scorekeeping.  I think I could program another game with a different concept much quicker just because I have a framework for how to implement the major aspects of any game - the game &ldquo;story arc&rdquo; if you will.  * I did a good job with continuous integration, and building and deploying working code.  Every time I touched the project I completed the night with working code checked back into git.  Little by little, I chipped away until I was totally done.</li>
+</ul>
+<p><strong>What I Struggled With</strong></p>
+<p>Lots.  Let me just start with that.  There were several moments that I was within an inch of quitting and got really down on myself.  Here were some of the toughest challenges:</p>
+<ul>
+<li>The very first data exchange between the server and clients took me a full night to get right.  * Port management is not implemented very well.  When the program ends, sometimes the operating system thinks the port is still in-use.  * Keeping the clients in sync.  For example, if one of the players got penalty points, only one client should update the scoreboard - not every client.    * Data structure sorting.  This was one of the most complex aspects of this game because so much has to be sorted: the game board, each player&rsquo;s hand, the rounds, and the scoreboard.  Additionally, the scoreboard is interwoven into the game interface.  If you look at the image up above you see in my hand that the 11 is worth five points and 75 and 95 are each worth two.  That was tricky to implement well in the terminal.  * Controlling the use of random function on the server.  While the server creates the gameboard and each player&rsquo;s hand by creating a random numpy array and &ldquo;popping&rdquo; cards out of the deck into the hand, each client can&rsquo;t receive a random hand or a random gameboard or we have pandemonium.  * Obviously, I did not implement a traditional user interface.  * The server does not have session management.  If I kept going, I&rsquo;d build a way to run multiple games simultaneously and keep track of which client is playing which game.  * My testing and debugging practices are pretty rudimentary.  It would be good continued learning to use pytest and improve my automated code coverage skills.  * I have not deployed the app to the web.  So another area for development would be to deploy in flask or django or deploy serverless on AWS, etc.  Challenges for another day, I suppose</li>
+</ul>
+<p><strong>Would I Recommend this Project?</strong></p>
+<p>I would recommend a project like this to an intermediate programmer who has previous experience developing a complete application.  This project really helped me level up my skills.  I grew tremendously by sticking with it and getting done.  However, there was a lot of frustrating nuance in this exercise.</p>
+<p>Here&rsquo;s one unexpected drawback of creating a game.  After all the hours I poured into building the game and the increasing complexity in debugging and testing the game, I&rsquo;m so sick of it I hardly want to play it.  I hardly want to write this blog post about it.  Hopefully, I&rsquo;ll be up for the challenge because we&rsquo;re hosting a family &ldquo;game night&rdquo; on Zoom on Sunday where we will play the game.</p>
+</div>
+
+    
+    
+    
+        <h4 class="page-header">Related</h4>
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/">Machine Learning - Transforming Photos into 3D with Python</a></h4>
+    <h5>May 11, 2020</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/anaconda"><kbd class="item-tag">anaconda</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/cloudwatch"><kbd class="item-tag">cloudwatch</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/ec2"><kbd class="item-tag">ec2</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/python"><kbd class="item-tag">python</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/pytorch"><kbd class="item-tag">pytorch</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2020/04/16/part-2-my-future-self-is-beating-the-dad-bod/">Part 2: My Future Self is Beating the Dad-Bod</a></h4>
+    <h5>April 16, 2020</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/python"><kbd class="item-tag">python</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/selenium"><kbd class="item-tag">Selenium</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/trendweight"><kbd class="item-tag">trendweight</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/">According to Facebook, I Will Have a Dad-Bod on June 28, 2021</a></h4>
+    <h5>April 14, 2020</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/data-science"><kbd class="item-tag">data science</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/facebook"><kbd class="item-tag">facebook</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/github"><kbd class="item-tag">github</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/hackersdiet"><kbd class="item-tag">hackersdiet</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/myfitnesspal"><kbd class="item-tag">myfitnesspal</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/open-source"><kbd class="item-tag">open source</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/pandas"><kbd class="item-tag">pandas</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/prophet"><kbd class="item-tag">prophet</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/python"><kbd class="item-tag">python</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/trendweight"><kbd class="item-tag">trendweight</kbd></a>
+
+
+
+</div>
+ 
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

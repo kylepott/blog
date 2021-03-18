@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Maintaining Presence and Installing Backdoors</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Maintaining Presence and Installing Backdoors</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Maintaining Presence and Installing Backdoors</h2>
+        <h5>February 26, 2019</h5>
+        
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/armitage"><kbd class="item-tag">armitage</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/kali"><kbd class="item-tag">kali</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/metasploit"><kbd class="item-tag">metasploit</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/msf2"><kbd class="item-tag">msf2</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/msfvenom"><kbd class="item-tag">msfvenom</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/php"><kbd class="item-tag">PHP</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p>By completing this exercise I learned that the best backdoor is one that you don&rsquo;t need to install yourself!  There are two backdoors that I opened up within the Metasploitable 2 operating system (msf2).</p>
+<p>The most powerful and easiest backdoor was to login using the root shell, create a new superuser, and then add this user into the SSH list so that I could make use of the existing SSH server configuration.  <em>Easy-peasy.</em></p>
+<p>I also wanted to install a second backdoor in the event the SSH server was turned off, my new user was spotted and removed, or one of the other root shell access points was patched.  Keep in mind, all the work I&rsquo;ve done, to this point, I still do not know the root password.</p>
+<p>In brief, I created and uploaded a bind_php shell payload.  I connected with a root shell, logged into the Apache server, uploaded the compromised payload which looks just like a regular PHP file, installed a listener on my attacker machine and then wired together the PHP exploit and the listener.  I consider this attack to be beyond basic and maybe moving into the intermediate category.  Let&rsquo;s break it down.</p>
+<h2 id="payload">Payload</h2>
+<p>I used MSF Venom to create a compromised PHP file.  I then uploaded and buried this file within the Apache directory.</p>
+<p><img src="https://technicalagain.com/wp-content/uploads/2019/02/Screenshot-from-2019-02-25-16-05-26.png" alt=""></p>
+<h2 id="listener">Listener</h2>
+<p>After uploading the compromised PHP file, I configured Armitage to listen to port 4001 at the target machine.</p>
+<p><img src="https://technicalagain.com/wp-content/uploads/2019/02/Screenshot-from-2019-02-25-16-15-03.png" alt=""></p>
+<p>Once Armitage was listening, all I had to do was navigate to the infected PHP file in any browser and it would connect to the listener automatically.  I now have persistent access to the host in a much more stealthy way.</p>
+<h2 id="advantages">Advantages</h2>
+<p>The PHP backdoor is difficult to identify.  Unless the user is monitoring their own traffic on port 4001, it is unlikely they will spot the file hidden within hundreds of PHP files.</p>
+<p>Also, the backdoor only connects and runs when I fire it up remotely, so it is less likely to be spotted.</p>
+<p>This technique uses the existing <em>www-data</em> daemon within Apache.  It doesn&rsquo;t require access to any of the users within the operating system.  This is useful in the event that SSH access is closed or my new superuser is discovered and deleted.  I can log in when I need to, browse around the file tree, upload additional compromised files if needed, and download the /etc/passwd file and use John the Ripper to try to gain access to one of the existing accounts.</p>
+<p><em>Update: I subsequently did crack a few of the other operating system accounts using John.  I have previously written about <a href="https://technicalagain.com/2018/04/17/password-cracking-with-john-the-ripper/">my experience with John</a> so I tried to avoid using the same techniques in this lab.</em></p>
+<h2 id="challenges-and-learnings">Challenges and Learnings</h2>
+<p>This was a fun exercise and much more challenging for me.  I feel very proud about this work and feel I&rsquo;m beginning to move beyond basic techniques into more advanced approaches.</p>
+<p>I learned several important lessons.</p>
+<p>1.) Having root shell access is much more powerful than gaining shell access through one of the lower privileged daemons.  The daemons are plenty useful, nonetheless.</p>
+<p>2.)  I struggled mightily in crafting the right payload, getting the permissions correct to run it, and then connecting up the listener.  I was getting an Access Denied error on the payload until I changed ownership to the <em>www-data</em> service.  I am sure someone more skilled than me would have found a way for Apache to run the payload as root maintaining superuser access in the shell.  I guess I compromised for a little less here.</p>
+<p>3.) It would be good for me to create a username/password scheme because the PHP backdoor would be discoverable and usable to other attackers that are scanning the web files.</p>
+<p>4.) The PHP backdoor is really easy to remove if spotted.  All the user needs to do is delete the file.  So in a way, while it is well hidden, it is brittle and speaks to all the more reason to install redundant backdoors.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Over the past two months I compromised the host, exfiltrated data, and installed multiple backdoors to maintain presence.  At this point, I&rsquo;m now going to turn my attention higher in the stack and start working more diligently on web vulnerability scanning through OpenVAS, Vega, Burp Suite, and other man-in-the-middle proxies.</p>
+</div>
+
+    
+    
+    
+        <h4 class="page-header">Related</h4>
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2019/04/14/conwell-quotes-wordpress-plugin-with-a-backdoor/">Conwell Quotes - WordPress Plugin With a Backdoor</a></h4>
+    <h5>April 14, 2019</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/netcat"><kbd class="item-tag">netcat</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/open-source"><kbd class="item-tag">open source</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/php"><kbd class="item-tag">PHP</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/reverse-shell"><kbd class="item-tag">reverse-shell</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/wordpress"><kbd class="item-tag">wordpress</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2019/02/26/exfiltrating-data-from-mysql-and-postgres/">Exfiltrating Data from MySQL and Postgres</a></h4>
+    <h5>February 26, 2019</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/kali"><kbd class="item-tag">kali</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/msf2"><kbd class="item-tag">msf2</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/mysql"><kbd class="item-tag">mysql</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/netcat"><kbd class="item-tag">netcat</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/postgres"><kbd class="item-tag">postgres</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2019/02/20/got-root-two-more-exploits/">Got Root? Two More Exploits.</a></h4>
+    <h5>February 20, 2019</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/irc"><kbd class="item-tag">irc</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/java"><kbd class="item-tag">java</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/kali"><kbd class="item-tag">kali</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/metasploit"><kbd class="item-tag">metasploit</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/msf2"><kbd class="item-tag">msf2</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/postgres"><kbd class="item-tag">postgres</kbd></a>
+
+
+
+</div>
+ 
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

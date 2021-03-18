@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resource Discovery on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/resource-discovery/</link>
+    <description>Recent content in Resource Discovery on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Sep 2018 18:27:07 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/resource-discovery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>More Resource Discovery with ForzaBruta.py</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/04/more-resource-discovery-with-forzabruta-py/</link>
+      <pubDate>Tue, 04 Sep 2018 18:27:07 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/04/more-resource-discovery-with-forzabruta-py/</guid>
+      <description>Been a busy summer, but I spent some time continuing the work I previously wrote about the brute-forcer, ForzaBruta.py. This time working through the Lynda coursework to iterate on the brute-forcer to add convenience and analysis capabilities:
+ * Take screenshots * Capture the MD5 checksum to compare the file contents * Record number of words and characters in each file and the time to load * Filtering and coloring based on return code * Filter for only certain file extensions.</description>
+    </item>
+    
+    <item>
+      <title>Brute Force Resource Discovery with Python and FuzzDB</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/21/brute-force-resource-discovery-with-python-and-fuzzdb/</link>
+      <pubDate>Mon, 21 May 2018 01:05:40 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/21/brute-force-resource-discovery-with-python-and-fuzzdb/</guid>
+      <description>I have been working through a Python course on Lynda.com and in the course we wrote a brute force resource discovery tool using Python. You put in a URL and then you specify a dictionary word list, and the number of threads to run concurrently. Then the brute forcer, named ForzaBruta.py, works through the word list and gives the page response codes (404, 403, 200, etc.).
+I used the FuzzDB predictable filepaths, file and directory name brute forcer, Raft large directories lowercase dictionary list.</description>
+    </item>
+    
+  </channel>
+</rss>

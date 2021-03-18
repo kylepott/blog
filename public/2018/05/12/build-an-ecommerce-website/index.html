@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Build an eCommerce Website with WooCommerce</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Build an eCommerce Website with WooCommerce</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Build an eCommerce Website with WooCommerce</h2>
+        <h5>May 12, 2018</h5>
+        
+
+    </div>
+
+    <div align="start" class="content"><p><img src="https://technicalagain.com/wp-content/uploads/2018/05/Screenshot-20180511192617-1249x620.png" alt=""></p>
+<p>I spent the last three weeks designing, building, testing, debugging and putting the finishing touches on my first eCommerce website, complete with a full shopping cart experience and product purchase workflow.  One of my original <a href="https://technicalagain.com/what-are-we-doing-here/ground-rules/sample-page/">project goals</a> in launching this site was to learn how to take a payment online.  This turned out to be relatively straight forward.</p>
+<!-- raw HTML omitted -->
+<p>I considered three possible approaches for this project: Wordpress with WooCommerce, Bootstrap with a shopping cart add-in, and Shopify.  I ultimately decided on WooCommerce for two reasons: there was an overwhelming number of different shopping cart options within the Bootstrap community.  Although they are reasonably well supported, they couldn&rsquo;t match the centralized level of community support available through WooCommerce.  The second reason I settled on WooCommerce was that the actual implementation of payment options were sufficiently abstracted from the code - which appealed to me.  Bootstrap is more customizable, but from what I could tell would require me to setup my own piping to test and establish the payment workflow.  Bootstrap may be more appropriate for a large scale legitimate online retailer, but seemed too complex than what I needed for a single product sole proprietorship.  I turned away from Shopify due to the recurring fee structure.</p>
+<p>The installation of WooCommerce started by first installing WordPress, then adding the WooCommerce plug-in, and then using the guided WooCommerce installation process to pick payment options.  Originally, I decided to use Stripe and PayPal, but ended up backing off PayPal because I felt it was sufficiently redundant to the features included in Stripe.  Knowing data minification is a technique to reduce the possibility of breach I decided to just use one payment system and can always add in PayPal if warranted in the future.  WooCommerce has a very smooth installation process.</p>
+<p>I finished by picking a theme and stylizing the site, integrating Google Analytics, customizing the product description and pricing, nailing down the cart and checkout workflows, and finishing with the &ldquo;after sales&rdquo; experience&ndash;which was basically just a follow up email.  I also setup  Google AdWords.  The pricing for Stripe is very affordable, something akin to 3% per transaction plus 30 cents and no recurring fees.  WooCommerce can make some improvements.</p>
+<h2 id="learning">Learning</h2>
+<p>This was a good and straight forward project. WooCommerce is satisfactory, but not a great product yet.  There were a number of features I&rsquo;d expect to be customizable right out of the box but instead required me to install additional plug-ins (some free and some proprietary) or do some hacking deep into the configuration files.  Three examples come to mind:</p>
+<pre><code>  1. To change the text on the &quot;Add to Cart&quot; button to say &quot;Buy Now&quot;
+  2. To customize the &quot;purchase confirmed&quot; email
+  3. To rearrange where the price shows up--whether above or below the product description
+</code></pre>
+<p>I was also disappointed that WooCommerce does not have a built in visitor tracking/analytics or marketing package-s-requiring me to, you guessed it, install yet another  batch of plug-ins.</p>
+<p>After getting reasonably familiar with WooCommerce and participating in the community I noticed that it is not uncommon for administrators to have up to 30 or 40 different plug-ins running for a single WooCommerce site.  That makes debugging really hard, keeping the plug-ins up-to-date almost impossible, and adds a lot more opportunities for defects and breach.  Room for improvement, I think, for sure.</p>
+<p>I didn&rsquo;t have any real technical snags or frustrations, and I appreciated having the chance to learn about staging servers, testing the purchase process, applying a digital certificate (yet again), and a dash of search engine optimization and internet marketing.</p>
+<p>It is truly amazing that we live in an era that a team of one guy can buy a domain name and hosting, get a digital certificate,  build a website and shopping cart, and can create an internet business in under three weeks for less than $80.  Eric Ries talks about this concept in his book _The Lean _<em>Startup</em> (<a href="http://www.kimhartman.se/wp-content/uploads/2013/10/the-lean-startup-summary.pdf">summary</a>) but it never really hit home for me how truly accessible technology is until I did this project.  We live in an amazing time!  This project would have been all but impossible in 1998 and still very, very challenging in 2008.  In 2018, I didn&rsquo;t even write a single line of code.</p>
+</div>
+
+    
+    
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

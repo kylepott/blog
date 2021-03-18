@@ -9,23 +9,22 @@ categories:
 - Password
 ---
 
-![](https://technicalagain.com/wp-content/uploads/2018/04/ladder-223x300.jpeg)
 Where are you on the Password Ladder and what can you do to move one rung higher?
 
 **You're standing next to the ladder, holding it** if you are using one of the world's most [common passwords](https://en.wikipedia.org/wiki/List_of_the_most_common_passwords) like _123456_, _password_, _qwerty_, _123456789_, or _letmein_.  Amazingly, even in 2018, 8-10% of people still use these most basic of passwords.  If your username is discovered, your password is immediately compromised by even the simplest of dictionary attacks. Heck, you don't even need a dictionary to guess the password.  Forget about if just the password hash is discovered or an encrypted version of the password is acquired.  You're sunk no matter what.
 
-**You're on the first rung of the ladder, **if you are reusing the same username and password combination on the majority of the websites you visit.  This is especially problematic if the credentials you use for your bank account or email address are not unique.  Most email accounts serve as a gateway to other account credentials.  If you're on the first rung of the ladder, basically any website getting hacked puts in jeopardy your identity and financial assets.
+**You're on the first rung of the ladder** if you are reusing the same username and password combination on the majority of the websites you visit.  This is especially problematic if the credentials you use for your bank account or email address are not unique.  Most email accounts serve as a gateway to other account credentials.  If you're on the first rung of the ladder, basically any website getting hacked puts your identity and financial assets in jeopardy.
 
-**You're on the second rung of the ladder**, if you are reusing the same username and a password that is made up of a basic combination of personal information like your children's names and your anniversary date.  The second rung is barely any better than the first rung.
+**You're on the second rung of the ladder** if you are reusing the same username and a password that is made up of a basic combination of personal information like your children's names and your anniversary date.  The second rung is barely any better than the first rung.
 
-**Third rung **if you are using a single base word and then substituting special characters and capitalization instead of random word combinations. Thank you [xkcd](https://xkcd.com/936/).  No simpler way to describe this than below.
+**Third rung** if you are using a single base word and then substituting special characters and capitalization instead of random word combinations. Thank you [xkcd](https://xkcd.com/936/).  No simpler way to describe this than below.
 
 ![](https://imgs.xkcd.com/comics/password_strength.png)
 
 
-If you made it here you are in the top 5%. The **fourth rung **has two factor authentication turned on for important accounts like your email, bank, benefits, and retirement vehicles.  Incredibly, it is estimated that only 5-10% of people have voluntarily enabled two factor authentication on Gmail even though it has been available for a number of years.
+If you made it here you are in the top 5%. The **fourth rung** has two factor authentication turned on for important accounts like your email, bank, benefits, and retirement vehicles.  Incredibly, it is estimated that only 5-10% of people have voluntarily enabled two factor authentication on Gmail even though it has been available for a number of years.
 
-**Top of the ladder **if you are randomly generating usernames and passwords (not reusing them), you have two factor authentication turned on and you are using a structured approach to manage your passwords like using a password manager or browser autocomplete to make sure your passwords are maximum length and complexity.
+**Top of the ladder** if you are randomly generating usernames and passwords (not reusing them), you have two factor authentication turned on and you are using a structured approach to manage your passwords like using a password manager or browser autocomplete to make sure your passwords are maximum length and complexity.
 
 Please remember that there is no perfect system. Even the fifth rung here can be debated about whether the use of password managers and browser autocomplete provide additional security or if they introduce additional risk vectors. The debate is warranted, but I believe the benefits outweigh the risks. Just know that no approach is impervious to all attacks and keep in mind:
 
@@ -56,7 +55,7 @@ Please remember that there is no perfect system. Even the fifth rung here can be
 
 
 
-5. If there is data loss or ex-filtration, it is much more likely to come from an internal actor's intentional or unintentional activities (mis-configurations, forgetting to encrypt, copying the whole file instead of one record, etc.).
+5. If there is data loss or ex-filtration, it is much more likely to come from an internal actor's intentional or unintentional activities (misconfigurations, forgetting to encrypt, copying the whole file instead of one record, etc.).
 
 
 

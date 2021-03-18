@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Structured Big Data Analysis</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Structured Big Data Analysis</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Structured Big Data Analysis</h2>
+        <h5>May 13, 2020</h5>
+        
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/data-science"><kbd class="item-tag">data science</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/github"><kbd class="item-tag">github</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/terminal"><kbd class="item-tag">terminal</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p>I completed the <a href="https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104">Programming for Data Science with Python</a> nanodegree at Udacity.  The program was outstanding. It  was formatted in a way that I really like to learn: a short video lesson, a short text recap/expansion of the content, and then a portion to practice what you learned.  This course had three main technical objectives and two capstone projects.</p>
+<p><strong>Focus 1: SQL, Beginner to Advanced</strong></p>
+<p>The first objective was to learn SQL.  This portion included a realistic capstone project using SQL to analyze a movie rental company with multiple locations: movie categorization, rentals, customer data, employee workforce data, and payment information.  This portion of the class was excellent and moved from basic SQL all the way through the most advanced, yet practical, uses of SQL that anyone would expect to use in a real business scenario.  The capstone project required an executive summary be presented to management which I&rsquo;ve embedded below&ndash;go full screen to see the details.  The capstone projects are independently evaluated against a rubric.</p>
+<p><strong>Management Capstone Presentation</strong></p>
+<div id="Container"
+ style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+ <iframe id="googleSlideIframe"
+  width="100%" height="100%"
+  src="https://docs.google.com/presentation/d/e/2PACX-1vQ7gQcEhfcbnvHoz0bB-vXCI6h4W7_g1YH3EX9iUKBOVfoYousnOAO3NecAaRst4P5NtyVlKxtf12Ys/embed?start=true&amp;loop=true&amp;delayms=10000"
+  frameborder="0" allowfullscreen=""
+  style="position:absolute; top:0; left: 0"></iframe>
+</div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-mysql" data-lang="mysql"> 
+<span style="color:#f92672">****************************</span>
+<span style="color:#f92672">*</span>SLIDE <span style="color:#ae81ff">1</span>                   <span style="color:#f92672">*</span>
+<span style="color:#f92672">****************************</span>
+  <span style="color:#66d9ef">SELECT</span> sub.title, 
+         sub.name, 
+         <span style="color:#a6e22e">count</span>(rental_id) 
+  <span style="color:#66d9ef">FROM</span> 
+         ( <span style="color:#66d9ef">SELECT</span> i.inventory_id, i.film_id, c.name, f.title, r.rental_id
+             <span style="color:#66d9ef">FROM</span> inventory i
+             <span style="color:#66d9ef">JOIN</span> film f
+               <span style="color:#66d9ef">ON</span> f.film_id <span style="color:#f92672">=</span> i.film_id
+             <span style="color:#66d9ef">JOIN</span> film_category fc
+               <span style="color:#66d9ef">ON</span> fc.film_id <span style="color:#f92672">=</span> f.film_id
+             <span style="color:#66d9ef">JOIN</span> category c
+               <span style="color:#66d9ef">ON</span> fc.category_id <span style="color:#f92672">=</span> c.category_id
+             <span style="color:#66d9ef">JOIN</span> rental r
+               <span style="color:#66d9ef">ON</span> r.inventory_id <span style="color:#f92672">=</span> i.inventory_id
+            <span style="color:#66d9ef">WHERE</span> c.name 
+               <span style="color:#66d9ef">IN</span> (<span style="color:#e6db74">&#39;Animation&#39;</span>, <span style="color:#e6db74">&#39;Children&#39;</span>, <span style="color:#e6db74">&#39;Classics&#39;</span>, <span style="color:#e6db74">&#39;Comedy&#39;</span>, <span style="color:#e6db74">&#39;Family&#39;</span>, <span style="color:#e6db74">&#39;Music&#39;</span>)
+         <span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>
+         ) sub
+
+  <span style="color:#66d9ef">GROUP</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">1</span>
+
+
+<span style="color:#f92672">****************************</span>
+<span style="color:#f92672">*</span>SLIDE <span style="color:#ae81ff">2</span>                   <span style="color:#f92672">*</span>
+<span style="color:#f92672">****************************</span>
+  <span style="color:#66d9ef">SELECT</span> f.title, 
+         c.name, 
+         f.rental_duration, 
+         <span style="color:#a6e22e">NTILE</span>(<span style="color:#ae81ff">4</span>) <span style="color:#a6e22e">OVER</span> (<span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> f.rental_duration) <span style="color:#66d9ef">AS</span> standard_quartile
+    <span style="color:#66d9ef">FROM</span> film f
+    <span style="color:#66d9ef">JOIN</span> film_category fc
+      <span style="color:#66d9ef">ON</span> f.film_id <span style="color:#f92672">=</span> fc.film_id
+    <span style="color:#66d9ef">JOIN</span> category c
+      <span style="color:#66d9ef">ON</span> fc.category_id <span style="color:#f92672">=</span> c.category_id
+   <span style="color:#66d9ef">WHERE</span> c.name 
+      <span style="color:#66d9ef">IN</span> (<span style="color:#e6db74">&#39;Animation&#39;</span>, <span style="color:#e6db74">&#39;Children&#39;</span>, <span style="color:#e6db74">&#39;Classics&#39;</span>, <span style="color:#e6db74">&#39;Comedy&#39;</span>, <span style="color:#e6db74">&#39;Family&#39;</span>, <span style="color:#e6db74">&#39;Music&#39;</span>)
+  
+  <span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">3</span>;
+
+<span style="color:#f92672">****************************</span>
+<span style="color:#f92672">*</span>SLIDE <span style="color:#ae81ff">3</span>                   <span style="color:#f92672">*</span>
+<span style="color:#f92672">****************************</span>
+  <span style="color:#66d9ef">SELECT</span> <span style="color:#a6e22e">DATE_PART</span>(<span style="color:#e6db74">&#39;month&#39;</span>, r.rental_date) <span style="color:#66d9ef">as</span> Rental_month, 
+         <span style="color:#a6e22e">DATE_PART</span>(<span style="color:#e6db74">&#39;year&#39;</span>,r.rental_date) <span style="color:#66d9ef">as</span> Rental_year, 
+         s.store_id, 
+         <span style="color:#a6e22e">COUNT</span>(r.<span style="color:#f92672">*</span>) <span style="color:#66d9ef">as</span> Count_rentals
+    <span style="color:#66d9ef">FROM</span> staff s
+    <span style="color:#66d9ef">JOIN</span> rental r
+      <span style="color:#66d9ef">ON</span> r.staff_id <span style="color:#f92672">=</span> s.staff_id
+
+  <span style="color:#66d9ef">GROUP</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>
+  <span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">4</span> <span style="color:#66d9ef">DESC</span>;
+
+
+<span style="color:#f92672">****************************</span>
+<span style="color:#f92672">*</span>SLIDE <span style="color:#ae81ff">4</span>                   <span style="color:#f92672">*</span>
+<span style="color:#f92672">****************************</span>
+  <span style="color:#66d9ef">SELECT</span> sub.pay_mon, 
+         sub.fullname, 
+         sub.counter <span style="color:#66d9ef">as</span> pay_countpermon, 
+         sub.amount
+  <span style="color:#66d9ef">FROM</span>
+         (<span style="color:#66d9ef">SELECT</span> 
+                 <span style="color:#a6e22e">CONCAT</span>(c.first_name, <span style="color:#e6db74">&#39; &#39;</span>, c.last_name) <span style="color:#66d9ef">as</span> fullname,
+                 <span style="color:#a6e22e">DATE_TRUNC</span>(<span style="color:#e6db74">&#39;month&#39;</span>,p.payment_date) <span style="color:#66d9ef">as</span> pay_mon, 
+                 <span style="color:#a6e22e">COUNT</span>(p.rental_id) <span style="color:#66d9ef">as</span> counter, <span style="color:#a6e22e">SUM</span>(amount) <span style="color:#66d9ef">as</span> amount
+            <span style="color:#66d9ef">FROM</span> payment p
+            <span style="color:#66d9ef">JOIN</span> customer c
+              <span style="color:#66d9ef">ON</span> c.customer_id <span style="color:#f92672">=</span> p.customer_id
+           <span style="color:#66d9ef">WHERE</span> <span style="color:#a6e22e">DATE_TRUNC</span>(<span style="color:#e6db74">&#39;year&#39;</span>, p.payment_date) <span style="color:#f92672">&gt;=</span> <span style="color:#e6db74">&#39;2007-01-01&#39;</span>
+      
+          <span style="color:#66d9ef">GROUP</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">1</span>
+          <span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>
+         ) sub
+  <span style="color:#66d9ef">JOIN</span> 
+         (<span style="color:#66d9ef">SELECT</span> 
+                 <span style="color:#a6e22e">CONCAT</span>(c.first_name, <span style="color:#e6db74">&#39; &#39;</span>, c.last_name) <span style="color:#66d9ef">as</span> fullname,
+                 <span style="color:#a6e22e">SUM</span>(amount) <span style="color:#66d9ef">AS</span> amount
+            <span style="color:#66d9ef">FROM</span> customer c
+            <span style="color:#66d9ef">JOIN</span> payment p 
+              <span style="color:#66d9ef">ON</span> c.customer_id <span style="color:#f92672">=</span> p.customer_id
+      
+         <span style="color:#66d9ef">GROUP</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">1</span>
+         <span style="color:#66d9ef">ORDER</span> <span style="color:#66d9ef">BY</span> <span style="color:#ae81ff">2</span> <span style="color:#66d9ef">DESC</span>
+         <span style="color:#66d9ef">LIMIT</span> <span style="color:#ae81ff">10</span>
+         ) sub2
+      
+    <span style="color:#66d9ef">ON</span> sub.fullname <span style="color:#f92672">=</span> sub2.fullname</code></pre></div>
+<p><strong>Objective 2: Python, Beginner to Intermediate</strong></p>
+<p>The second objective of the course was to take Python from beginner through intermediate.  We covered the value proposition of Python (great for data, great for big data, great for sorting, great for analysis), syntax, and Pandas and Numpy libraries.  The capstone project for Python was outstanding.  We created a full blown application for reading Bike Share data from three cities: Chicago, Washington, and New York City.  The data was already cleaned and well structured.  Total transactions were about 1 million, give or take.</p>
+<p><strong>Python Capstone Project</strong></p>
+<p><img src="/images/Peek-2020-05-13-10-38.gif" alt="">
+A walk through of the data analysis of the Bikeshare program.  The complete program written in Python is included at the bottom of this poost.</p>
+<p>I&rsquo;ve also uploaded the code to <a href="https://gist.github.com/kylepott/c21585fc50d9951766c7bcb290c39689">GitHub</a> if you&rsquo;d like to fork the project.</p>
+<p><strong>Objective 3, Terminal + GitHub</strong></p>
+<p>The final technical objective of the course was how to use the UNIX/Linux Terminal and GitHub.  As a 14 year daily Ubuntu Linux user there wasn&rsquo;t much new or me in this portion, but still a good quick refresher.</p>
+<p><strong>Putting It All Together</strong></p>
+<p>As courses like this go, I think the best learning comes in the form of the capstone projects, applying the skills in our day jobs, and using the skills to tackle personal projects.  I won&rsquo;t recap these in depth, but I very much enjoyed putting my new skills to use on several personal projects:</p>
+<ul>
+<li>
+<p><a href="/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/">Machine Learning to Transform Photos into 3D with Python</a>. <em>Using an AWS GPU instances to run PyTorch to create 3D images. CloudWatch implementation to control costs.</em>  * <a href="/2020/05/07/building-a-multiplayer-online-game-in-python/">Build a Multiplayer Online Game in Python</a> <em>Online game that can be played by up to 10 players. Client and Server architecture written totally in Python.</em></p>
+</li>
+<li>
+<p><a href="/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/">According to Facebook, I will Have a Dad-Bod on June 28, 2021</a> <em>A data science project that uses Python to predict future weight gain. Also, created an open source project <a href="https://github.com/kylepott/Dad-Bod">Dad-Bod on GitHub</a>.</em>  * <a href="https://technicalagain.com/2020/04/16/part-2-my-future-self-is-beating-the-dad-bod/">Part 2: My Future Self is Beating the Dad Bod</a> <em>I created another open source tool to send myself a daily text message tracking my progress to goal.</em></p>
+</li>
+<li>
+<p><a href="/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/">Using Data Science to Pick NCAA Tournament First Round Winners</a>. <em>Using correlation to find the variables that are most predictive of NCAA men’s basketball first round tournament wins.</em>  * <a href="/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/">Building a Model to Pick NCAA First Round Winners</a>. <em>Part two of my previous post that builds a data science model to predict NCAA tournament winners.</em></p>
+</li>
+</ul>
+<p><strong>Python Code</strong></p>
+<script type="application/javascript" src="https://gist.github.com/kylepott/c21585fc50d9951766c7bcb290c39689.js"></script>
+
+</div>
+
+    
+    
+    
+        <h4 class="page-header">Related</h4>
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/">According to Facebook, I Will Have a Dad-Bod on June 28, 2021</a></h4>
+    <h5>April 14, 2020</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/data-science"><kbd class="item-tag">data science</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/facebook"><kbd class="item-tag">facebook</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/github"><kbd class="item-tag">github</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/hackersdiet"><kbd class="item-tag">hackersdiet</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/myfitnesspal"><kbd class="item-tag">myfitnesspal</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/open-source"><kbd class="item-tag">open source</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/pandas"><kbd class="item-tag">pandas</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/prophet"><kbd class="item-tag">prophet</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/python"><kbd class="item-tag">python</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/trendweight"><kbd class="item-tag">trendweight</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/">Building a Model to Pick NCAA First Round Winners</a></h4>
+    <h5>March 15, 2020</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/bias"><kbd class="item-tag">bias</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/data-science"><kbd class="item-tag">data science</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/numpy"><kbd class="item-tag">numpy</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/pandas"><kbd class="item-tag">pandas</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/python"><kbd class="item-tag">python</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/">Using Data Science to Pick NCAA Tournament First Round Winners</a></h4>
+    <h5>March 7, 2020</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/data-science"><kbd class="item-tag">data science</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/excel"><kbd class="item-tag">excel</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/jupyter"><kbd class="item-tag">jupyter</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/numpy"><kbd class="item-tag">numpy</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/open-source"><kbd class="item-tag">open source</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/pandas"><kbd class="item-tag">pandas</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/pyplot"><kbd class="item-tag">pyplot</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/python"><kbd class="item-tag">python</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/seaborn"><kbd class="item-tag">seaborn</kbd></a>
+
+
+
+</div>
+ 
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LogWatcher on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/logwatcher/</link>
+    <description>Recent content in LogWatcher on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Dec 2018 20:14:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/logwatcher/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SHA-256 checksums for LogWatcher</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/07/sha-256-checksums-for-logwatcher/</link>
+      <pubDate>Fri, 07 Dec 2018 20:14:48 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/07/sha-256-checksums-for-logwatcher/</guid>
+      <description>The more I was thinking about it, since LogWatcher is a server utility and may occasionally be run with escalated privileges, I thought it would be wise to publish checksums for integrity.
+LogWatcher is a utility to perform very simple automated system monitoring and alerting. It is an ideal solution to use in conjunction with a web app that has a sound event logging architecture implemented. LogWatcher simply watches an error log file for any anomalous behavior.</description>
+    </item>
+    
+  </channel>
+</rss>

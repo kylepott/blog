@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>netcat on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/netcat/</link>
+    <description>Recent content in netcat on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Apr 2019 19:41:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/netcat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conwell Quotes - WordPress Plugin With a Backdoor</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/04/14/conwell-quotes-wordpress-plugin-with-a-backdoor/</link>
+      <pubDate>Sun, 14 Apr 2019 19:41:16 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/04/14/conwell-quotes-wordpress-plugin-with-a-backdoor/</guid>
+      <description>Conwell Quotes is a malicious WordPress plugin that hides a reverse shell in a backdoor behind legitimate plugin functionality. This is used for offensive security purposes.
+Here is a direct download of version 1.0 of the plugin that you can add to WordPress.
+You can find the open source code on GitHub.
+Modeled after the Hello Dolly plugin which comes packaged on all new WordPress installation, Conwell Quotes displays a random quote on each page of the WordPress admin portal based on Conwell&amp;rsquo;s Acres of Diamonds (which is one of my favorite books).</description>
+    </item>
+    
+    <item>
+      <title>Exfiltrating Data from MySQL and Postgres</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/exfiltrating-data-from-mysql-and-postgres/</link>
+      <pubDate>Tue, 26 Feb 2019 02:58:16 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/exfiltrating-data-from-mysql-and-postgres/</guid>
+      <description>I continued experimenting with Metasploitable 2. Over the past few days I managed to gain access to the MySQL and Postgres databases and used net cat to dump the databases and export them.
+Using a similar technique as before, I used a reverse shell exploit to control the host, I launched mysql, queried the database to view the users, and found that two users didn&amp;rsquo;t have passwords.
+I then used the guest account to dump the tables into a zip file and used net cat to send the file from the host over to my attacker.</description>
+    </item>
+    
+  </channel>
+</rss>

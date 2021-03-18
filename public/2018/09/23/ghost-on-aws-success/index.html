@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ghost on AWS - success!</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Ghost on AWS - success!</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Ghost on AWS - success!</h2>
+        <h5>September 23, 2018</h5>
+        
+
+    </div>
+
+    <div align="start" class="content"><p><img src="https://technicalagain.com/wp-content/uploads/2018/09/gnome-shell-screenshot-1KBXPZ.png" alt=""></p>
+<p>This is the third and final part of my first foray into AWS.  You can read <a href="https://technicalagain.com/2018/09/18/first-foray-into-aws/">part 1</a> and <a href="https://technicalagain.com/2018/09/20/more-aws/">part 2</a>.  AWS is great.  Getting access is secure and easy and you can&rsquo;t beat free. AWS is incredibly quick at spinning up  new instances and once connected over SSH it is extremely fast - it rivals the feel of a local installation - almost no latency for me.</p>
+<p>After getting Ubuntu installed, I spent the last few evenings attempting to install Ghost per <a href="https://docs.ghost.org/docs/install">these instructions</a>.  <a href="https://ghost.org/">Ghost</a> is still an early work in progress. I had a lot of challenges. For example, the presence of a simple <code>.config</code> file blocked the installation until I deleted it.  During the installation, file premissions kept changing between my account and the newly installed Ghost account.  This is what ultimately blocked me completely.  No amount of <code>chown</code> or <code>chmod</code> adjustment would make Ghost work.  I tried every conceivable combination of ownership for <code>/var/www/ghost</code> including my account, the ghost account, and adding both to <code>sudoers</code>.  The only thing I stopped short of was changing the ownership to root which just didn&rsquo;t seem appropriate.</p>
+<p>I ended up abandoning my own attempt to install Ghost and instead tried out the <a href="https://docs.bitnami.com/aws/apps/ghost/">Bitnami installation of Ghost</a>.  This is a pretty cool capability within AWS - essentially an &ldquo;app store&rdquo; with Amazon Machine Images (AMIs) that you can install for free (or purchase).  The AMIs are customized for single or multiple needs.  In my case, Bitnami created a custom AMI with just Ghost installed.  I spun it up and had Ghost running in under five minutes.  All configuration worked out of the box - even punching a hole in UFW - Uncomplicated Firewall so you can navigate to the browser right out of the box and Ghost just works.  That is pretty cool!  It would be great for the Ghost team to launch their own AMI instead of relying on Bitnami. I think Automattic should consider doing the same with WordPress.</p>
+<h2 id="thoughts-on-ghost">Thoughts on Ghost</h2>
+<p>Ghost is built with a a good value proposition in mind: a more modern and faster architecture than WordPress and keeping the feature set to just the essential.  I agree that over time WordPress has developed some bloat - both in terms non-essential features and UI clutter.</p>
+<p>Ghost has a few drawbacks that I&rsquo;m sure the team is working on.  For one, the installation process needs to be streamlined.  I&rsquo;m pretty proficient at Linux having over 15 years experience with Ubuntu and I couldn&rsquo;t get the install to work.  There is a wide gap between the installation process for Ghost and the &ldquo;World Famous&rdquo; five minute install for WordPress.</p>
+<p>The universe of available hosting platforms is very small.  I can understand this approach because Ghost is basically betting big on AWS - which makes sense to me.  The architecture of Ghost has a few drawbacks in my opinion.  For example, to install a new theme you have to reboot the server.  Not surprising, but since Ghost is so new, the ecosystem of plugins, themes, and other capabilities is nowhere near the universe of extensions available to WordPress.</p>
+<p>In general, the UI and blogging experience is clean and simple, but not remarkably different than WordPress, in my opinion anyway.</p>
+<p>A few benefits worth noting.  Relative to my current situation, Ghost on AWS allows full control of the server.  From a security perspective, this would allow me to control and monitor the entire server and firewall configurations.  That moves the responsibility for controls from my hosting provider to me.  I would like that.  As with all AWS appliances, Ghost has the potential to be a fair bit cheaper than a traditional WordPress blog on a regular domain host - but that depends hugely on the amount of traffic and purpose of the blog.</p>
+<p>In total, Ghost is an interesting idea, I really like how it is &ldquo;designed&rdquo; for AWS.  But the install is too complex, the architecture needs some continuous improvement and the ecosystem needs to keep growing.  I would consider this project more frustrating than fun - messing with file permissions over and over not really all that enjoyable!  For now I won&rsquo;t be migrating this blog over to Ghost, but I&rsquo;ll keep an eye on how the product matures over time.</p>
+</div>
+
+    
+    
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

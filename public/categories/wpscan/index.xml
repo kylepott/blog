@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WPScan on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/wpscan/</link>
+    <description>Recent content in WPScan on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 May 2018 00:54:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/wpscan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Brute Force WordPress Passwords with WPScan and Tor</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/</link>
+      <pubDate>Fri, 18 May 2018 00:54:54 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/</guid>
+      <description>Visit [Center City Security](https://centercitysecurity.com?utm_source=TechnicalAgain.com&amp;amp;utm_medium=https://technicalagain.com/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/&amp;amp;utm_campaign=Technical Again Brute Force Wordpress Passwords with wpscan and tor&amp;amp;utm_content=header) for WordPress Penetration Testing and Security services.
+I took another crack, pun intended, at brute forcing my WordPress password using WPScan. Unlike when I tried it the other day, this time I used Tor and set up a SOCKs proxy to make use of a false IP address. My thinking was that my web host might black list my IP after a certain number of failed attempts, so by using Tor I could simply switch IP addresses once the blacklist went into effect.</description>
+    </item>
+    
+    <item>
+      <title>Scan Wordpress for Vulnerabilities with WPScan</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/scan-wordpress-for-vulnerabilities-with-wpscan/</link>
+      <pubDate>Sat, 12 May 2018 02:23:42 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/scan-wordpress-for-vulnerabilities-with-wpscan/</guid>
+      <description>I scanned my own Wordpress sites for vulnerabilites using a powerful command-line utility, WPScan. WPScan is a black box vulnerability scanner specifically for WordPress. It is a stark reminder why it is so important to minimize the number of plugins you use, delete the ones you have deactivated, and make sure you are keeping your software up-to-date. One simple little command: sudo wpscan example.com -u will list all the WordPress usernames, plugins installed, whether active or not, as well as all published vulnerabilities for the plugins, whether they have been fixed, as well as how to exploit them.</description>
+    </item>
+    
+  </channel>
+</rss>

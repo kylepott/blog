@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chromebook on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/chromebook/</link>
+    <description>Recent content in chromebook on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Nov 2017 14:32:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/chromebook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dual Boot GalliumOS on a Chromebook</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/26/fully-installing-linux-on-a-chromebook/</link>
+      <pubDate>Sun, 26 Nov 2017 14:32:14 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/26/fully-installing-linux-on-a-chromebook/</guid>
+      <description>[ ](https://i.imgur.com/XP6LFjd.png) I had some success running Ubuntu on my Chromebook through Crouton, but I started running into issues. My hypothesis is that since aspects of the Linux kernel are shared between ChromeOS through chroot with Crouton, I couldn&amp;rsquo;t get a clean installation of Apache to run. I assume this was due to permissions. So I set out on yet another Linux adventure to do a true installation of Linux on the Chromebook.</description>
+    </item>
+    
+  </channel>
+</rss>

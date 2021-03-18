@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ProjectSuccess on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/projectsuccess/</link>
+    <description>Recent content in ProjectSuccess on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Sep 2018 13:56:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/projectsuccess/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ghost on AWS - success!</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</link>
+      <pubDate>Sun, 23 Sep 2018 13:56:20 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/23/ghost-on-aws-success/</guid>
+      <description>This is the third and final part of my first foray into AWS. You can read part 1 and part 2. AWS is great. Getting access is secure and easy and you can&amp;rsquo;t beat free. AWS is incredibly quick at spinning up new instances and once connected over SSH it is extremely fast - it rivals the feel of a local installation - almost no latency for me.
+After getting Ubuntu installed, I spent the last few evenings attempting to install Ghost per these instructions.</description>
+    </item>
+    
+    <item>
+      <title>More Resource Discovery with ForzaBruta.py</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/09/04/more-resource-discovery-with-forzabruta-py/</link>
+      <pubDate>Tue, 04 Sep 2018 18:27:07 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/09/04/more-resource-discovery-with-forzabruta-py/</guid>
+      <description>Been a busy summer, but I spent some time continuing the work I previously wrote about the brute-forcer, ForzaBruta.py. This time working through the Lynda coursework to iterate on the brute-forcer to add convenience and analysis capabilities:
+ * Take screenshots * Capture the MD5 checksum to compare the file contents * Record number of words and characters in each file and the time to load * Filtering and coloring based on return code * Filter for only certain file extensions.</description>
+    </item>
+    
+    <item>
+      <title>Build an eCommerce Website with WooCommerce</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/build-an-ecommerce-website/</link>
+      <pubDate>Sat, 12 May 2018 01:11:17 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/build-an-ecommerce-website/</guid>
+      <description>I spent the last three weeks designing, building, testing, debugging and putting the finishing touches on my first eCommerce website, complete with a full shopping cart experience and product purchase workflow. One of my original project goals in launching this site was to learn how to take a payment online. This turned out to be relatively straight forward.
+I considered three possible approaches for this project: Wordpress with WooCommerce, Bootstrap with a shopping cart add-in, and Shopify.</description>
+    </item>
+    
+    <item>
+      <title>Rolling My Own Password Manager (Part 2)</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/05/rolling-my-own-password-manager-part-2/</link>
+      <pubDate>Thu, 05 Apr 2018 02:25:52 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/05/rolling-my-own-password-manager-part-2/</guid>
+      <description>Continuing the review of how I implemented my own password manager, this is part two. If you&amp;rsquo;d like to read part 1, you can do so here. For somewhat obvious reasons I am not going to share the product name or the specific details about my implementation broadly here. I would be glad to provide a bit more information: if you are so interested, leave a comment below and I can reply to your question directly.</description>
+    </item>
+    
+    <item>
+      <title>Rolling My Own Proper Password Manager (Part 1)</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/03/31/rolling-my-own-proper-password-manager/</link>
+      <pubDate>Sat, 31 Mar 2018 14:54:36 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/03/31/rolling-my-own-proper-password-manager/</guid>
+      <description>On previous posts here I shared my poor hygiene when it comes to password management (reusing the same password and not having passwords complex enough). I&amp;rsquo;m really happy to say I&amp;rsquo;ve made some major improvements. I&amp;rsquo;ve been meaning to roll my own password manager and I had a few requirements in mind.
+1.) I wanted to host the web application myself on my own server so I could access it from any device and share access with my spouse.</description>
+    </item>
+    
+    <item>
+      <title>TurboTerm: The (Re-)Birth of My First Open Source Project</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/28/turboterm-the-re-birth-of-my-first-open-source-project/</link>
+      <pubDate>Tue, 28 Nov 2017 03:34:07 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/28/turboterm-the-re-birth-of-my-first-open-source-project/</guid>
+      <description>[ ](https://i.imgur.com/46O1Eyk.png) A quick note to mention I authored my first open source project today. Not only was it a great chance to breathe some life into an old project of mine, but a chance to officially get comfortable using Git and GitHub. More work and learning to do, but I am very proud to have a working (on Linux, anyway) terminal configuration utility. I have included a todo file to capture the enhancements I plan to make.</description>
+    </item>
+    
+    <item>
+      <title>Dual Boot GalliumOS on a Chromebook</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/26/fully-installing-linux-on-a-chromebook/</link>
+      <pubDate>Sun, 26 Nov 2017 14:32:14 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/26/fully-installing-linux-on-a-chromebook/</guid>
+      <description>[ ](https://i.imgur.com/XP6LFjd.png) I had some success running Ubuntu on my Chromebook through Crouton, but I started running into issues. My hypothesis is that since aspects of the Linux kernel are shared between ChromeOS through chroot with Crouton, I couldn&amp;rsquo;t get a clean installation of Apache to run. I assume this was due to permissions. So I set out on yet another Linux adventure to do a true installation of Linux on the Chromebook.</description>
+    </item>
+    
+    <item>
+      <title>The Open Source Truck</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/12/the-open-source-truck/</link>
+      <pubDate>Sun, 12 Nov 2017 14:47:25 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/12/the-open-source-truck/</guid>
+      <description>[caption id=&amp;quot;attachment_103&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;660&amp;rdquo;]The open source equivalent in a truck.[/caption]
+I went offline for project number 3. I drive a 1991 GMC C2500 pickup truck. I&amp;rsquo;ve owned this beautiful gold truck for about four years. In it&amp;rsquo;s own, non-Internet-y way, the truck itself follows our ground rules. It was cheap and paid for in cash (Rule #2). You can buy a laptop for more than I spent on this. Whenever possible I try to do the work on it myself (Rule #1).</description>
+    </item>
+    
+    <item>
+      <title>Run Ubuntu Linux on a Chromebook</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/11/run-ubuntu-linux-on-a-chromebook/</link>
+      <pubDate>Sat, 11 Nov 2017 01:03:05 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/11/run-ubuntu-linux-on-a-chromebook/</guid>
+      <description>Project number 2 is in the can! I am now running Ubuntu Linux on my Acer Chromebook in a dual boot environment thanks to Crouton. Actually, it would be more accurate to say that I am running Ubuntu Linux concurrently and on top of the Chromium kernel. This 11 inch 64 bit Intel white workhorse met my needs for casual browsing since I first bought it in April of 2015. Great battery life, to boot.</description>
+    </item>
+    
+    <item>
+      <title>We landed here, on the internet, safely in one piece!</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2017/11/07/hello-world/</link>
+      <pubDate>Tue, 07 Nov 2017 01:58:27 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2017/11/07/hello-world/</guid>
+      <description>Our first project is in the can! I call this project &amp;ldquo;Make a Website, Start Following Through on Your Development Plan.&amp;rdquo;
+The first step was to find a domain name using Instant Domain Search. I&amp;rsquo;ve been using this site for at least 5 years and it remains the fastest and simplest way to find a domain.
+I then bought the cheapest hosting plan on Bluehost after hearing an advertisement on The Bill Simmons podcast.</description>
+    </item>
+    
+  </channel>
+</rss>

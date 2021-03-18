@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prophet on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/prophet/</link>
+    <description>Recent content in prophet on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Apr 2020 02:25:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/prophet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>According to Facebook, I Will Have a Dad-Bod on June 28, 2021</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/</link>
+      <pubDate>Tue, 14 Apr 2020 02:25:01 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/</guid>
+      <description>I stepped on the scale more than 1000 times in the past decade and then used Facebook&amp;rsquo;s predictive modeling framework, Prophet, to see what I will weigh in five years if I don&amp;rsquo;t make changes. At 5&amp;rsquo;9&amp;rdquo; I&amp;rsquo;ll officially have a Dad-Bod when I pass 200 lbs. on June 28, 2021.
+Note: I couldn&amp;rsquo;t help myself from using a click bait headline. The only thing Facebook has to do with this post is I used an amazing open source prediction library they created called Prophet.</description>
+    </item>
+    
+  </channel>
+</rss>

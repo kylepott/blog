@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/server/</link>
+    <description>Recent content in Server on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Apr 2018 01:40:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting Up A New Ubuntu Linux Server</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/setting-up-a-new-ubuntu-linux-server/</link>
+      <pubDate>Tue, 17 Apr 2018 01:40:37 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/04/17/setting-up-a-new-ubuntu-linux-server/</guid>
+      <description>I have plans to start a second open source project that will need a server so over the past few days I re-purposed an old Windows laptop into a server running Ubuntu Linux.
+The installation was a little tricky because after I downloaded the Ubuntu installation file, I discovered that the DVD burner on this old laptop was no longer working. Instead, I needed to create a bootable USB. Rufus is a great utility that made this very fast and easy.</description>
+    </item>
+    
+  </channel>
+</rss>

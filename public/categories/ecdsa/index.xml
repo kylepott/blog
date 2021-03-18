@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ecdsa on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/ecdsa/</link>
+    <description>Recent content in ecdsa on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Dec 2018 13:53:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/ecdsa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generating Public/Private Key Pairs</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/generating-public-private-key-pairs/</link>
+      <pubDate>Wed, 12 Dec 2018 13:53:37 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/12/generating-public-private-key-pairs/</guid>
+      <description>My public key is copied at the bottom of this post. I used ecdsa instead of RSA due to the exponentially longer time it would take to brute force&amp;ndash;and at a size of 521 bits that should be practicably impossible. Great write up on the topic here.
+As with elliptic-curve cryptography in general, the bit size of the public key believed to be needed for ECDSA is about twice the size of the security level, in bits.</description>
+    </item>
+    
+  </channel>
+</rss>

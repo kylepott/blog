@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/python/</link>
+    <description>Recent content in python on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 May 2020 18:24:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Machine Learning - Transforming Photos into 3D with Python</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/</link>
+      <pubDate>Mon, 11 May 2020 18:24:46 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/</guid>
+      <description>I adding depth to an image and created a 3D look from a photo. This is another example of a project that can only be realized due to the amazing era we live - thanks to an amazing open source project on GitHub and the pay-as-you-go pricing on AWS.
+Follow this post to add a 3D look to your own photos. You&amp;rsquo;ll need some familiarity with AWS EC2, AWS CloudWatch, and SSH/SCP to log in to your EC2 instance and move files back and forth.</description>
+    </item>
+    
+    <item>
+      <title>Multiplayer Online Game in Python</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/05/07/multiplayer-online-game-in-python/</link>
+      <pubDate>Thu, 07 May 2020 01:11:33 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/05/07/multiplayer-online-game-in-python/</guid>
+      <description>Slide 5 or 6 Nimmit! can be played with an actual card deck
+My clone of Slide 5 written in Python
+I almost gave up and quit on this project. I&amp;rsquo;m so glad I stuck with it because the results were so worth it.
+After playing the Slide 5 card game I thought it would be a great game to clone into an online game that can be played with friends over Zoom during the pandemic lock in.</description>
+    </item>
+    
+    <item>
+      <title>Part 2: My Future Self is Beating the Dad-Bod</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/04/16/part-2-my-future-self-is-beating-the-dad-bod/</link>
+      <pubDate>Thu, 16 Apr 2020 01:56:24 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/04/16/part-2-my-future-self-is-beating-the-dad-bod/</guid>
+      <description>Every day right at 4pm when I should just about be getting hungry for dinner and losing motivation, I get a text message from My Future Self. The text message reminds me of my weight for today and compares it against all of the other 1048 entries I&amp;rsquo;ve logged on my scale the last decade.
+**My Future Self **is smart enough to compare my weight to the previous day to give some encouragement or tough love.</description>
+    </item>
+    
+    <item>
+      <title>According to Facebook, I Will Have a Dad-Bod on June 28, 2021</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/</link>
+      <pubDate>Tue, 14 Apr 2020 02:25:01 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/</guid>
+      <description>I stepped on the scale more than 1000 times in the past decade and then used Facebook&amp;rsquo;s predictive modeling framework, Prophet, to see what I will weigh in five years if I don&amp;rsquo;t make changes. At 5&amp;rsquo;9&amp;rdquo; I&amp;rsquo;ll officially have a Dad-Bod when I pass 200 lbs. on June 28, 2021.
+Note: I couldn&amp;rsquo;t help myself from using a click bait headline. The only thing Facebook has to do with this post is I used an amazing open source prediction library they created called Prophet.</description>
+    </item>
+    
+    <item>
+      <title>Building a Model to Pick NCAA First Round Winners</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/</link>
+      <pubDate>Sun, 15 Mar 2020 19:29:44 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/</guid>
+      <description>Update: I&amp;rsquo;m bummed that the Big Ten and NCAA tournaments were canceled. Subsequently, my trip to Vegas was canceled and therefore, there&amp;rsquo;s really no point in my model - at least for 2020. That said, it&amp;rsquo;s still a great learning opportunity and I finished the work, which is included below. _ The work here can serve as a good starting point for the 2021 tournament_ _where I expect my Illini will be a three seed and at least co-champions of the Big Ten.</description>
+    </item>
+    
+    <item>
+      <title>Using Data Science to Pick NCAA Tournament First Round Winners</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/</link>
+      <pubDate>Sat, 07 Mar 2020 01:42:53 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/</guid>
+      <description>“Usually the team that scores the most points wins the game.” - John Madden
+Update: If you&amp;rsquo;d like to jump right to part 2 of this series you can do so here where I turn the regression analysis into a really basic data science model.
+I&amp;rsquo;m taking the first steps of an 18-24 month journey with a beginner&amp;rsquo;s mindset to establish and grow my data science skills. What better way to begin to learn new skills in March than by applying them to March Madness?</description>
+    </item>
+    
+  </channel>
+</rss>

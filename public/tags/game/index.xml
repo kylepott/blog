@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>game on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/game/</link>
+    <description>Recent content in game on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 May 2020 01:11:33 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Multiplayer Online Game in Python</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/05/07/multiplayer-online-game-in-python/</link>
+      <pubDate>Thu, 07 May 2020 01:11:33 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/05/07/multiplayer-online-game-in-python/</guid>
+      <description>Slide 5 or 6 Nimmit! can be played with an actual card deck
+My clone of Slide 5 written in Python
+I almost gave up and quit on this project. I&amp;rsquo;m so glad I stuck with it because the results were so worth it.
+After playing the Slide 5 card game I thought it would be a great game to clone into an online game that can be played with friends over Zoom during the pandemic lock in.</description>
+    </item>
+    
+  </channel>
+</rss>

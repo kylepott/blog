@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maltego on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/maltego/</link>
+    <description>Recent content in maltego on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2018 21:13:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/maltego/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Graphing Intel with Maltego</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/18/graphing-intel-with-maltego/</link>
+      <pubDate>Tue, 18 Dec 2018 21:13:40 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/18/graphing-intel-with-maltego/</guid>
+      <description>Maltego is a powerful intelligence gathering utility that allows simple and visual reconnaissance of a host, website, person, and a whole heck of a lot of other topics that can be extended with utilities available in the Transform Hub. I did some straightforward querying on my own infrastructure for technicalagain.com.
+There are other utilities available to pull down some of the same information as Maltego, but none that I have come across that are as powerful outside the terminal and none are nearly so visual.</description>
+    </item>
+    
+  </channel>
+</rss>

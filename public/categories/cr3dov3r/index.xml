@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cr3dov3r on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/cr3dov3r/</link>
+    <description>Recent content in cr3dov3r on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Dec 2018 20:57:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/cr3dov3r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Credential Stuffing with Cr3dOv3r</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/12/03/credential-stuffing-with-cr3dov3r/</link>
+      <pubDate>Mon, 03 Dec 2018 20:57:24 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/12/03/credential-stuffing-with-cr3dov3r/</guid>
+      <description>After the Dunkin Donuts credential stuffing breach I went on the lookout for a tool to search for and find leaked credentials. I came across Cr3dOv3r, a nice little Python script that let&amp;rsquo;s you search for an email address to see which sites leaked it and when. It also let&amp;rsquo;s you search to find out if a plaintext password was leaked. You can then enter the leaked password, or any password of your choosing, across a broad array of sites and the utility will automatically test to see if it is still valid.</description>
+    </item>
+    
+  </channel>
+</rss>

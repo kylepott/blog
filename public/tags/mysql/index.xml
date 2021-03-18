@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/mysql/</link>
+    <description>Recent content in mysql on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Feb 2019 02:58:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exfiltrating Data from MySQL and Postgres</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/exfiltrating-data-from-mysql-and-postgres/</link>
+      <pubDate>Tue, 26 Feb 2019 02:58:16 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/02/26/exfiltrating-data-from-mysql-and-postgres/</guid>
+      <description>I continued experimenting with Metasploitable 2. Over the past few days I managed to gain access to the MySQL and Postgres databases and used net cat to dump the databases and export them.
+Using a similar technique as before, I used a reverse shell exploit to control the host, I launched mysql, queried the database to view the users, and found that two users didn&amp;rsquo;t have passwords.
+I then used the guest account to dump the tables into a zip file and used net cat to send the file from the host over to my attacker.</description>
+    </item>
+    
+  </channel>
+</rss>

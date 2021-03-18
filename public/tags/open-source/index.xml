@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open source on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/open-source/</link>
+    <description>Recent content in open source on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Apr 2020 02:25:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>According to Facebook, I Will Have a Dad-Bod on June 28, 2021</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/</link>
+      <pubDate>Tue, 14 Apr 2020 02:25:01 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/04/14/according-to-facebook-i-will-have-a-dad-bod-on-june-28-2021/</guid>
+      <description>I stepped on the scale more than 1000 times in the past decade and then used Facebook&amp;rsquo;s predictive modeling framework, Prophet, to see what I will weigh in five years if I don&amp;rsquo;t make changes. At 5&amp;rsquo;9&amp;rdquo; I&amp;rsquo;ll officially have a Dad-Bod when I pass 200 lbs. on June 28, 2021.
+Note: I couldn&amp;rsquo;t help myself from using a click bait headline. The only thing Facebook has to do with this post is I used an amazing open source prediction library they created called Prophet.</description>
+    </item>
+    
+    <item>
+      <title>Using Data Science to Pick NCAA Tournament First Round Winners</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/</link>
+      <pubDate>Sat, 07 Mar 2020 01:42:53 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/</guid>
+      <description>“Usually the team that scores the most points wins the game.” - John Madden
+Update: If you&amp;rsquo;d like to jump right to part 2 of this series you can do so here where I turn the regression analysis into a really basic data science model.
+I&amp;rsquo;m taking the first steps of an 18-24 month journey with a beginner&amp;rsquo;s mindset to establish and grow my data science skills. What better way to begin to learn new skills in March than by applying them to March Madness?</description>
+    </item>
+    
+    <item>
+      <title>Conwell Quotes - WordPress Plugin With a Backdoor</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/04/14/conwell-quotes-wordpress-plugin-with-a-backdoor/</link>
+      <pubDate>Sun, 14 Apr 2019 19:41:16 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/04/14/conwell-quotes-wordpress-plugin-with-a-backdoor/</guid>
+      <description>Conwell Quotes is a malicious WordPress plugin that hides a reverse shell in a backdoor behind legitimate plugin functionality. This is used for offensive security purposes.
+Here is a direct download of version 1.0 of the plugin that you can add to WordPress.
+You can find the open source code on GitHub.
+Modeled after the Hello Dolly plugin which comes packaged on all new WordPress installation, Conwell Quotes displays a random quote on each page of the WordPress admin portal based on Conwell&amp;rsquo;s Acres of Diamonds (which is one of my favorite books).</description>
+    </item>
+    
+  </channel>
+</rss>

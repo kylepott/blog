@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stripe on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/categories/stripe/</link>
+    <description>Recent content in Stripe on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 May 2018 01:11:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/categories/stripe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build an eCommerce Website with WooCommerce</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/build-an-ecommerce-website/</link>
+      <pubDate>Sat, 12 May 2018 01:11:17 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2018/05/12/build-an-ecommerce-website/</guid>
+      <description>I spent the last three weeks designing, building, testing, debugging and putting the finishing touches on my first eCommerce website, complete with a full shopping cart experience and product purchase workflow. One of my original project goals in launching this site was to learn how to take a payment online. This turned out to be relatively straight forward.
+I considered three possible approaches for this project: Wordpress with WooCommerce, Bootstrap with a shopping cart add-in, and Shopify.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hack the Box - Cartographer &#43; Grammar</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Hack the Box - Cartographer &#43; Grammar</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Hack the Box - Cartographer &#43; Grammar</h2>
+        <h5>April 28, 2019</h5>
+        
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/apache"><kbd class="item-tag">apache</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/blns"><kbd class="item-tag">blns</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/cve"><kbd class="item-tag">cve</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/dirb"><kbd class="item-tag">dirb</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/hackthebox"><kbd class="item-tag">hackthebox</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/htb"><kbd class="item-tag">htb</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/hydra"><kbd class="item-tag">hydra</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/nmap"><kbd class="item-tag">nmap</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/ubuntu"><kbd class="item-tag">ubuntu</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p><a href="https://www.hackthebox.eu/">Hack the Box</a> is a great free resource to play capture the flag by practicing penetration testing on a variety of different labs spanning just about every domain of offensive security.  Over the past few months I completed two introductory exercises, HDC and Lernaen.</p>
+<p>This weekend I cleared Cartographer <em>(update: and Grammar - more at the very bottom)</em> and will detail my approach and learnings below.  In doing these exercises, so much learning happens figuring out what <em>doesn&rsquo;t</em> work.</p>
+<h3 id="what-didnt-work">What didn&rsquo;t work?</h3>
+<p>When you open the lab you&rsquo;re presented with a basic web form.</p>
+<p><img src="https://technicalagain.com/wp-content/uploads/2019/04/Screenshot-from-2019-04-27-20-47-29.png" alt=""></p>
+<p>After doing reconnaissance, I learned and formulated the following plans.</p>
+<ul>
+<li>The web form gives no error message for incorrect credentials.  <em>I could automate a high volume credential brute force attack.</em> The web form is a basic username:password &ldquo;POST&rdquo; interaction with the server.  Pretty standard, pretty straightforward.  * I browsed the source code.  Nothing juicy, no JavaScript, no custom approaches to authentication.  * I browsed for _.htaccess, robots.txt. _ No help.  * I could use dirb to enumerate the directory structure and PHP page names.  * I used nmap to fingerprint and learn it is an Ubuntu server running Apache 2.4.18.  The main page is written in PHP.  <em>I could try some of the excellent <a href="https://www.cvedetails.com/vulnerability-list/vendor_id-45/product_id-66/version_id-199589/Apache-Http-Server-2.4.18.html">CVEs published</a> due to Apache being unpatched.</em>  * Lastly, if nothing else was successful, I could try SQL injection, server injection and a number of other malformed inputs using the <a href="https://github.com/minimaxir/big-list-of-naughty-strings">Big List of Naughty Strings</a>.</li>
+</ul>
+<p>I used Hydra to automate a bruteforce attack on the credentials.  I did this by starting with a list of all of the basic Apache and tomcat default credentials.  This took a long time, but did not help.</p>
+<p>I then used dirb and discovered two interesting pages: <em>/server-status,</em> a default Apache page which was hidden behind a 403 forbidden page.  As well as <em>panel.php</em> which was a 300 redirect back to <em>index.php</em>. I lost a lot of time using Metasploit and Burpsuite to attempt to hack into these pages using exploits and manipulating the headers.  My thinking was that I might be able to exploit the unpatched version of Apache.  Wrong! This turned out to be a distraction.</p>
+<p>Finally, I referenced the Big List of Naughty Strings and manually attempted a number of fuzzing queries including server code injection, URL hacking, XXE injection, file inclusion, and then SQL injection.  Copying and pasting either of these commands into both the username and password fields worked: ' OR 1=1 &ndash; 1 and ' OR &lsquo;1'='1.  I tried to automate these attacks using Burpsuite, but still have a lot to learn there.</p>
+<p><img src="https://technicalagain.com/wp-content/uploads/2019/04/Screenshot-from-2019-04-27-21-06-08.png" alt=""></p>
+<h3 id="what-worked">What worked</h3>
+<p>The SQL injection unlocked two important pieces of information.</p>
+<p>1.) The URL changed to /_panel.php?info=home _What else could home be changed to?</p>
+<p>2.) A cookie with <em>PHPSESSID</em> was established and used for session management.</p>
+<p>I customized dirb by passing in the cookie with the <em>PHPSESSID</em> and I used the <em>common.txt</em> wordlist and bingo.  I found the flag and completed the exercise.  This took three iterations.  At first dirb gave me no results, because I did not pass the cookie.  Then I used the small.txt wordlist which was too small.  On my third try I finally found the flag.</p>
+<p><img src="https://technicalagain.com/wp-content/uploads/2019/04/Screenshot-from-2019-04-27-20-26-01.png" alt=""></p>
+<h3 id="reflections">Reflections&hellip;</h3>
+<p>I didn&rsquo;t prioritize my work well.  I started with some heavy, somewhat advanced and time consuming attacks before I finished reconaissance and thought through my approach.  I bypassed the simpler stuff which ended up being the <em>effective</em> stuff.  I&rsquo;m going to try to do better than that in the next lab.</p>
+<p>Hack the Box is a lot of fun.  Great learning.  A truly awesome resource.  I&rsquo;m going to try to tackle Grammar next.  Grammar is the toughest web lab on Hack the Box so we&rsquo;ll see.</p>
+<p><em>Update: I did end up completing Grammar today, too.  I used many of the same reconnaissance techniques on Grammar and Cartographer.  I won&rsquo;t elaborate much on Grammar, but I will say I did use one hint, I needed syntax help to remove quotes and add in a semi-colon when cookie hijacking.</em></p>
+<p>_Grammar requires a similar approach to actually getting a Hack the Box invite: Change a GET request to a POST request, decode a session cookie, and take advantage of PHP type juggling vulnerability. I learned a lot about Burp in this exercise and a whole lot about PHP type comparisons. <br>
+_</p>
+</div>
+
+    
+    
+    
+        <h4 class="page-header">Related</h4>
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2019/02/19/my-first-metasploitable-vulnerability-and-exploit/">My First Metasploitable Vulnerability, Exploit, and Fix</a></h4>
+    <h5>February 19, 2019</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/kali"><kbd class="item-tag">kali</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/msf2"><kbd class="item-tag">msf2</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/nmap"><kbd class="item-tag">nmap</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/rlogin"><kbd class="item-tag">rlogin</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/rsh-client"><kbd class="item-tag">rsh-client</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2019/02/19/building-a-hacking-lab/">Building a Hacking Lab</a></h4>
+    <h5>February 19, 2019</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/kali"><kbd class="item-tag">kali</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/msf2"><kbd class="item-tag">msf2</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/ubuntu"><kbd class="item-tag">ubuntu</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/virtualbox"><kbd class="item-tag">virtualbox</kbd></a>
+
+
+
+</div>
+ 
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reverse-shell on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/reverse-shell/</link>
+    <description>Recent content in reverse-shell on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Apr 2019 19:41:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/reverse-shell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conwell Quotes - WordPress Plugin With a Backdoor</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/04/14/conwell-quotes-wordpress-plugin-with-a-backdoor/</link>
+      <pubDate>Sun, 14 Apr 2019 19:41:16 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/04/14/conwell-quotes-wordpress-plugin-with-a-backdoor/</guid>
+      <description>Conwell Quotes is a malicious WordPress plugin that hides a reverse shell in a backdoor behind legitimate plugin functionality. This is used for offensive security purposes.
+Here is a direct download of version 1.0 of the plugin that you can add to WordPress.
+You can find the open source code on GitHub.
+Modeled after the Hello Dolly plugin which comes packaged on all new WordPress installation, Conwell Quotes displays a random quote on each page of the WordPress admin portal based on Conwell&amp;rsquo;s Acres of Diamonds (which is one of my favorite books).</description>
+    </item>
+    
+  </channel>
+</rss>

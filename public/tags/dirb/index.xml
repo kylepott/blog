@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dirb on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/dirb/</link>
+    <description>Recent content in dirb on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2019 02:27:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/dirb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hack the Box - Cartographer &#43; Grammar</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2019/04/28/hack-the-box-cartographer/</link>
+      <pubDate>Sun, 28 Apr 2019 02:27:02 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2019/04/28/hack-the-box-cartographer/</guid>
+      <description>Hack the Box is a great free resource to play capture the flag by practicing penetration testing on a variety of different labs spanning just about every domain of offensive security. Over the past few months I completed two introductory exercises, HDC and Lernaen.
+This weekend I cleared Cartographer (update: and Grammar - more at the very bottom) and will detail my approach and learnings below. In doing these exercises, so much learning happens figuring out what doesn&amp;rsquo;t work.</description>
+    </item>
+    
+  </channel>
+</rss>

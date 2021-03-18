@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rolling My Own Password Manager (Part 2)</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Rolling My Own Password Manager (Part 2)</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Rolling My Own Password Manager (Part 2)</h2>
+        <h5>April 5, 2018</h5>
+        
+
+    </div>
+
+    <div align="start" class="content"><p>Continuing the review of how I implemented my own password manager, this is part two.  If you&rsquo;d like to read part 1, you can do so <a href="https://technicalagain.com/2018/03/31/rolling-my-own-proper-password-manager/">here</a>.  For somewhat obvious reasons I am not going to share the product name or the specific details about my implementation broadly here.  I would be glad to provide a bit more information: if you are so interested, leave a comment below and I can reply to your question directly.</p>
+<p>I picked a product that fit the following desirables:</p>
+<pre><code>  * Standalone install on my own server - does not rely upon any third party
+  * Open source and more than 10 years old.  Reasonably active developer community, penetration tested and uses proven encryption algorithms.
+  * The installation was modular allowing me to customize the front- and back-ends I wanted to use.
+  * The solution has logging in place so I can monitor log in attempts.
+</code></pre>
+<h1 id="stumbling-blocks">Stumbling Blocks</h1>
+<p>I mentioned in <a href="https://technicalagain.com/2018/03/31/rolling-my-own-proper-password-manager/">part 1</a> that I had two remaining control efficiencies which I can share now as I have those patched up.  The first issue was a silly mistake.  I had uploaded into my password manager the username and password for the server that hosts the password manager itself.  The issue here is that if the password manager was ever breached and the data stolen, by including the credentials of the host server, a malicious actor could then delete the password manager itself leaving me in a world of hurt.  I have since deleted those credentials.</p>
+<p>The second issue I realized was that I never had a certificate attached to the server leaving me vulnerable to possible man-in-the-middle attacks.  Since one of the pleasures of using a password manager is that I can log in to copy/paste my credentials from my laptop or phone, the chance of using the password manager on a public access point is pretty high.  So I signed up for a free certificate from <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a> to encrypt all the traffic.  My host made it extremely easy to apply the certificate.</p>
+<h1 id="learnings"><strong>Learnings</strong></h1>
+<p>I had a few challenges in this project.  For one thing, I had a really difficult time forwarding all traffic to use https instead of http after I got my certificate installed.</p>
+<p>I was finally able to get forwarding to work by adding the following lines to the <em>.htaccess</em> configuration file located at the root of the public directory.</p>
+<pre><code>RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTPS} off
+RewriteRule ^(&lt;directory name&gt;.*)$ https://www.domainname.com/sub-directory/sub-directory/sub-directory/etc.$1 [L,R=301]
+</code></pre>
+<p>This was particularly nasty because I had intended to use an ._htpasswd _configuration on the server to require &ldquo;double credentialing&rdquo; - one where you log into the directory containing the password manager and one where you log into the password manager itself.  The forwarding rules and the authentication rules for Apache kept stepping on each other and so I decided to abandon the directory authentication.  I definitely lost a lot of time and effort on this, but since directory level authentication in Apache isn&rsquo;t really secure anyway, I decided to cut my losses.</p>
+<p>Another less challenging but important learning was to turn off web crawling using a <em>robots.txt</em> file.  I realize this provides limited control utility, but why have search engines indexing my password manager?  That only creates more visibility and opportunity for malicious actors to find it and attempt exploits on it.  I know that malware crawlers can and do simply ignore <em>robots.txt</em> configurations, but I also know that utilities like <a href="https://github.com/caffix/amass">amass</a> use legitimate search engines that do respect _robots.txt _for intel.  Again, why make it easy?</p>
+<p>Amass searches Internet data sources, performs brute force subdomain enumeration, searches web archives, and uses machine learning to generate additional subdomain name guesses.  I am going to do some experimentation with amass on my own servers to get more familiar.</p>
+<h1 id="further-work">Further Work</h1>
+<p>This has been a fun project.  I have learned a lot and vastly improved my web security and habits.  I have a few more ideas that I plan to work on related to the password manager:</p>
+<pre><code>  * I am going to minify the entire application by removing any reference to its name or any other identifiers in the source code.  It will still be possible for bots to fingerprint my use of the application, but it will take more work for any malicious actors because the basic search phrases and configurations won't work on my instance.
+  * I am still not pleased with the complexity of the passwords I used for the front and backends to communicate - so I'll add more hardening there.  I am also in the process of turning two factor authentication on for all of my assets and need to finish up activating the last few.
+  * I also need to come up with a backup plan for two factor authentication in the event that my phone is lost or broken.
+  * I am going to experiment with [John the Ripper](http://www.openwall.com/john/) to test the encryption and try to crack my own passwords.
+  * I would like to set up a service to download my log file every few minutes, compare it, and send me a text message whenever there is new activity.  That way I am aware of any brute force login attempts that did not originate from me or any other approved user.
+</code></pre>
+</div>
+
+    
+    
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

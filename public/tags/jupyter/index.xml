@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jupyter on Hi, I&#39;m Kyle</title>
+    <link>https://jovial-yonath-8d9e17.netlify.app/tags/jupyter/</link>
+    <description>Recent content in jupyter on Hi, I&#39;m Kyle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Mar 2020 01:42:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://jovial-yonath-8d9e17.netlify.app/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Data Science to Pick NCAA Tournament First Round Winners</title>
+      <link>https://jovial-yonath-8d9e17.netlify.app/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/</link>
+      <pubDate>Sat, 07 Mar 2020 01:42:53 +0000</pubDate>
+      
+      <guid>https://jovial-yonath-8d9e17.netlify.app/2020/03/07/using-data-science-to-pick-ncaa-tournament-first-round-winners/</guid>
+      <description>“Usually the team that scores the most points wins the game.” - John Madden
+Update: If you&amp;rsquo;d like to jump right to part 2 of this series you can do so here where I turn the regression analysis into a really basic data science model.
+I&amp;rsquo;m taking the first steps of an 18-24 month journey with a beginner&amp;rsquo;s mindset to establish and grow my data science skills. What better way to begin to learn new skills in March than by applying them to March Madness?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Automating System Monitoring and Alerting with LogWatcher.sh</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Automating System Monitoring and Alerting with LogWatcher.sh</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Automating System Monitoring and Alerting with LogWatcher.sh</h2>
+        <h5>November 14, 2018</h5>
+        
+
+    </div>
+
+    <div align="start" class="content"><p>Over the past several weeks I completed <a href="https://www.lynda.com/Bash-tutorials/Learning-Bash-Scripting/142989-2.html">this Lynda course</a> about Bash scripting.  The course was great and I was able to put my learnings to use.  I wrote two handy bash scripts: the first is an open source project on GitHub I created called <a href="https://github.com/kylepott/LogWatcher">LogWatcher</a>.  The second is still a work in progress, but can be used to scan database exports and system logs to identify if sensitive data is stored in plain text.  I&rsquo;ll focus on describing the benefits of LogWatcher.</p>
+<p><img src="https://technicalagain.com/wp-content/uploads/2018/11/Screenshot-from-2018-11-13-21-03-58.png" alt=""></p>
+<p>I wrote LogWatcher as a utility to perform automated monitoring and alerting for my <a href="https://technicalagain.com/2018/04/05/rolling-my-own-password-manager-part-2/">password manager</a>.  My password manager already has a great event logging architecture, but it doesn&rsquo;t have any monitoring or alerting for adverse behavior.  So, LogWatcher simply watches the error log for any anomalous behavior.  If someone attempts a log in or someone attempts to read the database or otherwise try any URL hacking the error log will pick it up and then LogWatcher will send me an email alert.</p>
+<p>There are really two versions of LogWatcher.  The first is designed if you are hosting your own server so it relies on pre-configuring SMTP.  The second flavor, LogWatcherBlue.sh, is intended to be uploaded to a web host and relies on the cPanel default email configuration.  Of course, you can always edit the script to send the email to your wireless carrier&rsquo;s SMS gateway and receive a text message.</p>
+<p>**LogWatcher Design
+**</p>
+<p>LogWatcher is a bash shell script, that does the following:</p>
+<p>1.) Connects over SSH into the home directory of the web server.</p>
+<p>2.) Downloads a copy of the error_log</p>
+<p>3.) Compares the error_log to a previous iteration to see if the contents differ - indicating activity (expected or adverse) within the password manager.</p>
+<p>4.) If activity is detected, an alert email is sent with the date and time.</p>
+<p>5.) LogWatcher can be run ad-hoc, but it is really intended to be loaded into Cron and scheduled to run at any interval of your choosing.  I have it set to compare the error_log every minute which essentially provides continuous monitoring and alerting - overkill!</p>
+<p><strong>Learnings</strong></p>
+<p>It&rsquo;s important for the error_log to be secured behind a .htaccess file.  If the error_log sat in the open internet it would defeat its purpose by providing any attacker with the kind of helpful information that would enable their attacks.  This is why we connect with SSH rather than over the open web.</p>
+<p><a href="https://www.howtogeek.com/66776/how-to-remotely-copy-files-over-ssh-without-entering-your-password/">Here&rsquo;s a great technique</a> to connect over SSH using the private key so you don&rsquo;t have to enter your password manually.  Once this is configured LogWatcher runs in a fully automated fashion.</p>
+<p>LogWatcher could be expanded for more features but two notable ones to consider would be: adding a grep search phrase to alert only when specific activity is detected.  LogWatcher could also clean up the error_log so it doesn&rsquo;t grow so large.</p>
+<p>I welcome your input and thanks for checking out <a href="https://github.com/kylepott/LogWatcher">LogWatcher</a>!</p>
+</div>
+
+    
+    
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

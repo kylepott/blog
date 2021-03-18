@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Using Data Science to Pick NCAA Tournament First Round Winners</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">Using Data Science to Pick NCAA Tournament First Round Winners</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>Using Data Science to Pick NCAA Tournament First Round Winners</h2>
+        <h5>March 7, 2020</h5>
+        
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/data-science"><kbd class="item-tag">data science</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/excel"><kbd class="item-tag">excel</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/jupyter"><kbd class="item-tag">jupyter</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/numpy"><kbd class="item-tag">numpy</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/open-source"><kbd class="item-tag">open source</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/pandas"><kbd class="item-tag">pandas</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/pyplot"><kbd class="item-tag">pyplot</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/python"><kbd class="item-tag">python</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/seaborn"><kbd class="item-tag">seaborn</kbd></a>
+
+
+    </div>
+
+    <div align="start" class="content"><p>“Usually the team that scores the most points wins the game.” - John Madden</p>
+<p><em>Update: If you&rsquo;d like to jump right to part 2 of this series you can do so <a href="https://technicalagain.com/2020/03/15/building-a-model-to-pick-ncaa-first-round-winners/">here</a> where I turn the regression analysis into a really basic data science model.</em></p>
+<p>I&rsquo;m taking the first steps of an 18-24 month journey with a beginner&rsquo;s mindset to establish and grow my data science skills. What better way to begin to learn new skills in March than by applying them to <em>March Madness</em>?!</p>
+<p>I&rsquo;ve learned the framework for any good data science problem looks something like:</p>
+<ol>
+<li>What&rsquo;s the question we want to answer?   2. What is the training data set we&rsquo;re going to use?  How are we going to wrangle the data?  3. Exploratory data analysis including identifying relationships.  4. Pre-processing and training data development  5. Modeling  6. Conclusions, documentation, presentation, clean up.</li>
+</ol>
+<p>In this post, I&rsquo;ll tackle the first four steps of this framework and share a few conclusions.  I&rsquo;ll also note right up front, while I&rsquo;m beginning to dive into the technical stack that helps enable data science (Jupyter, Python, Pandas, Numpy, Pyplot, and Seaborn), the problem I tackled could be better classified as a standard &ldquo;statistics&rdquo; problem.  It&rsquo;s definitely a &ldquo;small data&rdquo; problem and I haven&rsquo;t built the model yet - so I don&rsquo;t think it&rsquo;s accurate to claim this work as anything resembling &ldquo;data science&rdquo; yet.</p>
+<p>I&rsquo;m just starting out on this journey. There&rsquo;s probably so much wrong with my thinking here. I would love those with more experience to offer criticism and point out the flaws in my thinking and application.  I tried not to over-complicate the technology, so I used Excel.  The data set could be loaded into a structured database or something even more complex - but why?  Let&rsquo;s keep things as simple as possible.  For the modeling portion I may load it into MySQL or Postgres.</p>
+<p><strong>What&rsquo;s the problem we want to tackle?</strong> How do we pick round 1 tournament winners?  Why do we only care about round 1?  Simple.  I&rsquo;ll be in Las Vegas actually betting on the first round games.  So let&rsquo;s find an asymmetric advantage, put it to use, and benefit from it!  That&rsquo;s the goal any way.  Here are a few of my starting hypotheses:</p>
+<ul>
+<li>In 2018 the NCAA retired the strength of schedule measure, known as RPI, and replaced it with <a href="https://www.ncaa.com/rankings/basketball-men/d1/ncaa-mens-basketball-net-rankings">NET rankings</a>.  The basis of NET rankings is bucketing wins into quads.  The NET rankings take into account, game results, strength of schedule, game location, scoring margin, offensive and defensive efficiency, and quality of wins and losses.  I won&rsquo;t explain all of this here, but my hypothesis is: <em>does playing in and winning quad 1 games correlate with winning a first round tournament game?</em> This hypothesis was born out of frustration seeing a team like Dayton ranked in the top 5 nationally, but having played in only  three quad one games and my beloved Fighting Illini playing in 15+ quad 1s and being ranked #23. I&rsquo;m just not convinced that teams that play in very weak conferences should be in the national conversation, sorry Dayton. P.S. Dayton&rsquo;s strength of schedule ranks 94th nationally.  Dayton&rsquo;s non-conference strength of schedule ranks 185th nationally.  Sorry, that&rsquo;s not a #3 ranked team in my book.  * I dove into the quad 1s and it got me thinking, what factors correlate strongest to winning in the first round?  What&rsquo;s the strongest correlation I can find? Offensive rebounds? Turnovers? Defense? Three point shooting? Getting to the line and actually hitting free throws?  I ran these all down!</li>
+</ul>
+<p>Okay, let&rsquo;s get to it!</p>
+<p><strong>What&rsquo;s the training data we&rsquo;re going to use?</strong> **How do we wrangle the data? **We&rsquo;re going to grab and collate data from a variety of sources - let&rsquo;s start by grabbing the 2019 NCAA first round tournament results.  Let&rsquo;s also grab the Vegas Money Line odds for these games.  I like to bet the Money Line - just picking winners and losers - I don&rsquo;t mess with the spread.  We&rsquo;ll also grab the quad 1 results for each tournament team last year.  We&rsquo;re going to grab the <a href="https://kenpom.com/">KenPom.com</a> data and with a premium subscription from KenPom, we&rsquo;re also going to grab the &ldquo;Four Factors.&rdquo;  I won&rsquo;t exhaustively describe all these factors, but suffice it to say, that I hopped right on the shoulder&rsquo;s of giants and grabbed the absolute cutting edge of basketball stats that I could find:</p>
+<ul>
+<li><strong>Adjusted Efficiency Margin</strong> is the difference between a team’s offensive and defensive efficiency.  It represents the number of points the team would be expected to outscore the average D-I team over 100 possessions.  * <strong>Effective field goal percentage</strong> is like regular field goal percentage except that it gives 50% more credit for made three-pointers.  * <strong>Turnover percentage</strong> is a pace-independent measure of ball security.  * <strong>Offensive rebounding percentage</strong> is a measure of the possible rebounds that are gathered by the offense.  * <strong>Free throw rate</strong> captures a team’s ability to get to the free throw line.  * <strong>Quad 1 Wins</strong> wins over &ldquo;good&rdquo; teams - top 30 wins at home, top 50 wins at a neutral site and top 75 road wins.  We test for wins, attempts, wins + attempts, winning percentage, win margin, and win + attempts margin.</li>
+</ul>
+<p>There are breakouts for offensive efficiency, defensive efficiency and the &ldquo;Four Factors&rdquo; also apply to offense and defense.  Additionally, we include national rankings for each category as well as quad 1 data.  All in, we&rsquo;re looking at 37 different factors to determine correlation.</p>
+<p>Let&rsquo;s write some code!</p>
+<p>I used Pandas to outer join data from three different spreadsheets matching the data according to team name.  This was very, very awesome and easier than collating in Excel directly and much faster than doing it by hand.  The code below reads in a spreadsheet matches the team name and spits out a new spreadsheet with all the data matched up.  Sweet!</p>
+<p><em>Edit: I should have done either a left join or an inner join.  The outer join included everything that matched and everything that did not match.  An inner join or left join would have just included the data about the rows that matched.  Not a big deal, but a learning point that would have resulted in data wrangling and cleanup time for me.</em></p>
+<pre><code>&lt;code&gt;import pandas as pd
+df = pd.read_excel(&quot;kenpom19.xlsx&quot;,&quot;summary19_pt&quot;)
+df2 = pd.read_excel(&quot;offense19.xlsx&quot;,&quot;offense19&quot;)
+outer_join_df = df.merge(df2, how=&quot;outer&quot;, on=&quot;TeamName&quot;)
+outer_join_df.to_excel(&quot;Outerjoin.xlsx&quot;,index=False)
+df3 = pd.read_excel(&quot;Outerjoin.xlsx&quot;,&quot;Sheet1&quot;)
+df4 = pd.read_excel(&quot;defense19.xlsx&quot;, &quot;defense19&quot;)
+outer_join_df2 = df3.merge(df4, how=&quot;outer&quot;, on=&quot;TeamName&quot;)
+outer_join_df2.to_excel(&quot;Outerjoin2.xlsx&quot;,index=False)&lt;/code&gt;
+</code></pre>
+<p><strong>Exploratory data analysis and descriptive statistics</strong></p>
+<p>I love how easy Pandas makes it to analyze and describe the training data!  Early in this project I was pulling everything into arrays and using NumPy to find the coefficient correlation manually of each variable!  Then I switched to Pandas and basically did all the manual work instantly.  Here&rsquo;s the old way where I was correlating every variable against the round 1 wins for each region.</p>
+<pre><code>&lt;code&gt;import numpy as np
+q1winper = [.8,0,.285,.285,.55,.375,.583,.333,.4545,.25,.5,1,.5,.285,.692,0]
+r1win = [1,0,0,1,0,1,0,1,1,0,1,0,0,1,1,0]
+np.corrcoef(q1winper,r1win)&lt;/code&gt;
+</code></pre>
+<p>Then I did a little bit better by using Pandas to read in entire columns of data instead of manually creating the arrays.</p>
+<pre><code>&lt;code&gt;import pandas as pd
+import numpy as py
+df = pd.read_excel(&quot;ncaa.xlsx&quot;,&quot;Sheet1&quot;)
+q1winsplusattempts = df['2019_quad1_wins_plus_quad1_attempts']
+r1win = df['2019_round1_win']
+py.corrcoef(r1win,q1winsplusattempts)&lt;/code&gt;
+</code></pre>
+<p>Finally hit it out of the park by using Pandas to import and native functions to correlate and sort according to strongest correlation!</p>
+<pre><code>&lt;code&gt;df5 = pd.read_excel(&quot;Outerjoin2.xlsx&quot;, &quot;Sheet1&quot;)
+df6 = df5.corr()
+#sort by absolute value to establish ranking by highest correlation
+df6.abs().sort_values(by=['2019_round1_win'], ascending=False) &lt;/code&gt;
+</code></pre>
+<p><img src="https://technicalagain.com/wp-content/uploads/2020/03/Screenshot-from-2020-03-03-21-05-48.png" alt=""></p>
+<p>Now we have the basis on which we can build our model! For the next steps, we&rsquo;ll use our Money Line odds to apply the variables that have the highest correlation with round one wins to build a model to maximize our chance of guessing the round 1 winners correctly in this year&rsquo;s tournament.  We&rsquo;ll also calculate our expected winnings (or losings).  But before I get to the conclusions, here are a few critiques.</p>
+<p><strong>Critiques</strong></p>
+<p>With the NCAA switching to NET rankings, this becomes an incredibly small training set.  We essentially have only one year of tournament wins with which we build our training set.  This will get better over time, but what we&rsquo;re essentially saying is X variable has a strong correlation with <em>winning last year&rsquo;s first round game</em>.</p>
+<p>Correlation can be used for predictive purposes, but you know correlation doesn&rsquo;t equal causation thing.  For example, the tournament seeding awarded on Selection Sunday has the second strongest correlation of the 37 variables we looked at.  Just getting a higher seed doesn&rsquo;t <em>cause</em> you to win tournament games.  I&rsquo;m also very skeptical of that variable because I know how manual the selection and seeding processes are.  I also think the 1 vs. 16, 2 vs. 15 matchups so rarely result in an upset that they overly sway the seeding variable, so we&rsquo;re going to avoid using seeding in our final model.</p>
+<p>Second critique here, and I&rsquo;m not sure what to call this, but I may be overloading the correlation of the wins + attempts variable and some of the other variables.  As an example, what I mean is adjEM takes into account adjOE so we wouldn&rsquo;t necessarily want to include both in the final model.  I&rsquo;m going to try to keep the model as simple as possible and not &ldquo;over index&rdquo; it with repetitive variables.</p>
+<p>Third, this a shallow data pool.  Sure, I could very easily pull in data for each year going back to 2002, however, I&rsquo;m not sure I see a meaningful enough return on the effort that would take.  Are we really going to unearth a new variable in 17 years worth of games that we wouldn&rsquo;t see in one year, about 35 games?  I suppose it&rsquo;s possible but I&rsquo;m not willing to invest the time.</p>
+<p>Lastly, remember, Vegas <em>always</em> wins.  Any advantage we&rsquo;re going to find here is going to be modest.  Vegas adjusts the money line constantly &ndash; all the way until the game starts &ndash; that way they are hedging against any loss.  Games that are so lopsided (1 vs. 16 matchups) usually don&rsquo;t even include a money line because there&rsquo;s no way for Vegas to be profitable on it.  The house makes, sets, and then resets the odds in their favor!  We analyzed 38 variables through occasional effort in the evenings.  In Vegas you&rsquo;re going up against full-time, highly experienced statisticians that include 2000+ variables and they run thousands of models to simulate each game. At the end of the day, what we&rsquo;re doing is just a little more informed guessing.  The house <em>always</em> wins.  We&rsquo;re left with Lady Luck.  At least we feel better losing our money because we tried hard.  Good try, good effort.</p>
+<p><a href="https://www.youtube.com/watch?v=9lOL2h8F3aA">https://www.youtube.com/watch?v=9lOL2h8F3aA</a></p>
+<p><strong>Conclusions</strong></p>
+<p>There does appear to be something to the old adage, &ldquo;being battle tested and battle proven.&rdquo; Playing in more quad 1 games (and winning them) does give you a better chance at winning a first round tournament game.</p>
+<p>Adjusted Efficiency Margin looks to be the best single predictor of tournament success.  No surprise here as this measure is so dang comprehensive, factoring in: pace, turnovers, shooting effectiveness, rebounding, free throws, fouling, and just about everything you can think of.</p>
+<p>Defensive may win championships, but according to our analysis, offensive is a better predictor of first round tournament success.  If in doubt, go with the team that gets more buckets!</p>
+</div>
+
+    
+    
+    
+        <h4 class="page-header">Related</h4>
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/structured/">Structured Big Data Analysis</a></h4>
+    <h5>May 13, 2020</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/data-science"><kbd class="item-tag">data science</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/github"><kbd class="item-tag">github</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/terminal"><kbd class="item-tag">terminal</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2020/05/11/machine-learning-transforming-photos-into-3d-with-python/">Machine Learning - Transforming Photos into 3D with Python</a></h4>
+    <h5>May 11, 2020</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/anaconda"><kbd class="item-tag">anaconda</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/cloudwatch"><kbd class="item-tag">cloudwatch</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/ec2"><kbd class="item-tag">ec2</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/python"><kbd class="item-tag">python</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/pytorch"><kbd class="item-tag">pytorch</kbd></a>
+
+
+
+</div>
+  <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/2020/05/07/multiplayer-online-game-in-python/">Multiplayer Online Game in Python</a></h4>
+    <h5>May 7, 2020</h5>
+    
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/game"><kbd class="item-tag">game</kbd></a>
+
+<a href="https://jovial-yonath-8d9e17.netlify.app/tags/python"><kbd class="item-tag">python</kbd></a>
+
+
+
+</div>
+ 
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+

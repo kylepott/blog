@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Password Ladder</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: #E84A27;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://jovial-yonath-8d9e17.netlify.app/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.68.3" />
+        
+
+        
+
+        
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        
+
+        
+
+    </head>
+
+    <body>
+        
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand visible-xs" href="#">The Password Ladder</a>
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:kylepott@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/kylepott/"><i class="fab fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/kylepott/"><i class="fab fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/review/list/3470132-kyle?ref=nav_mybooks"><i class="fab fa-goodreads"></i></a></li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>The Password Ladder</h2>
+        <h5>April 11, 2018</h5>
+        
+
+    </div>
+
+    <div align="start" class="content"><p><img src="https://technicalagain.com/wp-content/uploads/2018/04/ladder-223x300.jpeg" alt="">
+Where are you on the Password Ladder and what can you do to move one rung higher?</p>
+<p><strong>You&rsquo;re standing next to the ladder, holding it</strong> if you are using one of the world&rsquo;s most <a href="https://en.wikipedia.org/wiki/List_of_the_most_common_passwords">common passwords</a> like <em>123456</em>, <em>password</em>, <em>qwerty</em>, <em>123456789</em>, or <em>letmein</em>.  Amazingly, even in 2018, 8-10% of people still use these most basic of passwords.  If your username is discovered, your password is immediately compromised by even the simplest of dictionary attacks. Heck, you don&rsquo;t even need a dictionary to guess the password.  Forget about if just the password hash is discovered or an encrypted version of the password is acquired.  You&rsquo;re sunk no matter what.</p>
+<p>**You&rsquo;re on the first rung of the ladder, **if you are reusing the same username and password combination on the majority of the websites you visit.  This is especially problematic if the credentials you use for your bank account or email address are not unique.  Most email accounts serve as a gateway to other account credentials.  If you&rsquo;re on the first rung of the ladder, basically any website getting hacked puts in jeopardy your identity and financial assets.</p>
+<p><strong>You&rsquo;re on the second rung of the ladder</strong>, if you are reusing the same username and a password that is made up of a basic combination of personal information like your children&rsquo;s names and your anniversary date.  The second rung is barely any better than the first rung.</p>
+<p>**Third rung **if you are using a single base word and then substituting special characters and capitalization instead of random word combinations. Thank you <a href="https://xkcd.com/936/">xkcd</a>.  No simpler way to describe this than below.</p>
+<p><img src="https://imgs.xkcd.com/comics/password_strength.png" alt=""></p>
+<p>If you made it here you are in the top 5%. The **fourth rung **has two factor authentication turned on for important accounts like your email, bank, benefits, and retirement vehicles.  Incredibly, it is estimated that only 5-10% of people have voluntarily enabled two factor authentication on Gmail even though it has been available for a number of years.</p>
+<p>**Top of the ladder **if you are randomly generating usernames and passwords (not reusing them), you have two factor authentication turned on and you are using a structured approach to manage your passwords like using a password manager or browser autocomplete to make sure your passwords are maximum length and complexity.</p>
+<p>Please remember that there is no perfect system. Even the fifth rung here can be debated about whether the use of password managers and browser autocomplete provide additional security or if they introduce additional risk vectors. The debate is warranted, but I believe the benefits outweigh the risks. Just know that no approach is impervious to all attacks and keep in mind:</p>
+<ol>
+<li>
+<p>Phishing attacks actually work.</p>
+</li>
+<li>
+<p>Credential theft via phishing and administrator credential theft are the most common way external actors gain access.</p>
+</li>
+<li>
+<p>Social engineering attacks (pretext calling), over the shoulder snooping, and man-in-the-middle attacks are still a very effective way to steal credentials.</p>
+</li>
+<li>
+<p>Many people still write their passwords down, store them in text documents on their hard drive or server, or hard code passwords into source code and stored procedures. This includes storing encryption keys in the same folder as the encrypted material.</p>
+</li>
+<li>
+<p>If there is data loss or ex-filtration, it is much more likely to come from an internal actor&rsquo;s intentional or unintentional activities (mis-configurations, forgetting to encrypt, copying the whole file instead of one record, etc.).</p>
+</li>
+<li>
+<p>Zero day (undiscovered defects) happen only 1-5% of the time. It is much more common that a known defect will be exploited. Some known defects are aged 5 or more years and still unpatched in production. Bad actors scan and fingerprint unpatched defects and they have open source exploit kits to take advantage of the defect once spotted. Malicious actors don&rsquo;t even have to be that technical to be effective.</p>
+</li>
+</ol>
+<p>Control what you can and take necessary precautions.  Move yourself up one rung of the ladder.</p>
+</div>
+
+    
+    
+    
+
+    
+    
+
+</main>
+
+        <footer>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+        </footer>
+
+        
+
+        
+    </body>
+
+</html>
+
